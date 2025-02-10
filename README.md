@@ -1,4 +1,4 @@
-# Título do Projeto
+# ReciclaAqui ♻
 
 `CURSO: Sistemas de Informação`
 
