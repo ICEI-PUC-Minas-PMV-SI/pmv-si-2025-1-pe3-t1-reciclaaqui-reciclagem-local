@@ -10,12 +10,11 @@ O ReciclaAqui é uma plataforma que conecta os usuários a pontos de reciclagem 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Ana Clara Rodrigues de Araújo
+* Ingrid Rebeca Silva
+* Isabelle Alves de Lima
+* Pedro Henrique Barroso Ribeiro dos Santos
+* Vitor de Castro Coelho
 
 ## Orientador
 
