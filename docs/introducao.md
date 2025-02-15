@@ -51,7 +51,7 @@ Além disso, a inclusão de funcionalidades como mapas interativos e notificaç�
 
 O aplicativo será voltado para um público amplo e diverso, abrangendo diferentes perfis de usuários, incluindo:
 
-•	## Cidadãos comuns: ## Pessoas interessadas em reciclar seus resíduos, mas que enfrentam dificuldades devido à falta de informações sobre a separação correta de materiais e a localização de pontos de coleta.
+•	Cidadãos comuns: Pessoas interessadas em reciclar seus resíduos, mas que enfrentam dificuldades devido à falta de informações sobre a separação correta de materiais e a localização de pontos de coleta.
 
 •	Estudantes e professores: Escolas e instituições acadêmicas que desejam utilizar o aplicativo como ferramenta educacional para promover a conscientização ambiental.
 
