@@ -5,7 +5,6 @@ A reciclagem é essencial para a sustentabilidade e preservação ambiental. No 
 A tecnologia pode ajudar a resolver esse problema. Aplicativos móveis podem fornecer informações sobre reciclagem e localizar pontos de coleta, facilitando a adesão a práticas sustentáveis.
 
 Este projeto propõe o desenvolvimento de um aplicativo para gestão da reciclagem local, ajudando as pessoas a descartar corretamente seus resíduos e promovendo a conscientização ambiental.
-![image](https://github.com/user-attachments/assets/02d12f7c-dbb2-4329-b9bc-923fd902a7c8)
 
 ## 1.1. Problema
 
@@ -16,7 +15,6 @@ Muitas cidades brasileiras ainda não possuem sistemas eficazes de coleta seleti
 Outro fator relevante é a falta de incentivo e conscientização ambiental. Sem informações claras e acessíveis, muitas pessoas deixam de reciclar por desconhecimento ou pela aparente complexidade do processo. Assim, a reciclagem acaba sendo uma prática adotada por uma parcela reduzida da população, enquanto a maior parte dos resíduos recicláveis é descartada junto ao lixo comum.
 
 Esse cenário mostra a necessidade de uma solução acessível e eficiente para informar a população e facilitar o descarte correto de materiais recicláveis.
-![image](https://github.com/user-attachments/assets/751d8d87-0c48-44e5-8c74-7475e783fdc5)
 
 
 ## 1.2. Objetivos do trabalho
@@ -33,7 +31,6 @@ Desenvolver um aplicativo para auxiliar na gestão da reciclagem local, oferecen
 •	Implementar notificações personalizadas para lembrar os usuários sobre boas práticas e eventos de reciclagem.
 •	Facilitar a comunicação entre os usuários e cooperativas de reciclagem, incentivando o engajamento comunitário.
 •	Garantir uma interface intuitiva e acessível para que o aplicativo seja de fácil uso por diferentes perfis de usuários.
-![image](https://github.com/user-attachments/assets/560c791e-1f7f-4287-948f-40cb9771df4d)
 
 
 ## 1.3. Justificativa
@@ -43,7 +40,7 @@ A reciclagem é um dos principais desafios ambientais do Brasil, e sua baixa tax
 Diante desse cenário, o desenvolvimento de um aplicativo que facilite a reciclagem se torna essencial para estimular a participação da população. Ao integrar tecnologia e sustentabilidade, a aplicação busca tornar o processo de reciclagem mais acessível e eficiente, ajudando a reduzir a quantidade de resíduos descartados inadequadamente e contribuindo para um meio ambiente mais sustentável.
 
 Além disso, a inclusão de funcionalidades como mapas interativos e notificações personalizadas visa engajar os usuários de forma prática, permitindo que se tornem agentes ativos na preservação ambiental. A proposta do aplicativo se alinha aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, principalmente no que diz respeito ao consumo responsável e à ação contra a mudança climática.
-![image](https://github.com/user-attachments/assets/e3d6a56b-eda8-434e-a74c-520425d54fee)
+
 
 ## 1.4. Público alvo
 
@@ -56,5 +53,4 @@ O aplicativo será voltado para um público amplo e diverso, abrangendo diferent
 •	Órgãos governamentais e ONGs: Entidades que promovem políticas ambientais e podem utilizar a aplicação para incentivar a participação cidadã na reciclagem.
 
 A interface do aplicativo será intuitiva e acessível, permitindo o uso por pessoas com diferentes níveis de familiaridade com a tecnologia. Dessa forma, busca-se ampliar o impacto da reciclagem e contribuir para um ambiente mais sustentável.
-![image](https://github.com/user-attachments/assets/340f9cd3-109b-4b15-9e51-309a1ae4e13c)
 
