@@ -27,10 +27,15 @@ Desenvolver um aplicativo para auxiliar na gestão da reciclagem local, oferecen
 ## 1.2.2 Objetivos Específicos:
 
 •	Criar um mapa interativo com geolocalização para identificar pontos de coleta próximos ao usuário.
+
 •	Desenvolver um guia educativo sobre reciclagem, ensinando a separação e o descarte correto de materiais.
+
 •	Implementar notificações personalizadas para lembrar os usuários sobre boas práticas e eventos de reciclagem.
+
 •	Facilitar a comunicação entre os usuários e cooperativas de reciclagem, incentivando o engajamento comunitário.
+
 •	Garantir uma interface intuitiva e acessível para que o aplicativo seja de fácil uso por diferentes perfis de usuários.
+
 
 
 ## 1.3. Justificativa
