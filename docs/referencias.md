@@ -29,3 +29,24 @@
 
 ## Panorama dos Resíduos Sólidos no Brasil: Desafios e Oportunidades para a Sustentabilidade
 (https://blog.eureciclo.com.br/panorama-residuos-solidos/?utm_source=chatgpt.com)
+
+
+
+## Dia Mundial da Reciclagem: 96% dos resíduos produzidos no Brasil não são reaproveitados
+https://g1.globo.com/jornal-nacional/noticia/2023/05/17/dia-mundial-da-reciclagem-96percent-dos-residuos-produzidos-no-brasil-nao-sao-reaproveitados.ghtml
+
+
+## Reciclagem no Brasil ainda é baixa, mas já existem iniciativas para aumentar nos próximos 18 anos
+(https://www.synergiaconsultoria.com.br/fique-por-dentro/reciclagem-no-brasil/)
+
+
+## Dados e estatísticas sobre reciclagem no Brasil
+(https://www.reciclasampa.com.br/artigo/dados-e-estatisticas-sobre-reciclagem-no-brasil)
+
+
+## RECICLAGEM EM NÚMEROS
+(https://atlasbrasileirodareciclagem.ancat.org.br/reciclagem-em-numeros)
+
+
+## Taxas de reciclagem no Brasil
+(https://www.creditodelogisticareversa.com.br/post/taxas-de-reciclagem-no-brasil)
