@@ -18,7 +18,7 @@ O ReciclaAqui é uma plataforma que conecta os usuários a pontos de reciclagem 
 
 ## Orientador
 
-* Nome completo do professor 
+* Fábio Martins de Oliveira
 
 # Planejamento
 
