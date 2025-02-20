@@ -1,6 +1,6 @@
 # 1. INTRODUÇÃO
 
-A reciclagem é essencial para a sustentabilidade e preservação ambiental. No Brasil, a geração de resíduos cresce a cada ano, mas apenas cerca de 4% do lixo produzido é reciclado, segundo a ABRELPE. A falta de infraestrutura e informação dificulta a participação da população nesse processo, resultando no descarte inadequado de materiais recicláveis.
+A reciclagem é essencial para a sustentabilidade e preservação ambiental. No Brasil, estima-se que é gerado mais de 80 milhões de toneladas de resíduos por ano, mas apenas uma pequena fração é efetivamente reciclada – cerca de 4%, segundo dados recentes (ABRELPE). A falta de infraestrutura e informação dificulta a participação da população nesse processo, resultando no descarte inadequado de materiais recicláveis.
 
 A tecnologia pode ajudar a resolver esse problema. Aplicativos móveis podem fornecer informações sobre reciclagem e localizar pontos de coleta, facilitando a adesão a práticas sustentáveis.
 
@@ -14,7 +14,7 @@ Muitas cidades brasileiras ainda não possuem sistemas eficazes de coleta seleti
 
 Outro fator relevante é a falta de incentivo e conscientização ambiental. Sem informações claras e acessíveis, muitas pessoas deixam de reciclar por desconhecimento ou pela aparente complexidade do processo. Assim, a reciclagem acaba sendo uma prática adotada por uma parcela reduzida da população, enquanto a maior parte dos resíduos recicláveis é descartada junto ao lixo comum.
 
-Esse cenário mostra a necessidade de uma solução acessível e eficiente para informar a população e facilitar o descarte correto de materiais recicláveis.
+Esse cenário mostra a necessidade de uma solução acessível e eficiente para informar a população e facilitar o descarte correto de materiais recicláveis, tendo em vista um país com vastas áreas de floresta, como a Amazônia, e problemas como o descarte irregular em lixões, a reciclagem surge como uma ferramenta indispensável para equilibrar desenvolvimento e conservação ambiental.
 
 
 ## 1.2. Objetivos do trabalho
