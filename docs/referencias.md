@@ -8,6 +8,10 @@ https://www.uol.com.br/ecoa/faq/desafios-da-reciclagem-no-brasil.htm#:~:text=Em%
 https://www.abrema.org.br/2024/09/19/brasil-recicla-apenas-4-mas-importa-lixo-para-a-industria/
 
 
+## São Silvestre 2023: Movimento Plástico Transforma promove ação de reciclagem e conscientização
+https://www.gazetaesportiva.com/sao-silvestre-conteudo/sao-silvestre-2023-movimento-plastico-transforma-promove-acao-de-reciclagem-e-conscientizacao/
+
+
 ## Dia Mundial da Reciclagem: 96% dos resíduos produzidos no Brasil não são reaproveitados
 https://g1.globo.com/jornal-nacional/noticia/2023/05/17/dia-mundial-da-reciclagem-96percent-dos-residuos-produzidos-no-brasil-nao-sao-reaproveitados.ghtml
 
