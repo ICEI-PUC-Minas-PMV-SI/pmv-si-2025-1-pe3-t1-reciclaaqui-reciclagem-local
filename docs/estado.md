@@ -1,6 +1,6 @@
 # 2. ESTADO DA ARTE
 
-O KOLEKT, aplicativo de gestão de resíduos desenvolvido pela Circular Action, empresa do grupo BVRio, foi lançado em janeiro de 2022. Em 18 meses, o aplicativo registrou mais de 10 mil transações, envolvendo mais de 1.000 usuários em 48 países, resultando na comercialização de mais de 7.000 toneladas de materiais recicláveis. 
+A tecnologia tem desempenhado um papel essencial na busca por soluções sustentáveis para a gestão de resíduos, permitindo maior rastreabilidade, eficiência e inclusão de trabalhadores do setor. Aplicativos e plataformas digitais vêm revolucionando esse campo, conectando geradores de resíduos a recicladores, facilitando transações e promovendo a economia circular. Um exemplo dessa inovação é o KOLEKT, aplicativo de gestão de resíduos desenvolvido pela Circular Action, empresa do grupo BVRio, foi lançado em janeiro de 2022. Em 18 meses, o aplicativo registrou mais de 10 mil transações, envolvendo mais de 1.000 usuários em 48 países, resultando na comercialização de mais de 7.000 toneladas de materiais recicláveis. 
 O aplicativo oferece rastreabilidade completa dos resíduos, permitindo o acompanhamento de sua trajetória desde a coleta até a destinação final, garantindo transparência em todas as transações. Além disso, possibilita que catadores e cooperativas registrem diretamente no aplicativo o volume e o tipo de resíduos coletados, facilitando a gestão e organização das atividades.
 Os principais países de atuação incluem Brasil, Vietnã, Moçambique e Angola. 
 
