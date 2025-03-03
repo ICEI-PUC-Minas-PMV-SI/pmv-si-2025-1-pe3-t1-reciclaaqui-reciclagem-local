@@ -38,9 +38,9 @@ Desenvolver um site para auxiliar na gestão da reciclagem local, oferecendo inf
 
 ## 1.3. Justificativa
 
-A tecnologia é uma ferramenta poderosa para solucionar problemas complexos, como a falta de informação e engajamento em práticas de reciclagem. Um site dedicado à reciclagem pode centralizar informações claras e acessíveis, utilizando funcionalidades como *mapas interativos de pontos de coleta, **tutoriais práticos* e *calculadoras de impacto ambiental* para orientar os usuários. Além disso, a integração de *inteligência artificial* pode personalizar recomendações, enquanto sistemas de *gamificação* (como rankings e recompensas) aumentam o engajamento.
+A tecnologia é uma ferramenta poderosa para solucionar problemas complexos, como a falta de informação e engajamento em práticas de reciclagem. Um site dedicado à reciclagem pode centralizar informações claras e acessíveis, utilizando funcionalidades como *mapas interativos de pontos de coleta, tutoriais práticos e calculadoras de impacto ambiental para orientar os usuários. Além disso, a integração de inteligência artificial pode personalizar recomendações, enquanto sistemas de gamificação (como rankings e recompensas) aumentam o engajamento.
 
-Com mais de 80% da população brasileira conectada à internet (dados do *IBGE*), um site pode democratizar o acesso à informação sobre reciclagem, facilitando a adoção de hábitos sustentáveis. A plataforma também pode coletar dados sobre os padrões de reciclagem, gerando insights valiosos para melhorar políticas públicas e otimizar a coleta seletiva.
+Com mais de 80% da população brasileira conectada à internet (dados do IBGE), um site pode democratizar o acesso à informação sobre reciclagem, facilitando a adoção de hábitos sustentáveis. A plataforma também pode coletar dados sobre os padrões de reciclagem, gerando insights valiosos para melhorar políticas públicas e otimizar a coleta seletiva.
 
 Em resumo, a criação de um site para reciclagem utiliza a tecnologia para educar, engajar e facilitar a prática da reciclagem, contribuindo para um futuro mais sustentável de forma eficiente e escalável.
 
