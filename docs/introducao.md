@@ -2,26 +2,24 @@
 
 A reciclagem é essencial para a sustentabilidade e preservação ambiental. No Brasil, estima-se que é gerado mais de 80 milhões de toneladas de resíduos por ano, mas apenas uma pequena fração é efetivamente reciclada – cerca de 4%, segundo dados recentes (ABRELPE). A falta de infraestrutura e informação dificulta a participação da população nesse processo, resultando no descarte inadequado de materiais recicláveis.
 
-A tecnologia pode ajudar a resolver esse problema. Aplicativos móveis podem fornecer informações sobre reciclagem e localizar pontos de coleta, facilitando a adesão a práticas sustentáveis.
+A tecnologia pode ajudar a resolver esse problema. Sistemas web podem fornecer informações sobre reciclagem e localizar pontos de coleta, facilitando a adesão a práticas sustentáveis.
 
-Este projeto propõe o desenvolvimento de um aplicativo para gestão da reciclagem local, ajudando as pessoas a descartar corretamente seus resíduos e promovendo a conscientização ambiental.
+Este projeto propõe o desenvolvimento de um site para gestão da reciclagem local, ajudando as pessoas a descartar corretamente seus resíduos e promovendo a conscientização ambiental.
 
 ## 1.1. Problema
 
-A reciclagem no Brasil enfrenta diversos desafios que dificultam sua ampla adoção. Entre os principais problemas estão a desinformação da população sobre a separação correta dos materiais recicláveis, a ausência de uma infraestrutura eficiente para coleta seletiva e a dificuldade em encontrar pontos de descarte adequados.
+A reciclagem é uma prática primordial para reduzir o impacto ambiental causado pelo acúmulo de resíduos sólidos. No entanto, a falta de informação clara e acessível sobre como, onde e por que reciclar tem sido um dos principais obstáculos para a adoção dessa prática pela população. Muitas pessoas não sabem quais materiais são recicláveis, onde estão localizados os pontos de coleta mais próximos ou como separar corretamente os resíduos.
 
-Muitas cidades brasileiras ainda não possuem sistemas eficazes de coleta seletiva, e os cidadãos frequentemente não sabem como ou onde descartar corretamente seus resíduos recicláveis. Além disso, cooperativas e empresas de reciclagem enfrentam dificuldades na triagem e destinação dos materiais devido à má separação na fonte. Isso compromete o aproveitamento dos resíduos, aumentando a quantidade de lixo descartado de maneira inadequada em aterros sanitários.
+Essa falta de clareza é evidenciada por dados da pesquisa Um Mundo Descartável — O Desafio das Embalagens e do Lixo Plástico, que revelou que 54% dos brasileiros não consideram as regras de reciclagem de lixo doméstico claras. Além disso, 65% dos entrevistados acreditam, erroneamente, que todos os tipos de plástico são recicláveis, quando na realidade materiais como embalagens metalizadas, adesivos e papel celofane não podem ser processados pela coleta seletiva.
 
-Outro fator relevante é a falta de incentivo e conscientização ambiental. Sem informações claras e acessíveis, muitas pessoas deixam de reciclar por desconhecimento ou pela aparente complexidade do processo. Assim, a reciclagem acaba sendo uma prática adotada por uma parcela reduzida da população, enquanto a maior parte dos resíduos recicláveis é descartada junto ao lixo comum.
-
-Esse cenário mostra a necessidade de uma solução acessível e eficiente para informar a população e facilitar o descarte correto de materiais recicláveis, tendo em vista um país com vastas áreas de floresta, como a Amazônia, e problemas como o descarte irregular em lixões, a reciclagem surge como uma ferramenta indispensável para equilibrar desenvolvimento e conservação ambiental.
+Diante desse cenário, fica evidente a necessidade de uma plataforma que centralize informações claras e confiáveis sobre reciclagem, orientando a população sobre práticas corretas e incentivando a adoção de hábitos sustentáveis.
 
 
 ## 1.2. Objetivos do trabalho
 
 ## 1.2.1 Objetivo Geral: 
 
-Desenvolver um aplicativo para auxiliar na gestão da reciclagem local, oferecendo informações sobre separação de resíduos e localizando pontos de coleta, a fim de aumentar a adesão da população às práticas sustentáveis.
+Desenvolver um site para auxiliar na gestão da reciclagem local, oferecendo informações sobre separação de resíduos e localizando pontos de coleta, a fim de aumentar a adesão da população às práticas sustentáveis.
 
 
 ## 1.2.2 Objetivos Específicos:
@@ -40,16 +38,16 @@ Desenvolver um aplicativo para auxiliar na gestão da reciclagem local, oferecen
 
 ## 1.3. Justificativa
 
-A reciclagem é um dos principais desafios ambientais do Brasil, e sua baixa taxa de adesão está diretamente relacionada à falta de informação e à dificuldade de acesso a pontos de coleta. Muitas pessoas têm vontade de reciclar, mas encontram barreiras como a desinformação e a ausência de infraestrutura adequada.
+A tecnologia é uma ferramenta poderosa para solucionar problemas complexos, como a falta de informação e engajamento em práticas de reciclagem. Um site dedicado à reciclagem pode centralizar informações claras e acessíveis, utilizando funcionalidades como *mapas interativos de pontos de coleta, **tutoriais práticos* e *calculadoras de impacto ambiental* para orientar os usuários. Além disso, a integração de *inteligência artificial* pode personalizar recomendações, enquanto sistemas de *gamificação* (como rankings e recompensas) aumentam o engajamento.
 
-Diante desse cenário, o desenvolvimento de um aplicativo que facilite a reciclagem se torna essencial para estimular a participação da população. Ao integrar tecnologia e sustentabilidade, a aplicação busca tornar o processo de reciclagem mais acessível e eficiente, ajudando a reduzir a quantidade de resíduos descartados inadequadamente e contribuindo para um meio ambiente mais sustentável.
+Com mais de 80% da população brasileira conectada à internet (dados do *IBGE*), um site pode democratizar o acesso à informação sobre reciclagem, facilitando a adoção de hábitos sustentáveis. A plataforma também pode coletar dados sobre os padrões de reciclagem, gerando insights valiosos para melhorar políticas públicas e otimizar a coleta seletiva.
 
-Além disso, a inclusão de funcionalidades como mapas interativos e notificações personalizadas visa engajar os usuários de forma prática, permitindo que se tornem agentes ativos na preservação ambiental. A proposta do aplicativo se alinha aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, principalmente no que diz respeito ao consumo responsável e à ação contra a mudança climática.
+Em resumo, a criação de um site para reciclagem utiliza a tecnologia para educar, engajar e facilitar a prática da reciclagem, contribuindo para um futuro mais sustentável de forma eficiente e escalável.
 
 
 ## 1.4. Público alvo
 
-O aplicativo será voltado para um público amplo e diverso, abrangendo diferentes perfis de usuários, incluindo:
+O sistema web será voltado para um público amplo e diverso, abrangendo diferentes perfis de usuários, incluindo:
 
 •	Cidadãos comuns: Pessoas interessadas em reciclar seus resíduos, mas que enfrentam dificuldades devido à falta de informações sobre a separação correta de materiais e a localização de pontos de coleta.
 
@@ -62,5 +60,5 @@ O aplicativo será voltado para um público amplo e diverso, abrangendo diferent
 •	Órgãos governamentais e ONGs: Entidades que promovem políticas ambientais e podem utilizar a aplicação para incentivar a participação cidadã na reciclagem.
 
 
-A interface do aplicativo será intuitiva e acessível, permitindo o uso por pessoas com diferentes níveis de familiaridade com a tecnologia. Dessa forma, busca-se ampliar o impacto da reciclagem e contribuir para um ambiente mais sustentável.
+A interface do sistema web será intuitiva e acessível, permitindo o uso por pessoas com diferentes níveis de familiaridade com a tecnologia. Dessa forma, busca-se ampliar o impacto da reciclagem e contribuir para um ambiente mais sustentável.
 
