@@ -47,3 +47,14 @@ https://www.circularactionhub.org/estudo-sobre-solucoes-digitais-para-gestao-de-
 ## Revista Multidisciplinar de Educação e Meio Ambiente. (2023). A importância da educação ambiental na gestão de resíduos sólidos. Disponível em:
 https://ime.events/coninters2023/pdf/31713. Acesso em 20 de fevereiro de 2025.
 
+## 54% dos brasileiros não consideram as regras de reciclagem de lixo doméstico claras. Disponível em:
+https://www.bbc.com/portuguese/geral-50564869
+
+## 65% dos entrevistados acreditam, erroneamente, que todos os tipos de plástico são recicláveis. Disponível em:
+
+https://www.bbc.com/portuguese/geral-50564869
+
+## Com mais de 80% da população brasileira conectada à Internet. Disponível em:
+
+https://www.gov.br/mcom/pt-br/noticias/2023/novembro/internet-chega-a-87-2-dos-brasileiros-com-mais-de-10-anos-em-2022-revela-ibge
+
