@@ -1,20 +1,48 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-Nesta parte do trabalho você deve detalhar a documentação dos requisitos do sistema proposto de acordo com as seções a seguir. Ressalta-se que aqui é utilizado como exemplo um sistema de gestão de cursos de aperfeiçoamento.
 
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento.
+Este documento tem como objetivo definir os requisitos funcionais e não funcionais do sistema ReciclaAqui, garantindo que o desenvolvimento atenda às necessidades dos usuários e aos objetivos do projeto. Ele serve como referência para a equipe de desenvolvimento, especificando as funcionalidades essenciais, as restrições e as diretrizes técnicas que o sistema deve seguir.
+
+Os principais objetivos deste documento são:
+
+Fornecer uma visão clara do sistema: Descrever as funcionalidades e os componentes do sistema de maneira detalhada e organizada.
+
+Definir os requisitos funcionais e não funcionais: Especificar os comportamentos esperados do sistema, bem como seus padrões de desempenho, segurança e usabilidade.
+
+Estabelecer o escopo do projeto: Determinar quais funcionalidades estarão incluídas no desenvolvimento e quais estarão fora do escopo.
+
+Servir como base para o desenvolvimento e testes: Garantir que a implementação siga os requisitos documentados e que a equipe de testes possa validar o funcionamento correto do sistema.
+
+Facilitar a comunicação entre os envolvidos no projeto: Garantir que desenvolvedores, designers, testadores e stakeholders tenham um entendimento comum sobre o aplicativo.
+
+Auxiliar na manutenção e futuras evoluções: Fornecer uma referência documentada que permita aprimoramentos e expansões do sistema no futuro.
+
+Este documento será atualizado conforme necessário para refletir mudanças nos requisitos do projeto e garantir que as especificações continuem alinhadas às necessidades dos usuários e às diretrizes da equipe de desenvolvimento.
+
 
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O produto será denominado ReciclaAqui. Ele contará com os seguintes componentes principais:
+
+Cadastro e Login de Usuário: Permite que os usuários criem e acessem suas contas para personalizar a experiência e acompanhar sua atividade.
+
+Localização de Pontos de Coleta: Exibe locais próximos para descarte correto de materiais recicláveis.
+
+Guia de Reciclagem: Fornece informações sobre separação correta de resíduos e tipos de materiais recicláveis.
+
+Sistema de Notificações: Envia alertas sobre dias de coleta, eventos de reciclagem e campanhas ambientais.
+
+Ranking de Sustentabilidade: Estimula o engajamento dos usuários através de um sistema de pontuação baseado na participação ativa na reciclagem.
+
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+O ReciclaAqui tem como missão auxiliar a população a adotar práticas sustentáveis de descarte de resíduos recicláveis, promovendo a educação ambiental e facilitando a localização de pontos de coleta adequados. O aplicativo busca incentivar mudanças de comportamento e reduzir o impacto ambiental causado pelo descarte inadequado de resíduos.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se responsabilizará pelo transporte de materiais recicláveis. Ele servirá apenas como uma ferramenta de informação e localização de pontos de descarte. Além disso, o aplicativo não oferecerá suporte para transações financeiras ou venda de materiais recicláveis.
+
 
 ### 3.2.4 Benefícios do produto
 
