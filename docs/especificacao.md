@@ -48,10 +48,21 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	| Facilidade no acesso à informação |	Essencial |
+|2 | Aumento da taxa de reciclagem | Essencial | 
+|3 | Redução do descarte inadequado | Essencial | 
+|4	| Conscientização ambiental	| Recomendável | 
+|5	| Geolocalização para pontos de coleta |	Essencial |
+|6 | Integração com a comunidade | Recomendável | 
+|7 | Personalização e notificações | Recomendável | 
+|8	| Sustentabilidade incentivada |	Opcional |
+|9 | Recompensas por reciclagem | Recomendável | 
+|10 | Parcerias com empresas sustentáveis | Opcional | 
+|11	| Estatísticas e relatórios de impacto |	Recomendável |
+|12 | Suporte para dúvidas e orientações | Essencial | 
+|13 | Compatibilidade com diferentes dispositivos | Essencial | 
+|14	| Suporte a múltiplos idiomas |	Opcional |
+
 
 ## 3.3 Descrição geral do produto
 
