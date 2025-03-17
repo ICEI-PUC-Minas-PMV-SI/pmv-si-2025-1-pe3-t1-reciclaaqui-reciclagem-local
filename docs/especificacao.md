@@ -70,10 +70,22 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| RF1 | Criar o acesso dos usuários |	A aplicação deve permitir que os usuários se cadastrem no sistema por meio de e-mail e senha |
+| RF2 |	Autenticar usuários	| A aplicação deve permitir que os usuários façam login no sistema utilizando suas credenciais cadastradas |
+| RF3	| Gerenciar perfil do usuário | A aplicação deve permitir que os usuários editem suas informações pessoais, como nome, foto e senha |
+| RF4 |	Localizar pontos de coleta	| A aplicação deve exibir uma lista de pontos de coleta cadastrados e permitir a busca por localização ou tipo de material aceito |
+| RF5	| Exibir detalhes de um ponto de coleta | A aplicação deve permitir que os usuários visualizem informações detalhadas sobre um ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento |
+| RF6 | Filtrar pontos de coleta por tipo de material | A aplicação deve permitir que os usuários filtrem os pontos de coleta com base nos materiais recicláveis aceitos, como vidro, papel, plástico e metal |
+| RF7 | Exibir guia de reciclagem | A aplicação deve disponibilizar uma seção com informações sobre a separação correta dos resíduos e instruções para reciclagem |
+| RF8 | Gerenciar notificações | A aplicação deve permitir que os usuários recebam notificações sobre campanhas ambientais e eventos de reciclagem |
+| RF9 | Criar ranking de sustentabilidade | A aplicação deve calcular e exibir um ranking com base nas ações de reciclagem registradas pelo usuário |
+| RF10 | Registrar ações de reciclagem | A aplicação deve permitir que os usuários registrem suas ações de reciclagem informando o tipo de material reciclado e o ponto de coleta utilizado |
+| RF11 | Visualizar histórico de reciclagem | A aplicação deve permitir que os usuários acessem um histórico com todas as ações de reciclagem registradas | 
+| RF12 | Avaliar pontos de coleta | A aplicação deve permitir que os usuários avaliem os pontos de coleta e deixem comentários sobre suas experiências |
+| RF13 | Compartilhar informações sobre reciclagem | A aplicação deve permitir que os usuários compartilhem informações sobre reciclagem e suas ações |
+| RF14 | Exibir estatísticas do impacto ambiental | A aplicação deve apresentar relatórios sobre o impacto ambiental das ações de reciclagem dos usuários |
+| RF15 | Administrar conteúdo informativo | A aplicação deve permitir que os administradores adicionem, editem e removam conteúdos do guia de reciclagem e das campanhas ambientais |
+| RF16 |	Sair do sistema |	A aplicação deve permitir que os usuários façam logout do sistema |
 
 ### 3.3.2 Requisitos Não Funcionais
 
