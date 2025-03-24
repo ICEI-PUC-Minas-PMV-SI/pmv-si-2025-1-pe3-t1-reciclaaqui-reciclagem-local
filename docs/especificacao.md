@@ -89,12 +89,14 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 
 ### 3.3.2 Requisitos Não Funcionais
 
-| Código | Requisito Não Funcional (Restrição) |
-|--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
-| ... |	... |	... |
+| Código | Requisito Não Funcional (Restrição) |  Descrição |
+|--------------------|-------------------------------|----------------------------------------|
+| RNF1 |	Usabilidade	|O sistema deve ser intuitivo, com tempo de aprendizado inferior a 5 minutos para tarefas básicas (ex.: cadastro, busca de pontos de coleta). |
+| RNF2 |	Compatibilidade |	Funcionar em navegadores modernos (Chrome, Firefox, Edge, Safari) e dispositivos móveis (telas a partir de 320px). |
+| RNF3 |	Escalabilidade |	A arquitetura deve suportar um aumento de 10x no volume de usuários ou pontos de coleta sem perda de desempenho. |
+| RNF4 |	Manutenibilidade |	O código deve ser documentado (comentários, guias de instalação) e modular para facilitar atualizações futuras. |
+| RNF5	| Sustentabilidade Técnica |	Otimizar recursos (ex.: compressão de imagens, lazy loading) para reduzir consumo de energia e dados. |
+|RNF6	| Conformidade Legal | Cumprir a LGPD para tratamento de dados pessoais, solicitando consentimento explícito para geolocalização e notificações. |
 
 ### 3.3.3 Usuários 
 
