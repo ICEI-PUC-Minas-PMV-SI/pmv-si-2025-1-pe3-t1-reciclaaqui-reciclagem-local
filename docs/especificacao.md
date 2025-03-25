@@ -113,56 +113,66 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
+![dcu](https://i.imgur.com/QO0HGtw.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+#### Criar o acesso dos usuários (RF1)
 
-#### Gerenciar Professor (CSU01)
+Sumário: O Usuário realiza a gestão e consulta de pontos de coleta cadastrados no sistema, além de interagir com funcionalidades adicionais relacionadas à reciclagem.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+Ator Primário: Usuário.
+Ator Secundário: Administrador.
 
-Ator Primário: Secretária.
-
-Ator Secundário: Coordenador.
-
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+Pré-condições: O Usuário deve estar autenticado no sistema.
 
 Fluxo Principal:
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+1. O Usuário requisita a visualização dos pontos de coleta e outras funcionalidades relacionadas.
 
-Fluxo Alternativo (3): Inclusão
+2. O Sistema apresenta as operações que podem ser realizadas: listar pontos de coleta, visualizar detalhes de um ponto de coleta, buscar por localização ou tipo de material aceito, registrar ações de reciclagem, visualizar histórico de reciclagem, avaliar pontos de coleta, acessar guia de reciclagem, visualizar estatísticas ambientais e compartilhar informações.
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+3. O Usuário seleciona a operação desejada ou opta por finalizar o caso de uso.
 
-Fluxo Alternativo (3): Remoção
+4. Se o Usuário desejar continuar com a gestão e interação no sistema, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+Fluxo Alternativo (3): Listar pontos de coleta
+a) O Usuário requisita a listagem dos pontos de coleta.
+b) O Sistema exibe uma lista com os pontos de coleta cadastrados.
 
-Fluxo Alternativo (3): Alteração
+Fluxo Alternativo (3): Visualizar detalhes de um ponto de coleta
+a) O Usuário seleciona um ponto de coleta da lista.
+b) O Sistema exibe informações detalhadas sobre o ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento.
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
+Fluxo Alternativo (3): Buscar por localização ou tipo de material
+a) O Usuário fornece um critério de busca (localização ou tipo de material aceito).
+b) O Sistema filtra os pontos de coleta com base no critério informado e exibe os resultados.
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
+Fluxo Alternativo (3): Registrar ações de reciclagem
+a) O Usuário informa o tipo de material reciclado e o ponto de coleta utilizado.
+b) O Sistema armazena a informação e atualiza o histórico do usuário.
 
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+Fluxo Alternativo (3): Visualizar histórico de reciclagem
+a) O Usuário acessa a seção de histórico.
+b) O Sistema exibe todas as ações de reciclagem registradas pelo usuário.
+
+Fluxo Alternativo (3): Avaliar pontos de coleta
+a) O Usuário seleciona um ponto de coleta e insere uma avaliação/comentário.
+b) O Sistema armazena a avaliação e a exibe para outros usuários.
+
+Fluxo Alternativo (3): Acessar guia de reciclagem
+a) O Usuário acessa a seção do guia de reciclagem.
+b) O Sistema apresenta informações sobre separação de resíduos e melhores práticas de reciclagem.
+
+Fluxo Alternativo (3): Visualizar estatísticas ambientais
+a) O Usuário solicita relatórios sobre o impacto ambiental de suas ações.
+b) O Sistema apresenta estatísticas com base nas ações registradas.
+
+Fluxo Alternativo (3): Compartilhar informações sobre reciclagem
+a) O Usuário opta por compartilhar suas ações e dicas sobre reciclagem.
+b) O Sistema permite que o usuário envie informações para redes sociais ou outros canais.
+
+Pós-condições: O Usuário obteve informações sobre os pontos de coleta, registrou suas ações de reciclagem, acessou dados ambientais ou interagiu com outros usuários do sistema.
 
 ### 3.4.3 Diagrama de Classes 
 
