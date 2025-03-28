@@ -70,22 +70,21 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Criar o acesso dos usuários |	O sistema deve permitir que os usuários se cadastrem no sistema por meio de e-mail e senha |
-| RF2 |	Autenticar usuários	| O sistema deve permitir que os usuários façam login no sistema utilizando suas credenciais cadastradas |
-| RF3	| Gerenciar perfil do usuário | O sistema deve permitir que os usuários editem suas informações pessoais, como nome, foto e senha |
-| RF4 |	Localizar pontos de coleta	| O sistema deve exibir uma lista de pontos de coleta cadastrados e permitir a busca por localização ou tipo de material aceito |
-| RF5	| Exibir detalhes de um ponto de coleta | O sistema deve permitir que os usuários visualizem informações detalhadas sobre um ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento |
-| RF6 | Filtrar pontos de coleta por tipo de material | O sistema deve permitir que os usuários filtrem os pontos de coleta com base nos materiais recicláveis aceitos, como vidro, papel, plástico e metal |
-| RF7 | Exibir guia de reciclagem | O sistema deve disponibilizar uma seção com informações sobre a separação correta dos resíduos e instruções para reciclagem |
-| RF8 | Gerenciar notificações | O sistema deve permitir que os usuários recebam notificações sobre campanhas ambientais e eventos de reciclagem |
-| RF9 | Criar ranking de sustentabilidade | O sistema deve calcular e exibir um ranking com base nas ações de reciclagem registradas pelo usuário |
-| RF10 | Registrar ações de reciclagem | O sistema deve permitir que os usuários registrem suas ações de reciclagem informando o tipo de material reciclado e o ponto de coleta utilizado |
-| RF11 | Visualizar histórico de reciclagem | O sistema deve permitir que os usuários acessem um histórico com todas as ações de reciclagem registradas | 
-| RF12 | Avaliar pontos de coleta | O sistema deve permitir que os usuários avaliem os pontos de coleta e deixem comentários sobre suas experiências |
-| RF13 | Compartilhar informações sobre reciclagem | O sistema deve permitir que os usuários compartilhem informações sobre reciclagem e suas ações |
-| RF14 | Exibir estatísticas do impacto ambiental | O sistema deve apresentar relatórios sobre o impacto ambiental das ações de reciclagem dos usuários |
-| RF15 | Administrar conteúdo informativo | O sistema deve permitir que os administradores adicionem, editem e removam conteúdos do guia de reciclagem e das campanhas ambientais |
-| RF16 |	Sair do sistema |	O sistema deve permitir que os usuários façam logout do sistema |
+| RF1 | Gerenciar o acesso dos usuários |	O sistema deve permitir cadastro, login e logout de usuários com e-mail e senha |
+| RF2	| Gerenciar perfil do usuário | O sistema deve permitir edição de informações pessoais, como nome, foto e senha. |
+| RF3 |	Localizar pontos de coleta	| O sistema deve exibir uma lista de pontos de coleta cadastrados e permitir a busca por localização ou tipo de material aceito |
+| RF4	| Exibir detalhes de um ponto de coleta | O sistema deve exibir informações detalhadas sobre um ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento |
+| RF5 | Filtrar pontos de coleta | O sistema deve permitir filtragem por tipo de materiais recicláveis aceitos, como vidro, papel, plástico e metal |
+| RF6 | Exibir guia de reciclagem | O sistema deve disponibilizar informações sobre a separação correta dos resíduos e instruções para reciclagem |
+| RF7 | Gerenciar notificações | O sistema deve enviar notificações sobre campanhas ambientais e eventos de reciclagem |
+| RF8 | Gerenciar ranking de sustentabilidade | O sistema deve calcular e exibir um ranking com base nas ações de reciclagem registradas pelo usuário |
+| RF9 | Registrar ações de reciclagem | O sistema deve permitir registro de reciclagem, informando o tipo de material e o ponto de coleta utilizado |
+| RF10 | Exibir histórico de reciclagem | O sistema deve permitir acesso ao histórico de ações de reciclagem registradas | 
+| RF11 | Gerenciar avaliações de pontos de coleta | O sistema deve permitir que os usuários avaliem os pontos de coleta e deixem comentários |
+| RF12 | Compartilhar informações sobre reciclagem | O sistema deve permitir compartilhamento de informações sobre reciclagem |
+| RF13 | Exibir estatísticas do impacto ambiental | O sistema deve apresentar relatórios sobre o impacto ambiental das ações de reciclagem |
+| RF14 | Administrar conteúdo informativo | O sistema deve permitir adição, edição e remoção de conteúdos do guia de reciclagem e das campanhas ambientais |
+| RF15 |	Recomendar conteúdos personalizados |	O sistema deve sugerir materiais educativos e artigos sobre reciclagem com base nos interesses e interações do usuário no sistema |
 
 ### 3.3.2 Requisitos Não Funcionais
 
