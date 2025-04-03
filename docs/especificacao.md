@@ -1,4 +1,4 @@
-# 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
+![image](https://github.com/user-attachments/assets/00afe5e7-791e-4f01-a758-b4bdae9a8977)# 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 
 ## 3.1 Objetivos deste documento
@@ -264,9 +264,11 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1	|	Usuario |	Cadastro e autenticação no sistema, personalização do perfil e visualização do histórico de reciclagem. |
+| 2	| Administrador |	Cadastro de Pontos de Coleta e gerenciamento de conteúdos informativos como guias de reciclagem e campanhas ambientais. |
+| 3 |	PontoColeta |	Local de descarte de materiais recicláveis com endereço, horário e materiais aceitos. |
+| 4 |	MaterialReciclavel |	Materiais que poderão ser reciclados nos pontos de coleta |
+| 5	|	Reciclagem |	Registro e histórico das ações de reciclagem realizadas pelos usuários no sistema. |
+| 6 |	Avaliacao |	Avaliações e comentários sobre pontos de coleta. |
+| 7 |	Notificacao |	Envio de alertas sobre eventos de reciclagem e campanhas ambientais. |
+| 8 |	GuiaReciclagem |	Conteúdos educativos sobre práticas de reciclagem e sustentabilidade. |
