@@ -121,7 +121,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.  
 Ator(es): Usuário
 
-<u>*Fluxo Principal:*</u>
+*Fluxo Principal:*
 1.	O usuário acessa a tela de login.
 2.	O usuário insere seu e-mail e senha.
 3.	O sistema valida as credenciais e concede acesso.
@@ -135,7 +135,7 @@ Fluxo Alternativo:
 Descrição: Permite que o usuário edite informações pessoais.
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a seção "Meu Perfil".
 2.	O usuário edita informações como nome, foto e senha.
 3.	O sistema salva as alterações e exibe uma mensagem de confirmação.
@@ -144,7 +144,7 @@ Fluxo Principal:
 Descrição: Permite que o usuário visualize e busque pontos de coleta cadastrados.
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a tela de pontos de coleta.
 2.	O sistema exibe uma lista de pontos cadastrados.
 3.	O usuário pode buscar por localização ou tipo de material aceito.
@@ -153,7 +153,7 @@ Fluxo Principal:
 Descrição: Exibe informações detalhadas de um ponto de coleta.
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário seleciona um ponto de coleta na lista.
 2.	O sistema exibe informações como endereço, materiais aceitos e horário de funcionamento.
 
