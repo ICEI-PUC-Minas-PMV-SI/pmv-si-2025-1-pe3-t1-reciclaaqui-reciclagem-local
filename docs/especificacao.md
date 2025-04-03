@@ -119,6 +119,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Caso de Uso 1: Gerenciar o acesso dos usuários
 Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.
+
 Ator(es): Usuário
 
 Fluxo Principal:
@@ -128,8 +129,8 @@ Fluxo Principal:
 4.	O usuário pode realizar logout a qualquer momento.
 
 Fluxo Alternativo:
-•	Se o usuário não possui cadastro, pode acessar a opção de registro para criar uma conta.
-•	Se o usuário esqueceu a senha, pode solicitar redefinição.
+1.	Se o usuário não possui cadastro, pode acessar a opção de registro para criar uma conta.
+2.	Se o usuário esqueceu a senha, pode solicitar redefinição.
 
 #### Caso de Uso 2: Gerenciar perfil do usuário
 Descrição: Permite que o usuário edite informações pessoais.
