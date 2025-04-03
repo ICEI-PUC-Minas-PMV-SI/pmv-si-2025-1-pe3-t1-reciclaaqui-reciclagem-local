@@ -248,7 +248,6 @@ Ator(es): Usuário
 1.	O usuário interage com conteúdos no sistema.
 2.	O sistema sugere novos materiais relacionados ao perfil do usuário.
 
-![image](https://github.com/user-attachments/assets/8fe6d13f-a6cf-4e41-afcd-d6436f494d4b)
 
 
 
