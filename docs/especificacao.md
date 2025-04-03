@@ -116,62 +116,141 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
  
 ### 3.4.2 Descrições de Casos de Uso
 
-#### Criar o acesso dos usuários (RF1)
 
-Sumário: O Usuário realiza a gestão e consulta de pontos de coleta cadastrados no sistema, além de interagir com funcionalidades adicionais relacionadas à reciclagem.
-
-Ator Primário: Usuário.
-Ator Secundário: Administrador.
-
-Pré-condições: O Usuário deve estar autenticado no sistema.
+#### Caso de Uso 1: Gerenciar o acesso dos usuários
+Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.
+Ator(es): Usuário
 
 Fluxo Principal:
+1.	O usuário acessa a tela de login.
+2.	O usuário insere seu e-mail e senha.
+3.	O sistema valida as credenciais e concede acesso.
+4.	O usuário pode realizar logout a qualquer momento.
 
-1. O Usuário requisita a visualização dos pontos de coleta e outras funcionalidades relacionadas.
+Fluxo Alternativo:
+•	Se o usuário não possui cadastro, pode acessar a opção de registro para criar uma conta.
+•	Se o usuário esqueceu a senha, pode solicitar redefinição.
 
-2. O Sistema apresenta as operações que podem ser realizadas: listar pontos de coleta, visualizar detalhes de um ponto de coleta, buscar por localização ou tipo de material aceito, registrar ações de reciclagem, visualizar histórico de reciclagem, avaliar pontos de coleta, acessar guia de reciclagem, visualizar estatísticas ambientais e compartilhar informações.
+#### Caso de Uso 2: Gerenciar perfil do usuário
+Descrição: Permite que o usuário edite informações pessoais.
+Ator(es): Usuário
 
-3. O Usuário seleciona a operação desejada ou opta por finalizar o caso de uso.
+Fluxo Principal:
+1.	O usuário acessa a seção "Meu Perfil".
+2.	O usuário edita informações como nome, foto e senha.
+3.	O sistema salva as alterações e exibe uma mensagem de confirmação.
 
-4. Se o Usuário desejar continuar com a gestão e interação no sistema, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
+#### Caso de Uso 3: Localizar pontos de coleta
+Descrição: Permite que o usuário visualize e busque pontos de coleta cadastrados.
+Ator(es): Usuário
 
-Fluxo Alternativo (3): Listar pontos de coleta
-a) O Usuário requisita a listagem dos pontos de coleta.
-b) O Sistema exibe uma lista com os pontos de coleta cadastrados.
+Fluxo Principal:
+1.	O usuário acessa a tela de pontos de coleta.
+2.	O sistema exibe uma lista de pontos cadastrados.
+3.	O usuário pode buscar por localização ou tipo de material aceito.
 
-Fluxo Alternativo (3): Visualizar detalhes de um ponto de coleta
-a) O Usuário seleciona um ponto de coleta da lista.
-b) O Sistema exibe informações detalhadas sobre o ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento.
+#### Caso de Uso 4: Exibir detalhes de um ponto de coleta
+Descrição: Exibe informações detalhadas de um ponto de coleta.
+Ator(es): Usuário
 
-Fluxo Alternativo (3): Buscar por localização ou tipo de material
-a) O Usuário fornece um critério de busca (localização ou tipo de material aceito).
-b) O Sistema filtra os pontos de coleta com base no critério informado e exibe os resultados.
+Fluxo Principal:
+1.	O usuário seleciona um ponto de coleta na lista.
+2.	O sistema exibe informações como endereço, materiais aceitos e horário de funcionamento.
 
-Fluxo Alternativo (3): Registrar ações de reciclagem
-a) O Usuário informa o tipo de material reciclado e o ponto de coleta utilizado.
-b) O Sistema armazena a informação e atualiza o histórico do usuário.
+#### Caso de Uso 5: Filtrar pontos de coleta
+Descrição: Permite ao usuário aplicar filtros na busca por pontos de coleta.
+Ator(es): Usuário
 
-Fluxo Alternativo (3): Visualizar histórico de reciclagem
-a) O Usuário acessa a seção de histórico.
-b) O Sistema exibe todas as ações de reciclagem registradas pelo usuário.
+Fluxo Principal:
+1.	O usuário acessa a tela de pontos de coleta.
+2.	O usuário seleciona filtros como "Vidro", "Papel", "Plástico", "Metal".
+3.	O sistema exibe apenas os pontos compatíveis.
 
-Fluxo Alternativo (3): Avaliar pontos de coleta
-a) O Usuário seleciona um ponto de coleta e insere uma avaliação/comentário.
-b) O Sistema armazena a avaliação e a exibe para outros usuários.
+#### Caso de Uso 6: Exibir guia de reciclagem
+Descrição: Disponibiliza um guia com instruções sobre separação correta dos resíduos.
+Ator(es): Usuário
 
-Fluxo Alternativo (3): Acessar guia de reciclagem
-a) O Usuário acessa a seção do guia de reciclagem.
-b) O Sistema apresenta informações sobre separação de resíduos e melhores práticas de reciclagem.
+Fluxo Principal:
+1.	O usuário acessa a opção "Guia de Reciclagem".
+2.	O sistema exibe instruções sobre separação e descarte correto de materiais.
 
-Fluxo Alternativo (3): Visualizar estatísticas ambientais
-a) O Usuário solicita relatórios sobre o impacto ambiental de suas ações.
-b) O Sistema apresenta estatísticas com base nas ações registradas.
+#### Caso de Uso 7: Gerenciar notificações
+Descrição: Envia notificações sobre campanhas ambientais e eventos.
+Ator(es): Sistema
 
-Fluxo Alternativo (3): Compartilhar informações sobre reciclagem
-a) O Usuário opta por compartilhar suas ações e dicas sobre reciclagem.
-b) O Sistema permite que o usuário envie informações para redes sociais ou outros canais.
+Fluxo Principal:
+1.	O sistema verifica eventos ou campanhas disponíveis.
+2.	O sistema envia notificações personalizadas ao usuário.
 
-Pós-condições: O Usuário obteve informações sobre os pontos de coleta, registrou suas ações de reciclagem, acessou dados ambientais ou interagiu com outros usuários do sistema.
+#### Caso de Uso 8: Gerenciar ranking de sustentabilidade
+Descrição: Exibe um ranking baseado nas ações de reciclagem do usuário.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa a opção "Ranking de Sustentabilidade".
+2.	O sistema calcula e exibe a posição do usuário no ranking.
+
+#### Caso de Uso 9: Registrar ações de reciclagem
+Descrição: O usuário registra materiais reciclados e locais de descarte.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa a opção "Registrar Reciclagem".
+2.	O usuário informa o tipo de material e o ponto de coleta utilizado.
+3.	O sistema salva os dados e atualiza o histórico.
+
+#### Caso de Uso 10: Exibir histórico de reciclagem
+Descrição: Permite que o usuário veja o histórico de reciclagem realizada.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa a opção "Histórico de Reciclagem".
+2.	O sistema exibe uma lista com as ações registradas.
+
+#### Caso de Uso 11: Gerenciar avaliações de pontos de coleta
+Descrição: Usuários podem avaliar e comentar sobre pontos de coleta.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa a página de um ponto de coleta.
+2.	O usuário deixa uma avaliação e comentário.
+3.	O sistema salva e exibe as avaliações.
+
+#### Caso de Uso 12: Compartilhar informações sobre reciclagem
+Descrição: Permite o compartilhamento de informações sobre reciclagem.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa um conteúdo de reciclagem.
+2.	O usuário escolhe compartilhar via redes sociais ou mensagem.
+
+#### Caso de Uso 13: Exibir estatísticas do impacto ambiental
+Descrição: Apresenta relatórios sobre o impacto ambiental das ações do usuário.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário acessa a opção "Impacto Ambiental".
+2.	O sistema exibe gráficos e estatísticas sobre suas ações de reciclagem.
+
+#### Caso de Uso 14: Administrar conteúdo informativo
+Descrição: Administradores podem adicionar, editar ou remover conteúdos.
+Ator(es): Administrador
+
+Fluxo Principal:
+1.	O administrador acessa o painel de gerenciamento.
+2.	O administrador adiciona, edita ou remove conteúdos do guia.
+
+#### Caso de Uso 15: Recomendar conteúdos personalizados
+Descrição: O sistema sugere materiais educativos com base no perfil do usuário.
+Ator(es): Usuário
+
+Fluxo Principal:
+1.	O usuário interage com conteúdos no sistema.
+2.	O sistema sugere novos materiais relacionados ao perfil do usuário.
+
+![image](https://github.com/user-attachments/assets/8fe6d13f-a6cf-4e41-afcd-d6436f494d4b)
+
+
 
 ### 3.4.3 Diagrama de Classes 
 
