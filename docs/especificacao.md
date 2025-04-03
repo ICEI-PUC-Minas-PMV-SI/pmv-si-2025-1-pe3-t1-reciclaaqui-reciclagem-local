@@ -127,12 +127,12 @@ Ator(es): Usuário
 3.	O sistema valida as credenciais e concede acesso.
 4.	O usuário pode realizar logout a qualquer momento.
 
-Fluxo Alternativo:
+*Fluxo Alternativo:*
 1.	Se o usuário não possui cadastro, pode acessar a opção de registro para criar uma conta.
 2.	Se o usuário esqueceu a senha, pode solicitar redefinição.
 
 #### Caso de Uso 2: Gerenciar perfil do usuário
-Descrição: Permite que o usuário edite informações pessoais.
+Descrição: Permite que o usuário edite informações pessoais.  
 Ator(es): Usuário
 
 *Fluxo Principal:*
@@ -141,7 +141,7 @@ Ator(es): Usuário
 3.	O sistema salva as alterações e exibe uma mensagem de confirmação.
 
 #### Caso de Uso 3: Localizar pontos de coleta
-Descrição: Permite que o usuário visualize e busque pontos de coleta cadastrados.
+Descrição: Permite que o usuário visualize e busque pontos de coleta cadastrados.  
 Ator(es): Usuário
 
 *Fluxo Principal:*
@@ -150,7 +150,7 @@ Ator(es): Usuário
 3.	O usuário pode buscar por localização ou tipo de material aceito.
 
 #### Caso de Uso 4: Exibir detalhes de um ponto de coleta
-Descrição: Exibe informações detalhadas de um ponto de coleta.
+Descrição: Exibe informações detalhadas de um ponto de coleta.  
 Ator(es): Usuário
 
 *Fluxo Principal:*
@@ -158,93 +158,93 @@ Ator(es): Usuário
 2.	O sistema exibe informações como endereço, materiais aceitos e horário de funcionamento.
 
 #### Caso de Uso 5: Filtrar pontos de coleta
-Descrição: Permite ao usuário aplicar filtros na busca por pontos de coleta.
+Descrição: Permite ao usuário aplicar filtros na busca por pontos de coleta.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a tela de pontos de coleta.
 2.	O usuário seleciona filtros como "Vidro", "Papel", "Plástico", "Metal".
 3.	O sistema exibe apenas os pontos compatíveis.
 
 #### Caso de Uso 6: Exibir guia de reciclagem
-Descrição: Disponibiliza um guia com instruções sobre separação correta dos resíduos.
+Descrição: Disponibiliza um guia com instruções sobre separação correta dos resíduos.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a opção "Guia de Reciclagem".
 2.	O sistema exibe instruções sobre separação e descarte correto de materiais.
 
 #### Caso de Uso 7: Gerenciar notificações
-Descrição: Envia notificações sobre campanhas ambientais e eventos.
+Descrição: Envia notificações sobre campanhas ambientais e eventos.  
 Ator(es): Sistema
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O sistema verifica eventos ou campanhas disponíveis.
 2.	O sistema envia notificações personalizadas ao usuário.
 
 #### Caso de Uso 8: Gerenciar ranking de sustentabilidade
-Descrição: Exibe um ranking baseado nas ações de reciclagem do usuário.
+Descrição: Exibe um ranking baseado nas ações de reciclagem do usuário.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a opção "Ranking de Sustentabilidade".
 2.	O sistema calcula e exibe a posição do usuário no ranking.
 
 #### Caso de Uso 9: Registrar ações de reciclagem
-Descrição: O usuário registra materiais reciclados e locais de descarte.
+Descrição: O usuário registra materiais reciclados e locais de descarte.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a opção "Registrar Reciclagem".
 2.	O usuário informa o tipo de material e o ponto de coleta utilizado.
 3.	O sistema salva os dados e atualiza o histórico.
 
 #### Caso de Uso 10: Exibir histórico de reciclagem
-Descrição: Permite que o usuário veja o histórico de reciclagem realizada.
+Descrição: Permite que o usuário veja o histórico de reciclagem realizada.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a opção "Histórico de Reciclagem".
 2.	O sistema exibe uma lista com as ações registradas.
 
 #### Caso de Uso 11: Gerenciar avaliações de pontos de coleta
-Descrição: Usuários podem avaliar e comentar sobre pontos de coleta.
+Descrição: Usuários podem avaliar e comentar sobre pontos de coleta.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a página de um ponto de coleta.
 2.	O usuário deixa uma avaliação e comentário.
 3.	O sistema salva e exibe as avaliações.
 
 #### Caso de Uso 12: Compartilhar informações sobre reciclagem
-Descrição: Permite o compartilhamento de informações sobre reciclagem.
+Descrição: Permite o compartilhamento de informações sobre reciclagem.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa um conteúdo de reciclagem.
 2.	O usuário escolhe compartilhar via redes sociais ou mensagem.
 
 #### Caso de Uso 13: Exibir estatísticas do impacto ambiental
-Descrição: Apresenta relatórios sobre o impacto ambiental das ações do usuário.
+Descrição: Apresenta relatórios sobre o impacto ambiental das ações do usuário.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário acessa a opção "Impacto Ambiental".
 2.	O sistema exibe gráficos e estatísticas sobre suas ações de reciclagem.
 
 #### Caso de Uso 14: Administrar conteúdo informativo
-Descrição: Administradores podem adicionar, editar ou remover conteúdos.
+Descrição: Administradores podem adicionar, editar ou remover conteúdos.  
 Ator(es): Administrador
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O administrador acessa o painel de gerenciamento.
 2.	O administrador adiciona, edita ou remove conteúdos do guia.
 
 #### Caso de Uso 15: Recomendar conteúdos personalizados
-Descrição: O sistema sugere materiais educativos com base no perfil do usuário.
+Descrição: O sistema sugere materiais educativos com base no perfil do usuário.  
 Ator(es): Usuário
 
-Fluxo Principal:
+*Fluxo Principal:*
 1.	O usuário interage com conteúdos no sistema.
 2.	O sistema sugere novos materiais relacionados ao perfil do usuário.
 
