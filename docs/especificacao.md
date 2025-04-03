@@ -95,7 +95,7 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 | RNF3 |	Escalabilidade |	A arquitetura deve suportar um aumento de 10x no volume de usuários ou pontos de coleta sem perda de desempenho. |
 | RNF4 |	Manutenibilidade |	O código deve ser documentado (comentários, guias de instalação) e modular para facilitar atualizações futuras. |
 | RNF5	| Sustentabilidade Técnica |	Otimizar recursos (ex.: compressão de imagens, lazy loading) para reduzir consumo de energia e dados. |
-|RNF6	| Conformidade Legal | Cumprir a LGPD para tratamento de dados pessoais, solicitando consentimento explícito para geolocalização e notificações. |
+| RNF6	| Conformidade Legal | Cumprir a LGPD para tratamento de dados pessoais, solicitando consentimento explícito para geolocalização e notificações. |
 
 ### 3.3.3 Usuários 
 
@@ -121,7 +121,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.  
 Ator(es): Usuário
 
-*Fluxo Principal:*
+<u>*Fluxo Principal:*</u>
 1.	O usuário acessa a tela de login.
 2.	O usuário insere seu e-mail e senha.
 3.	O sistema valida as credenciais e concede acesso.
