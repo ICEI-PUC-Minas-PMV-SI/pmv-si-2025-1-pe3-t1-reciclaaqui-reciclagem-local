@@ -118,8 +118,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 
 #### Caso de Uso 1: Gerenciar o acesso dos usuários
-Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.
-Ator(es): Usuário
+Descrição: Permite que os usuários realizem cadastro, login e logout no sistema utilizando e-mail e senha.  Ator(es): Usuário
 
 *Fluxo Principal:*
 1.	O usuário acessa a tela de login.
