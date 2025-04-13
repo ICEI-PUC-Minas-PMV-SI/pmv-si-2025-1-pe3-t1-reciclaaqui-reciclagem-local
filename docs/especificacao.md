@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/00afe5e7-791e-4f01-a758-b4bdae9a8977)# 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
+# 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 
 ## 3.1 Objetivos deste documento
