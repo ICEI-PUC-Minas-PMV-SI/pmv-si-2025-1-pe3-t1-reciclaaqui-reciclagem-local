@@ -388,7 +388,11 @@ Ator(es): Usuário
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 mostra o diagrama de classes do sistema. O sistema é composto por usuários, que após fazer o cadastro ou login podem realizar reciclagens e avaliações de pontos de coleta. Esses usuários possuem atributos como id, nome, email e senha, além de métodos para cadastro, login, edição de perfil, avaliação e visualização de histórico.
+A classe Administrador é uma especialização de Usuário, herdando seus atributos e métodos, com a adição da função de criar Guias de Reciclagem. As guias possuem título, conteúdo, data de publicação e referência ao administrador que as criou.
+Os Pontos de Coleta armazenam informações como nome, endereço, horário de funcionamento e uma lista de materiais recicláveis aceitos, além de conter avaliações feitas por um ou mais usuários. Cada Avaliação está associada a um usuário e a um ponto de coleta, e inclui nota, comentário e data.
+As Reciclagens registram ações dos usuários, contendo a data e hora da reciclagem e vinculando um ou mais materiais recicláveis e um ponto de coleta  Os Materiais Recicláveis podem estar associados a vários pontos de coleta e reciclagens.
+Por fim, o sistema possui a classe Notificação, usada para enviar mensagens aos usuários, contendo título, mensagem e data de envio.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
