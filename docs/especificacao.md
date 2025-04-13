@@ -108,7 +108,7 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Como observado no diagrama de casos de uso da Figura 1, o usuário poderá gerenciar o seu login e perfil, bem como realizar diversas outras funções intuitivas no sistema. Enquanto o administrador é responsável por gerenciar o conteúdo informativo e o tempo, sendo como responsável, recomendar conteúdos personalizados e emitir notificações ao sistema como um todo. 
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
