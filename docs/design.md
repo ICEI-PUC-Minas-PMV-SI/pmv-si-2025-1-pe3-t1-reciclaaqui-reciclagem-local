@@ -109,7 +109,7 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 - Acredita que nunca é tarde para começar a reciclar.
 
-- Confia que as vantagens de uma boa inciativa transformam algo pequeno em uma grande mudança.
+- Confia que uma inicitiva transformam algo pequeno em uma grande mudança.
 
 - Sente que sempre existe uma forma mais sustentável de lidar com o meio ambiente.
 
@@ -150,7 +150,7 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 - Notificações e posts recomendáveis personalizados.
 
-- Compartilhamento de ações novas que inspiração.
+- Compartilhamento de ações novas que inspiram.
 
 - Facilidade em localização de pontos de coleta.
 
