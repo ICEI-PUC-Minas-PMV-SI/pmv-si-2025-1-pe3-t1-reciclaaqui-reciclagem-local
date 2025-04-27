@@ -54,6 +54,9 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ### Persona 1: Ana Júlia Ramos
 
+![Mapa de empatia Ana Julia](https://github.com/user-attachments/assets/3d15127a-6061-43aa-9463-6d294c493719)
+
+
 #### O que pensa e sente?
 
 - Acredita que cada atitude faz a diferença.
