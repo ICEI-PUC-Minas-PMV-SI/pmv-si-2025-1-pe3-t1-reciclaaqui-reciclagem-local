@@ -57,105 +57,10 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ![Mapa de empatia Ana Julia](https://github.com/user-attachments/assets/3d15127a-6061-43aa-9463-6d294c493719)
 
 
-#### O que pensa e sente?
-
-- Acredita que cada atitude faz a diferença.
-
-- Sente-se motivada a engajar amigos em causas ambientais.
-
-- Tem curiosidade sobre novos métodos de reciclagem.
-
-#### O que vê?
-
-- Aplicativos modernos, gamificados e interativos.
-
-- Conteúdos educativos no Instagram e YouTube.
-
-- Eventos universitários e campanhas de reciclagem.
-
-#### O que ouve?
-
-- Professores e colegas falando sobre ecologia.
-
-- Podcasts sobre mudanças ambientais.
-
-- Grupos de ativismo promovendo ações concretas.
-
-#### O que fala e faz?
-
-- Participa de rodas de conversa e campanhas online.
-
-- Registra ações de reciclagem com orgulho.
-
-- Compartilha conquistas sustentáveis nas redes sociais.
-
-#### Dores
-
-- Falta de apps que integrem utilidade com engajamento.
-
-- Pouca personalização nos conteúdos.
-
-- Dificuldade de encontrar estatísticas claras de impacto.
-
-#### Ganhos
-
-- App com ranking de sustentabilidade e desafios.
-
-- Relatórios de impacto ambiental individual.
-
-- Recomendações de conteúdo conforme interesses.
-
-
 ### Persona 2: Saulo Alves da Silva
 
-#### O que pensa e sente?
+![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)
 
-- Acredita que nunca é tarde para começar a reciclar.
-
-- Confia que uma inicitiva transformam algo pequeno em uma grande mudança.
-
-- Sente que sempre existe uma forma mais sustentável de lidar com o meio ambiente.
-
-
-#### O que vê?
-
-- Sistemas robustos e intuitivos.
-
-- Publicações sobre sustentabilidade e reciclagem.
-
-- Campanhas de reciclagem.
-
-#### O que ouve?
-
-- Colegas de trabalho e vizinhos.
-
-- Notícias novas sobre as mudanças que a reciclagem causa no mundo.
-
-- Influenciadores e figuras públicas que promovem iniciativas ao meio ambiente.
-
-#### O que fala e faz?
-
-- Comenta com colegas sobre iniciativas sustentáveis do dia a dia.
-
-- Procura formas de aplicar a reciclagem em casa ou no trabalho.
-
-- Valoriza empresas que demonstram responsabilidade ambiental.
-
-#### Dores
-
-- Falta de tempo na rotina para se dedicar a sustentabilidade.
-
-- Dificuldade em encontrar informações confiáveis sobre reciclagem.
-
-- Pouca iniciativas sustentáveis em sua comunidade.
-
-#### Ganhos
-
-- Notificações e posts recomendáveis personalizados.
-
-- Compartilhamento de ações novas que inspiram.
-
-- Facilidade em localização de pontos de coleta.
 
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
