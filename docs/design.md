@@ -54,13 +54,13 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ### Persona 1: Ana Júlia Ramos
 
-![Mapa de empatia Ana Julia](https://github.com/user-attachments/assets/3d15127a-6061-43aa-9463-6d294c493719)
+![Mapa de empatia Ana Julia](https://github.com/user-attachments/assets/3d15127a-6061-43aa-9463-6d294c493719)  
 
 
   
 ### Persona 2: Saulo Alves da Silva
 
-![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)
+![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)  
 
 
   
