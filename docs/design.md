@@ -23,7 +23,13 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
   
 ### Persona 2: Saulo Alves da Silva
 
-![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)  
+![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)
+
+
+
+### Persona 3: Celine Bianchi
+
+![Mapa de empatia Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/bde21baae72d3bba04e61881c952b2b19e17179f/src/img/Mapa%20de%20Empatia_Celine.png)
 
 
   
