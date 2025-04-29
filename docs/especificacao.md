@@ -113,7 +113,7 @@ Como observado no diagrama de casos de uso da Figura 1, o usuário poderá geren
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://i.imgur.com/P79VZM7.png)
+![dcu](blob:https://imgur.com/f49c5647-4765-4ccc-99ca-b9045c008aa0)
  
 ### 3.4.2 Descrições de Casos de Uso
 
