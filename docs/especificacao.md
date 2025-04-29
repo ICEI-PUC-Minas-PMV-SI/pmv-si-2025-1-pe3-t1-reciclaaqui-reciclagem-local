@@ -73,18 +73,19 @@ O ReciclaAqui não fornecerá serviços de coleta direta de resíduos e não se 
 | RF1 | Gerenciar usuários | O sistema deve permitir que o usuário cadastre, visualize, edite e exclua seu próprio cadastro. |
 | RF2 | Realizar login/logout | O sistema deve permitir que o usuário realize login e logout, desde que já esteja cadastrado. |
 | RF3 | Gerenciar perfil | O sistema deve permitir que o usuário cadastre, edite, visualize e exclua informações pessoais, como nome, foto e senha. |
-| RF4 | Localizar pontos de coleta | O sistema deve exibir uma lista de pontos de coleta e permitir busca por localização ou tipo de material aceito. |
-| RF5 | Exibir detalhes de ponto de coleta | O sistema deve exibir informações detalhadas sobre um ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento. |
-| RF6 | Filtrar pontos de coleta | O sistema deve permitir que o usuário filtre pontos de coleta por tipo de material reciclável aceito, como vidro, papel, plástico e metal. |
-| RF7 | Exibir guia de reciclagem | O sistema deve disponibilizar informações sobre separação correta dos resíduos e instruções para reciclagem. |
-| RF8 | Emitir notificações | O sistema deve emitir notificações sobre campanhas ambientais e eventos de reciclagem. |
-| RF9 | Gerar ranking de sustentabilidade | O sistema deve calcular e exibir um ranking com base nas ações de reciclagem registradas pelo usuário. |
-| RF10 | Registrar ações de reciclagem | O sistema deve permitir que o usuário registre ações de reciclagem, informando o tipo de material e o ponto de coleta utilizado. |
-| RF11 | Exibir histórico de reciclagem | O sistema deve permitir que o usuário visualize o histórico de ações de reciclagem registradas. |
-| RF12 | Avaliar pontos de coleta | O sistema deve permitir que o usuário avalie pontos de coleta e deixe comentários. |
-| RF13 | Compartilhar informações | O sistema deve permitir que o usuário compartilhe informações sobre reciclagem. |
-| RF14 | Gerenciar conteúdo informativo | O sistema deve permitir que o usuário cadastre, edite, visualize e exclua conteúdos do guia de reciclagem e das campanhas ambientais. |
-| RF15 | Recomendar conteúdos personalizados | O sistema deve sugerir materiais educativos e artigos sobre reciclagem com base nos interesses e interações do usuário. |
+| RF4 | Cadastrar Pontos de Coleta | O sistema deve permitir cadastro de pontos de coleta de reciclagem, informando dados como nome, endereço, tipo de material aceito e horário de funcionamento. |
+| RF5 | Localizar pontos de coleta | O sistema deve exibir uma lista de pontos de coleta e permitir busca por localização ou tipo de material aceito. |
+| RF6 | Exibir detalhes de ponto de coleta | O sistema deve exibir informações detalhadas sobre um ponto de coleta, incluindo endereço, materiais aceitos e horário de funcionamento. |
+| RF7 | Filtrar pontos de coleta | O sistema deve permitir que o usuário filtre pontos de coleta por tipo de material reciclável aceito, como vidro, papel, plástico e metal. |
+| RF8 | Exibir guia de reciclagem | O sistema deve disponibilizar informações sobre separação correta dos resíduos e instruções para reciclagem. |
+| RF9 | Emitir notificações | O sistema deve emitir notificações sobre campanhas ambientais e eventos de reciclagem. |
+| RF10 | Gerar ranking de sustentabilidade | O sistema deve calcular e exibir um ranking com base nas ações de reciclagem registradas pelo usuário. |
+| RF11 | Registrar ações de reciclagem | O sistema deve permitir que o usuário registre ações de reciclagem, informando o tipo de material e o ponto de coleta utilizado. |
+| RF12 | Exibir histórico de reciclagem | O sistema deve permitir que o usuário visualize o histórico de ações de reciclagem registradas. |
+| RF13 | Avaliar pontos de coleta | O sistema deve permitir que o usuário avalie pontos de coleta e deixe comentários. |
+| RF14 | Compartilhar informações | O sistema deve permitir que o usuário compartilhe informações sobre reciclagem. |
+| RF15 | Gerenciar conteúdo informativo | O sistema deve permitir que o usuário cadastre, edite, visualize e exclua conteúdos do guia de reciclagem e das campanhas ambientais. |
+| RF16 | Recomendar conteúdos personalizados | O sistema deve sugerir materiais educativos e artigos sobre reciclagem com base nos interesses e interações do usuário. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
