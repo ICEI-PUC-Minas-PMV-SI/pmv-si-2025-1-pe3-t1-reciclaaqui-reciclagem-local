@@ -13,7 +13,7 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ![Persona_Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/9497c3300dce0ffaf009ad8810cf25503c06ad6d/src/img/Pesona_Celine.png)
 
 ### Persona 4: Wallysson Rocha
-![Persona Wallysson](https://github.com/user-attachments/assets/8725645c-978f-484e-8ff2-8ffb1039da42)
+![Persona Wallysson](https://github.com/user-attachments/assets/d5498cb7-5438-4b09-b15c-3ae40fcfe1c7)
 
 
 
@@ -40,7 +40,7 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ### Persona 4: Wallysson Rocha
 
-![Wallysson Rocha](https://github.com/user-attachments/assets/696c8128-13d6-4607-ad2f-bfe65492f6c1)
+![Mapa de empatia Wallysson](https://github.com/user-attachments/assets/56405e9f-52ff-4951-adbf-4cad893d9c81)
 
 
 
