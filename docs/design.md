@@ -12,6 +12,11 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 3: Celine Bianchi
 ![Persona_Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/9497c3300dce0ffaf009ad8810cf25503c06ad6d/src/img/Pesona_Celine.png)
 
+### Persona 4: Wallysson Rocha
+![Persona Wallysson](https://github.com/user-attachments/assets/8725645c-978f-484e-8ff2-8ffb1039da42)
+
+
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
@@ -30,6 +35,12 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ### Persona 3: Celine Bianchi
 
 ![Mapa de empatia Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/bde21baae72d3bba04e61881c952b2b19e17179f/src/img/Mapa%20de%20Empatia_Celine.png)
+
+
+
+### Persona 4: Wallysson Rocha
+
+![Mapa de empatia Wallysson](https://github.com/user-attachments/assets/e50991aa-8321-4329-a3c9-0b59d3b236e9)
 
 
   
