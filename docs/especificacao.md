@@ -113,7 +113,7 @@ Como observado no diagrama de casos de uso da Figura 1, o usuário poderá geren
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://i.imgur.com/xhVRgb5.png)
+![dcu](https://i.imgur.com/P79VZM7.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
@@ -171,7 +171,30 @@ Ator(es): Usuário
 	1. O usuário sai da seção "Meu Perfil" sem salvar suas alterações.
 	2. O sistema descarta as mudanças e mantém os dados anteriores
 
-#### Caso de Uso 3: Localizar pontos de coleta
+#### Caso de Uso 3: Cadastrar pontos de coleta
+**Descrição:** Permite que o usuário cadastre novos pontos de coleta no sistema.  
+**Ator(es):** Usuário
+
+**Pré-condições:**  
+1. O usuário deve estar autenticado no sistema.
+
+**Fluxo Principal:**  
+1. O usuário acessa a seção "Pontos de Coleta".  
+2. O usuário seleciona a opção "Cadastrar novo ponto".  
+3. O usuário preenche informações como nome do local, endereço, tipo de material aceito e horário de funcionamento.  
+4. O sistema salva o novo ponto de coleta e exibe uma mensagem de confirmação.
+
+**Fluxos Alternativos:**  
+- **3.1 - Dados inválidos:**  
+ 1. O usuário insere dados mal formatados (ex: endereço incompleto, campos obrigatórios em branco).  
+ 2. O sistema exibe mensagem de erro, solicitando a correção dos dados.
+
+- **3.2 - Cancelar cadastro:**  
+ 1. O usuário sai da tela de cadastro antes de finalizar o preenchimento.  
+ 2. O sistema descarta as informações inseridas e não realiza o cadastro.
+
+
+#### Caso de Uso 4: Localizar pontos de coleta
 Descrição: Permite que o usuário visualize e busque pontos de coleta cadastrados.  
 Ator(es): Usuário
 
@@ -189,7 +212,7 @@ Ator(es): Usuário
 	1. O sistema não encontra pontos para os critérios informados.
 	2. O sistema exibe uma mensagem informando que não há nenhum ponto correspondente com a pesquisa do usuário, e recomenda a ampliação da busca.
 
-#### Caso de Uso 4: Exibir detalhes de um ponto de coleta
+#### Caso de Uso 5: Exibir detalhes de um ponto de coleta
 Descrição: Exibe informações detalhadas de um ponto de coleta.  
 Ator(es): Usuário
 
@@ -205,7 +228,7 @@ Ator(es): Usuário
 	1. Ocorre uma falha de conexão ou erro interno.
 	2. O sistema exibe uma mensagem de erro e recomenda que o usuário tente novamente.
 
-#### Caso de Uso 5: Filtrar pontos de coleta
+#### Caso de Uso 6: Filtrar pontos de coleta
 Descrição: Permite ao usuário aplicar filtros na busca por pontos de coleta.  
 Ator(es): Usuário
 
@@ -222,7 +245,7 @@ Ator(es): Usuário
 	1. O sistema não encontra pontos para os critérios informados.
 	2. O sistema exibe uma mensagem informando que não há nenhum ponto correspondente com a pesquisa do usuário, e recomenda a ampliação da busca.
 
-#### Caso de Uso 6: Exibir guia de reciclagem
+#### Caso de Uso 7: Exibir guia de reciclagem
 Descrição: Disponibiliza um guia com instruções sobre separação correta dos resíduos.  
 Ator(es): Usuário
 
@@ -238,7 +261,7 @@ Ator(es): Usuário
 	1. O sistema falha ao acessar os dados do guia.
 	2. O sistema exibe uma mensagem de erro, e recomenda que o usuário recarregue a página.
 
-#### Caso de Uso 7: Gerenciar notificações
+#### Caso de Uso 8: Gerenciar notificações
 Descrição: Envia notificações sobre campanhas ambientais e eventos.  
 Ator(es): Sistema
 
@@ -255,7 +278,7 @@ Ator(es): Sistema
 	1. O usuário desativou o envio de notificações na seção "Meu Perfil".
 	2. O sistema não realiza o envio.
 
-#### Caso de Uso 8: Gerenciar ranking de sustentabilidade
+#### Caso de Uso 9: Gerenciar ranking de sustentabilidade
 Descrição: Exibe um ranking baseado nas ações de reciclagem do usuário.  
 Ator(es): Usuário
 
@@ -272,7 +295,7 @@ Ator(es): Usuário
 	1. O usuário ainda não realizou nenhuma ação.
 	2. O sistema exibe mensagem informativa.
 
-#### Caso de Uso 9: Registrar ações de reciclagem
+#### Caso de Uso 10: Registrar ações de reciclagem
 Descrição: O usuário registra materiais reciclados e locais de descarte.  
 Ator(es): Usuário
 
@@ -289,7 +312,7 @@ Ator(es): Usuário
 	1. O usuário não preenche alguma informação obrigatória.
 	2. O sistema impede o envio da ação e exibe alerta, permitindo que o usuário insira os dados.
 
-#### Caso de Uso 10: Exibir histórico de reciclagem
+#### Caso de Uso 11: Exibir histórico de reciclagem
 Descrição: Permite que o usuário veja o histórico de reciclagem realizada.  
 Ator(es): Usuário
 
@@ -304,7 +327,7 @@ Ator(es): Usuário
 - 10.1 - Histórico vazio:
 	1. O usuário não registrou nenhuma ação.
 	2. O sistema exibe mensagem informativa.
-#### Caso de Uso 11: Gerenciar avaliações de pontos de coleta
+#### Caso de Uso 12: Gerenciar avaliações de pontos de coleta
 Descrição: Usuários podem avaliar e comentar sobre pontos de coleta.  
 Ator(es): Usuário
 
@@ -322,7 +345,7 @@ Ator(es): Usuário
 	1. O usuário não inseriu uma avaliação no formulário.
 	2. O sistema impede o envio da avaliação e exibe mensagem informativa, pedindo que o usuário preencha a avaliação.
 
-#### Caso de Uso 12: Compartilhar informações sobre reciclagem
+#### Caso de Uso 13: Compartilhar informações sobre reciclagem
 Descrição: Permite o compartilhamento de informações sobre reciclagem.  
 Ator(es): Usuário
 
@@ -334,7 +357,7 @@ Ator(es): Usuário
 2.	O usuário seleciona a a opção "Compartilhar".
 3.   O usuário escolhe o meio de compartilhamento (mensagem, redes sociais).
 
-#### Caso de Uso 13: Exibir estatísticas do impacto ambiental
+#### Caso de Uso 14: Exibir estatísticas do impacto ambiental
 Descrição: Apresenta relatórios sobre o impacto ambiental das ações do usuário.  
 Ator(es): Usuário
 
@@ -350,7 +373,7 @@ Ator(es): Usuário
 	1. O usuário não registrou nenhuma ação.
 	2. O sistema exibe mensagem informativa.
 
-#### Caso de Uso 14: Administrar conteúdo informativo
+#### Caso de Uso 15: Administrar conteúdo informativo
 Descrição: Administradores podem adicionar, editar ou remover conteúdos.  
 Ator(es): Administrador
 
@@ -368,7 +391,7 @@ Ator(es): Administrador
 	1. O administrador insere dados inválidos/incompletos.
 	2. O sistema impede o envio e exibe mensagem de erro, solicitando a revisão.
 
-#### Caso de Uso 15: Recomendar conteúdos personalizados
+#### Caso de Uso 16: Recomendar conteúdos personalizados
 Descrição: O sistema sugere materiais educativos com base no perfil do usuário.  
 Ator(es): Usuário
 
