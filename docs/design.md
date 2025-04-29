@@ -40,7 +40,8 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ### Persona 4: Wallysson Rocha
 
-![Mapa de empatia Wallysson](https://github.com/user-attachments/assets/e50991aa-8321-4329-a3c9-0b59d3b236e9)
+![Wallysson Rocha](https://github.com/user-attachments/assets/696c8128-13d6-4607-ad2f-bfe65492f6c1)
+
 
 
   
