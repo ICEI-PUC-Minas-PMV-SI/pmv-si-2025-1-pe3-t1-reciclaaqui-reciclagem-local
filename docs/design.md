@@ -6,20 +6,26 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 1: Ana Júlia Ramos  
 ![Personas_Ana](https://github.com/user-attachments/assets/9595cdb8-d1de-4c43-be4f-c6641e45403c)
 
+
 ### Persona 2: Saulo Alves da Silva
 ![Persona_Saulo](https://github.com/user-attachments/assets/be7338fa-3390-46e4-bbda-f5264ce19535)
+
 
 ### Persona 3: Celine Bianchi
 ![Celine](https://github.com/user-attachments/assets/b8c03bf3-6f25-4d22-a2dc-7e877091f0d4)
 
+
 ### Persona 4: Wallysson Rocha
 ![Wallyson](https://github.com/user-attachments/assets/02e3f141-dee5-4aa7-9302-493f492225fe)
+
 
 ### Persona 5: Alice de Araujo
 ![Alice](https://github.com/user-attachments/assets/83c8fca2-c873-4a51-addd-aabb74753333)
 
+
 ### Persona 6: Henrique da Silva
 ![Henrique](https://github.com/user-attachments/assets/0a957621-79f8-455d-a7e3-7e7697a0dfa5)
+
 
 
 ## 4.2 Mapa de Empatia
@@ -29,25 +35,25 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ![Mapa de empatia Ana Julia](https://github.com/user-attachments/assets/3d15127a-6061-43aa-9463-6d294c493719)  
 
-
   
 ### Persona 2: Saulo Alves da Silva
-
 ![Mapa de empatia Saulo](https://github.com/user-attachments/assets/33ade1f3-c34d-4595-a0b0-643eee3e4394)
 
 
-
 ### Persona 3: Celine Bianchi
-
 ![Mapa de empatia Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/bde21baae72d3bba04e61881c952b2b19e17179f/src/img/Mapa%20de%20Empatia_Celine.png)
 
 
-
 ### Persona 4: Wallysson Rocha
-
 ![Mapa de empatia Wallysson](https://github.com/user-attachments/assets/4a02ba56-dd12-431c-89b3-9506b3b2b378)
 
 
+### Persona 5: Alice de Araujo
+![Mapa de empatia Alice](https://github.com/user-attachments/assets/c5225fb6-a91a-4d80-9bbe-c7587387fc0d)
+
+
+### Persona 6: Henrique da Silva
+![Mapa de empatia Henrique](https://github.com/user-attachments/assets/b11e7d76-51d2-4d65-afee-aec3730031ac)
 
 
   
