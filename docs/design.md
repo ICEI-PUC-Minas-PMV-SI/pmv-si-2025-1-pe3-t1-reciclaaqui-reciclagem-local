@@ -15,6 +15,11 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 4: Wallysson Rocha
 ![Wallyson](https://github.com/user-attachments/assets/02e3f141-dee5-4aa7-9302-493f492225fe)
 
+### Persona 5: Alice de Araujo
+![Alice](https://github.com/user-attachments/assets/83c8fca2-c873-4a51-addd-aabb74753333)
+
+### Persona 6: Henrique da Silva
+![Henrique](https://github.com/user-attachments/assets/0a957621-79f8-455d-a7e3-7e7697a0dfa5)
 
 
 ## 4.2 Mapa de Empatia
