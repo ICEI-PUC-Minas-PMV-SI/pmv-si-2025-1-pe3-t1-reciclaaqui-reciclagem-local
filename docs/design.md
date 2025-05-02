@@ -10,10 +10,10 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ![Persona_Saulo](https://github.com/user-attachments/assets/be7338fa-3390-46e4-bbda-f5264ce19535)
 
 ### Persona 3: Celine Bianchi
-![Persona_Celine](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local/blob/9497c3300dce0ffaf009ad8810cf25503c06ad6d/src/img/Pesona_Celine.png)
+![Celine](https://github.com/user-attachments/assets/b8c03bf3-6f25-4d22-a2dc-7e877091f0d4)
 
 ### Persona 4: Wallysson Rocha
-![Persona Wallysson](https://github.com/user-attachments/assets/d5498cb7-5438-4b09-b15c-3ae40fcfe1c7)
+![Wallyson](https://github.com/user-attachments/assets/02e3f141-dee5-4aa7-9302-493f492225fe)
 
 
 
