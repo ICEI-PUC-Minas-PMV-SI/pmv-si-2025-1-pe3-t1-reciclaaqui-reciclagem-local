@@ -60,3 +60,55 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
+
+
+### Protótipo Guia de Reciclagem
+
+## 1. Objetivo da Tela  
+
+A tela tem como finalidade apresentar de forma visual e didática as instruções para a separação correta dos resíduos, conforme os princípios da coleta seletiva, facilitando a compreensão e aplicação pelo usuário.
+Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
+
+O sistema carrega o conteúdo previamente cadastrado com as categorias de resíduos e instruções visuais.
+O guia é apresentado com foco educativo, usando cores e ícones padronizados e de fácil associação.
+A navegação é visual e autoexplicativa, permitindo que o usuário aprenda a separar corretamente os materiais para descarte.
+
+
+## 2. Princípios Gestálticos
+
+Proximidade: Lixeiras organizadas em uma grade, agrupadas por tipo de material.
+
+Semelhança: Lixeiras com o mesmo formato e ícone de reciclagem, diferenciadas por cor.
+
+Figura/Fundo: Contraste entre o fundo claro e as lixeiras coloridas facilita a identificação.
+
+Fechamento: Caixas arredondadas criam blocos visuais coesos.
+
+## 3. Recomendações Ergonômicas
+
+Legibilidade: Texto com fontes legíveis e bom contraste.
+
+Uso de Cores: Cores das lixeiras seguem convenções de coleta seletiva.
+
+Layout Intuitivo: Layout em grade e ícones facilitam navegação.
+
+Acessibilidade Visual: Ícones grandes, cores contrastantes e espaçamento adequado.
+
+## 4. Regras de Ouro (Shneiderman):
+
+Consistência: Design uniforme nas lixeiras.
+
+Atalhos: Design simples facilita navegação sem texto.
+
+Feedback Informativo: Espera-se interação ao clicar nas lixeiras (com animações).
+
+Minimizar Carga de Memória: O conteúdo visual facilita a compreensão.
+
+Controle ao Usuário: Navegação clara e intuitiva.
+
+Prevenir Erros: Cores e ícones ajudam a evitar confusão.
+
+Ajuda e Documentação: Subtítulo e instruções rápidas orientam o usuário.
+
+<img width="1298" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
+
