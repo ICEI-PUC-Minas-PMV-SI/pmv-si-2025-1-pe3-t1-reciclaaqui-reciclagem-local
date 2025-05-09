@@ -62,9 +62,9 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 
 
 
-### Protótipo Guia de Reciclagem
+## Protótipo Guia de Reciclagem
 
-## 1. Objetivo da Tela  
+### 1. Objetivo da Tela  
 
 A tela tem como finalidade apresentar de forma visual e didática as instruções para a separação correta dos resíduos, conforme os princípios da coleta seletiva, facilitando a compreensão e aplicação pelo usuário.
 Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
@@ -74,7 +74,7 @@ O guia é apresentado com foco educativo, usando cores e ícones padronizados e 
 A navegação é visual e autoexplicativa, permitindo que o usuário aprenda a separar corretamente os materiais para descarte.
 
 
-## 2. Princípios Gestálticos
+### 2. Princípios Gestálticos
 
 Proximidade: Lixeiras organizadas em uma grade, agrupadas por tipo de material.
 
@@ -84,7 +84,7 @@ Figura/Fundo: Contraste entre o fundo claro e as lixeiras coloridas facilita a i
 
 Fechamento: Caixas arredondadas criam blocos visuais coesos.
 
-## 3. Recomendações Ergonômicas
+### 3. Recomendações Ergonômicas
 
 Legibilidade: Texto com fontes legíveis e bom contraste.
 
@@ -94,7 +94,7 @@ Layout Intuitivo: Layout em grade e ícones facilitam navegação.
 
 Acessibilidade Visual: Ícones grandes, cores contrastantes e espaçamento adequado.
 
-## 4. Regras de Ouro (Shneiderman):
+### 4. Regras de Ouro (Shneiderman):
 
 Consistência: Design uniforme nas lixeiras.
 
