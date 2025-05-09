@@ -118,6 +118,6 @@ Ajuda e Documentação: Subtítulo e instruções rápidas orientam o usuário.
 ### 4. Regras de Ouro (Shneiderman):
 
 
-<img width="872" alt="Prototipo Ranking" src="https://github.com/user-attachments/assets/85a97a60-7925-4d52-b475-bafa0a59b419" />
 
+<img width="1151" alt="Prototipo Ranking de Sustentabilidade" src="https://github.com/user-attachments/assets/97eff055-0479-42c9-8d5e-5e4621d46b28" />
 
