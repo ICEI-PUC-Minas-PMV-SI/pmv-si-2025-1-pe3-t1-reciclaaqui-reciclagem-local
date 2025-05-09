@@ -67,10 +67,10 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 ### 1. Objetivo da Tela  
 
 A tela tem como finalidade apresentar de forma visual e didática as instruções para a separação correta dos resíduos, conforme os princípios da coleta seletiva, facilitando a compreensão e aplicação pelo usuário.
-Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
-O sistema carrega o conteúdo previamente cadastrado com as categorias de resíduos e instruções visuais.
-O guia é apresentado com foco educativo, usando cores e ícones padronizados e de fácil associação.
-A navegação é visual e autoexplicativa, permitindo que o usuário aprenda a separar corretamente os materiais para descarte.
+Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:  
+- O sistema carrega o conteúdo previamente cadastrado com as categorias de resíduos e instruções visuais.
+- O guia é apresentado com foco educativo, usando cores e ícones padronizados e de fácil associação.
+- A navegação é visual e autoexplicativa, permitindo que o usuário aprenda a separar corretamente os materiais para descarte.
 
 
 ### 2. Princípios Gestálticos
