@@ -99,3 +99,25 @@ Ajuda e Documentação: Subtítulo e instruções rápidas orientam o usuário.
 
 <img width="1298" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
 
+
+
+## Protótipo Ranking de Sustentabilidade
+
+### 1. Objetivo da Tela  
+
+
+
+### 2. Princípios Gestálticos
+
+
+
+### 3. Recomendações Ergonômicas
+
+
+
+### 4. Regras de Ouro (Shneiderman):
+
+
+<img width="872" alt="Prototipo Ranking" src="https://github.com/user-attachments/assets/85a97a60-7925-4d52-b475-bafa0a59b419" />
+
+
