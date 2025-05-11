@@ -134,5 +134,6 @@ Quando o usuário acessa a opção “Ranking de Sustentabilidade” no sistema:
 ***Permitir desfazer ações:*** Como é uma tela de visualização, não há ações para desfazer.  
 ***Redução da carga da memória do usuário:*** A informação é apresentada de forma clara e acessível, sem exigir que o usuário memorize etapas anteriores.
 
+
 <img width="1151" alt="Prototipo Ranking de Sustentabilidade" src="https://github.com/user-attachments/assets/97eff055-0479-42c9-8d5e-5e4621d46b28" />
 
