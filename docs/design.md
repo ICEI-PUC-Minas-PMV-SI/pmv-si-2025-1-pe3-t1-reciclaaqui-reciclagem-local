@@ -109,7 +109,7 @@ A tela exibe uma lista dos usuários com melhor desempenho em ações sustentáv
 Quando o usuário acessa a opção “Ranking de Sustentabilidade” no sistema:  
 - O sistema calcula a pontuação com base nas ações registradas.
 - Exibe a posição do usuário no ranking.
-- Se o usuário não tiver ações registradas, o sistema mostra uma mensagem informando que ele ainda não participou.
+- Se o usuário não tiver ações registradas, o usuário não aparece no ranking.
 
 ### 2. Princípios Gestálticos
 
