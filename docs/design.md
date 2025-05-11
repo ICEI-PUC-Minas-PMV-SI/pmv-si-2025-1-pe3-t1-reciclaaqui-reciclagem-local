@@ -75,27 +75,27 @@ Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
 
 ### 2. Princípios Gestálticos
 
-Proximidade: Lixeiras organizadas em uma grade, agrupadas por tipo de material.  
-Semelhança: Lixeiras com o mesmo formato e ícone de reciclagem, diferenciadas por cor.  
-Figura/Fundo: Contraste entre o fundo claro e as lixeiras coloridas facilita a identificação.  
-Fechamento: Caixas arredondadas criam blocos visuais coesos.
+***Proximidade:*** Lixeiras organizadas em uma grade, agrupadas por tipo de material.  
+***Semelhança:*** Lixeiras com o mesmo formato e ícone de reciclagem, diferenciadas por cor.  
+***Figura/Fundo:*** Contraste entre o fundo claro e as lixeiras coloridas facilita a identificação.  
+***Fechamento:*** Caixas arredondadas criam blocos visuais coesos.
 
 ### 3. Recomendações Ergonômicas
 
-Legibilidade: Texto com fontes legíveis e bom contraste.  
-Uso de Cores: Cores das lixeiras seguem convenções de coleta seletiva.  
-Layout Intuitivo: Layout em grade e ícones facilitam navegação.  
-Acessibilidade Visual: Ícones grandes, cores contrastantes e espaçamento adequado.
+***Legibilidade:*** Texto com fontes legíveis e bom contraste.  
+***Uso de Cores:*** Cores das lixeiras seguem convenções de coleta seletiva.  
+***Layout Intuitivo:*** Layout em grade e ícones facilitam navegação.  
+***Acessibilidade Visual:*** Ícones grandes, cores contrastantes e espaçamento adequado.
 
 ### 4. Regras de Ouro (Shneiderman):
 
-Consistência: Design uniforme nas lixeiras.  
-Atalhos: Design simples facilita navegação sem texto.  
-Feedback Informativo: Espera-se interação ao clicar nas lixeiras (com animações).  
-Minimizar Carga de Memória: O conteúdo visual facilita a compreensão.  
-Controle ao Usuário: Navegação clara e intuitiva.  
-Prevenir Erros: Cores e ícones ajudam a evitar confusão.  
-Ajuda e Documentação: Subtítulo e instruções rápidas orientam o usuário.
+***Consistência:*** Design uniforme nas lixeiras.  
+***Atalhos:*** Design simples facilita navegação sem texto.  
+***Feedback Informativo:*** Espera-se interação ao clicar nas lixeiras (com animações).  
+***Minimizar Carga de Memória:*** O conteúdo visual facilita a compreensão.  
+***Controle ao Usuário:*** Navegação clara e intuitiva.  
+***Prevenir Erros:*** Cores e ícones ajudam a evitar confusão.  
+***Ajuda e Documentação:*** Subtítulo e instruções rápidas orientam o usuário.
 
 <img width="1298" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
 
@@ -113,26 +113,26 @@ Quando o usuário acessa a opção “Ranking de Sustentabilidade” no sistema:
 
 ### 2. Princípios Gestálticos
 
-Proximidade: Os nomes dos usuários, seus pontos e os respectivos avatares estão agrupados visualmente, o que facilita a associação de cada elemento como parte de uma mesma unidade (linha do ranking).  
-Similaridade: Os elementos repetem a mesma estrutura (ícone + nome + pontuação) com o mesmo estilo gráfico, criando consistência e facilitando a identificação de padrões.  
-Figura-fundo: O fundo acinzentado com textura discreta destaca os blocos verdes dos rankings, criando contraste e reforçando a percepção de elementos clicáveis ou importantes.  
-Continuidade: O alinhamento vertical das informações (posição → avatar → nome → pontos) guia o olhar do usuário de forma fluida, contribuindo para uma boa legibilidade.  
-Foco: As medalhas de 1º, 2º e 3º lugares chamam mais atenção com ícones e cores distintas, destacando as três primeiras posições com clareza visual.  
+***Proximidade:*** Os nomes dos usuários, seus pontos e os respectivos avatares estão agrupados visualmente, o que facilita a associação de cada elemento como parte de uma mesma unidade (linha do ranking).  
+***Similaridade:*** Os elementos repetem a mesma estrutura (ícone + nome + pontuação) com o mesmo estilo gráfico, criando consistência e facilitando a identificação de padrões.  
+***Figura-fundo:*** O fundo acinzentado com textura discreta destaca os blocos verdes dos rankings, criando contraste e reforçando a percepção de elementos clicáveis ou importantes.  
+***Continuidade:*** O alinhamento vertical das informações (posição → avatar → nome → pontos) guia o olhar do usuário de forma fluida, contribuindo para uma boa legibilidade.  
+***Foco:*** As medalhas de 1º, 2º e 3º lugares chamam mais atenção com ícones e cores distintas, destacando as três primeiras posições com clareza visual.  
 
 
 ### 3. Recomendações Ergonômicas
 
-Agrupamento e distinção entre itens: A hierarquia visual é bem definida: título em destaque, ranking listado com diferenciação por posição. Os elementos similares foram agrupados de forma lógica.  
-Feedback imediato: A tela fornece um bom feedback passivo. A pontuação aparece diretamente, sem exigir interação.  
-Carga de trabalho: A tela é simples, clara e não exige memorização ou esforço do usuário para compreender as informações.  
+***Agrupamento e distinção entre itens:*** A hierarquia visual é bem definida: título em destaque, ranking listado com diferenciação por posição. Os elementos similares foram agrupados de forma lógica.  
+***Feedback imediato:*** A tela fornece um bom feedback passivo. A pontuação aparece diretamente, sem exigir interação.  
+***Carga de trabalho:*** A tela é simples, clara e não exige memorização ou esforço do usuário para compreender as informações.  
 
 ### 4. Regras de Ouro (Shneiderman):
 
-Consistência: A tela mantém um estilo visual consistente: cores, tipografia, disposição dos itens e ícones.  
-Feedback informativo: O usuário entende imediatamente a posição no ranking e a pontuação, o que caracteriza um feedback passivo eficaz.  
-Fechar o ciclo de diálogo: O conteúdo está completo e fechado, não exige ações do usuário para concluir uma tarefa.  
-Permitir desfazer ações: Como é uma tela de visualização, não há ações para desfazer.  
-Redução da carga da memória do usuário: A informação é apresentada de forma clara e acessível, sem exigir que o usuário memorize etapas anteriores.  
+***Consistência:*** A tela mantém um estilo visual consistente: cores, tipografia, disposição dos itens e ícones.  
+***Feedback informativo:*** O usuário entende imediatamente a posição no ranking e a pontuação, o que caracteriza um feedback passivo eficaz.  
+***Fechar o ciclo de diálogo:*** O conteúdo está completo e fechado, não exige ações do usuário para concluir uma tarefa.  
+***Permitir desfazer ações:*** Como é uma tela de visualização, não há ações para desfazer.  
+***Redução da carga da memória do usuário:*** A informação é apresentada de forma clara e acessível, sem exigir que o usuário memorize etapas anteriores.  
 
 <img width="1151" alt="Prototipo Ranking de Sustentabilidade" src="https://github.com/user-attachments/assets/97eff055-0479-42c9-8d5e-5e4621d46b28" />
 
