@@ -145,7 +145,7 @@ A tela permite que novos usuários criem uma conta na plataforma. Nela, são sol
 
 ### 1. Objetivo da Tela  
 
-A tela “Gerenciar Perfil” permite ao usuário atualizar suas informações pessoais, como e-mail, senha e imagem de perfil. A interface oferece campos para redefinir a senha atual e confirmar a nova senha, bem como um botão para carregar uma nova foto de perfil. Ao final, há um botão “Salvar alterações” que confirma as modificações feitas pelo usuário.
+A tela permite ao usuário atualizar suas informações pessoais, como e-mail, senha e imagem de perfil. A interface oferece campos para redefinir a senha atual e confirmar a nova senha, bem como um botão para carregar uma nova foto de perfil. Ao final, há um botão “Salvar alterações” que confirma as modificações feitas pelo usuário.
 
 ### 2. Princípios Gestálticos
 
