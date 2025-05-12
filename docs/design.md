@@ -61,6 +61,44 @@
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
 
+## Protótipo Login
+
+### 1. Objetivo da Tela  
+
+A tela exibe um formulário de autenticação, onde o usuário informa login e senha previamente cadastrados. Ao clicar no botão “Entrar”, o sistema verifica as credenciais e permite o acesso caso estejam corretas.
+
+A tela também oferece a opção “Cadastre-se”, que direciona o usuário para a tela de Cadastro, caso ainda não possua um cadastro.
+
+
+### 2. Princípios Gestálticos
+
+***Proximidade:*** Os campos de login e senha estão próximos um do outro, formando um grupo visual coerente de entrada de dados. O botão “Entrar” também está logo abaixo, reforçando a ideia de sequência de ação.
+***Semelhança:*** Os campos de texto (“Login” e “Senha”) possuem o mesmo formato e ícone à esquerda, o que facilita a associação como partes de um mesmo grupo funcional. Botões (“Entrar” e “Cadastre-se”) têm estilos distintos, o que diferencia as ações primária e secundária.
+***Figura/Fundo:*** O container branco central (com campos e botões) se destaca do fundo acinzentado discreto, facilitando a percepção do que é clicável e separando visualmente o conteúdo principal do plano de fundo.
+***Continuidade:*** A organização vertical dos elementos (campos de entrada → botão de ação → link de recuperação → botão de cadastro) guia o olhar do usuário de forma natural e fluida, do topo para baixo.
+***Foco:*** O botão verde “Entrar” se destaca como principal ação da tela, tanto pela cor vibrante quanto pela posição. O botão “Cadastre-se” em azul também chama atenção, mas com menor prioridade, cumprindo bem sua função como ação secundária.
+***Fechamento:*** Campos arredondados criam blocos visuais coesos.
+
+### 3. Recomendações Ergonômicas
+
+***Agrupamento e distinção entre itens:*** Elementos dispostos em ordem lógica: logo → campos → ações.
+***Feedback imediato:*** Campos mudam com o foco; botão "Entrar" se destaca.
+***Carga de trabalho:*** Interface simples e intuitiva, sem exigir memorização.
+
+### 4. Regras de Ouro (Shneiderman):
+
+***Consistência:*** Estilo visual padronizado (cores, botões e campos).
+***Atalhos:*** “Manter conectado” facilita acessos frequentes.
+***Feedback Informativo:*** Informativo: Campos e botões respondem ao clique/foco.
+***Minimizar Carga de Memória:*** Tudo essencial está visível e intuitivo.
+***Controle ao Usuário:*** Opções claras: entrar, recuperar senha ou cadastrar.
+***Prevenir Erros:*** Layout simples reduz chances de erro.
+***Desfazer Ações:*** Tela básica, sem ações críticas para desfazer.
+***Fechar Ciclo de Diálogo:*** Ação de login leva a um próximo passo claro.
+
+![login](https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d)
+
+
 
 ## Protótipo Guia de Reciclagem
 
