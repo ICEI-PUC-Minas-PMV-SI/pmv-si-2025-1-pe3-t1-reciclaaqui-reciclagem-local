@@ -137,7 +137,7 @@ Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
 ***Prevenir Erros:*** Cores e ícones ajudam a evitar confusão.  
 ***Ajuda e Documentação:*** Subtítulo e instruções rápidas orientam o usuário.
 
-<img width="800" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
+<img width="600" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
 
 
 
