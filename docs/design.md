@@ -97,7 +97,7 @@ A tela também oferece a opção “Cadastre-se”, que direciona o usuário par
 **Desfazer Ações:** Tela básica, sem ações críticas para desfazer.  
 **Fechar Ciclo de Diálogo:** Ação de login leva a um próximo passo claro.
 
-<img width="1151" alt="login" src="https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d" />
+<img width="700" alt="login" src="https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d" />
 
 
 
@@ -137,7 +137,7 @@ Quando o usuário seleciona a opção "Guia de Reciclagem" no sistema:
 ***Prevenir Erros:*** Cores e ícones ajudam a evitar confusão.  
 ***Ajuda e Documentação:*** Subtítulo e instruções rápidas orientam o usuário.
 
-<img width="600" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
+<img width="1298" alt="Prototipo Guia de Reciclagem" src="https://github.com/user-attachments/assets/49230f1c-5764-4ccf-96e1-e378cb6241a5" />
 
 
 
