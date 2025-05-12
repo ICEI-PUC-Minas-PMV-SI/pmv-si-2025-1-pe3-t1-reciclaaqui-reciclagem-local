@@ -141,6 +141,47 @@ A tela permite que novos usuários criem uma conta na plataforma. Nela, são sol
 
 
 
+## Protótipo Gerenciar Perfil
+
+### 1. Objetivo da Tela  
+
+A tela “Gerenciar Perfil” permite ao usuário atualizar suas informações pessoais, como e-mail, senha e imagem de perfil. A interface oferece campos para redefinir a senha atual e confirmar a nova senha, bem como um botão para carregar uma nova foto de perfil. Ao final, há um botão “Salvar alterações” que confirma as modificações feitas pelo usuário.
+
+### 2. Princípios Gestálticos
+
+**Proximidade:** Os campos de e-mail e redefinição de senha estão agrupados de maneira lógica, facilitando o reconhecimento de que fazem parte de uma mesma seção de edição de dados.  
+
+**Similaridade:** Todos os campos seguem um padrão visual uniforme, com campos cinza claro, ícones de lápis para edição, e fontes consistentes, fortalecendo a coerência entre elementos.  
+
+**Figura-fundo:** O uso de um fundo branco e uma faixa central com textura acinzentada destaca os elementos interativos em primeiro plano, como o botão de envio de foto e os campos de texto.  
+
+**Continuidade:** A organização dos elementos de cima para baixo (e-mail, imagem, redefinição de senha, botão) conduz o olhar do usuário de maneira fluida e intuitiva.  
+
+**Foco:** O botão azul escuro “Salvar alterações” se destaca dos demais elementos da tela, indicando claramente a ação final desejada.
+
+### 3. Recomendações Ergonômicas
+
+**Agrupamento e distinção entre itens:** Campos bem organizados em blocos funcionais (e-mail, imagem, senha).  
+**Feedback imediato:** Os campos de edição têm ícones visíveis (lápis), sugerindo edição; espera-se que os campos e botões ofereçam resposta visual ao toque.  
+**Carga de trabalho:** A interface é simples, objetiva e não sobrecarrega o usuário com informações desnecessárias.  
+**Consistência visual:** Ícones, cores e tipografia reforçam a identidade da interface.
+
+### 4. Regras de Ouro (Shneiderman):
+
+**Consistência:** Os elementos seguem o mesmo padrão visual das outras telas do sistema.  
+**Atalhos:** A função de carregar nova foto está em local acessível e visível, agilizando a ação.  
+**Feedback Informativo:** Espera-se feedback visual ou textual ao clicar em “Salvar alterações” ou ao interagir com os campos.  
+**Minimizar Carga de Memória:** Todas as informações e ações estão visíveis, sem necessidade de memorização de passos.  
+**Controle ao Usuário:** O usuário pode editar ou não suas informações e cancelar a ação antes de confirmar.  
+**Prevenir Erros:** A confirmação de nova senha ajuda a evitar trocas não intencionais.  
+**Desfazer Ações:** Possibilidade de apagar ou corrigir dados antes de salvar.  
+**Fechar Ciclo de Diálogo:** O botão “Salvar alterações” finaliza claramente a ação, indicando que as mudanças foram aplicadas.
+
+<img width="900" alt="gerenciar-perfil" src="https://github.com/user-attachments/assets/0add2dd0-2438-4b68-9583-3abc42fac5fa" />
+
+
+
+
 ## Protótipo Guia de Reciclagem
 
 ### 1. Objetivo da Tela  
