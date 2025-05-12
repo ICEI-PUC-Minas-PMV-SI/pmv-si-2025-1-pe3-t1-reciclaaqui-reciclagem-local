@@ -70,32 +70,32 @@ A tela também oferece a opção “Cadastre-se”, que direciona o usuário par
 
 ### 2. Princípios Gestálticos
 
-**Proximidade:** Os campos de login e senha estão próximos um do outro, formando um grupo visual coerente de entrada de dados. O botão “Entrar” também está logo abaixo, reforçando a ideia de sequência de ação.  
+***Proximidade:*** Os campos de login e senha estão próximos um do outro, formando um grupo visual coerente de entrada de dados. O botão “Entrar” também está logo abaixo, reforçando a ideia de sequência de ação.  
 
-**Similaridade:** Os campos de texto (“Login” e “Senha”) possuem o mesmo formato e ícone à esquerda, o que facilita a associação como partes de um mesmo grupo funcional. Botões (“Entrar” e “Cadastre-se”) têm estilos distintos, o que diferencia as ações primária e secundária.  
+***Similaridade:*** Os campos de texto (“Login” e “Senha”) possuem o mesmo formato e ícone à esquerda, o que facilita a associação como partes de um mesmo grupo funcional. Botões (“Entrar” e “Cadastre-se”) têm estilos distintos, o que diferencia as ações primária e secundária.  
 
-**Figura-fundo:** O container branco central (com campos e botões) se destaca do fundo acinzentado discreto, facilitando a percepção do que é clicável e separando visualmente o conteúdo principal do plano de fundo.  
+***Figura-fundo:*** O container branco central (com campos e botões) se destaca do fundo acinzentado discreto, facilitando a percepção do que é clicável e separando visualmente o conteúdo principal do plano de fundo.  
 
-**Continuidade:** A organização vertical dos elementos (campos de entrada → botão de ação → link de recuperação → botão de cadastro) guia o olhar do usuário de forma natural e fluida, do topo para baixo.  
+***Continuidade:*** A organização vertical dos elementos (campos de entrada → botão de ação → link de recuperação → botão de cadastro) guia o olhar do usuário de forma natural e fluida, do topo para baixo.  
 
-**Foco:** O botão verde “Entrar” se destaca como principal ação da tela, tanto pela cor vibrante quanto pela posição. O botão “Cadastre-se” em azul também chama atenção, mas com menor prioridade, cumprindo bem sua função como ação secundária.
+***Foco:*** O botão verde “Entrar” se destaca como principal ação da tela, tanto pela cor vibrante quanto pela posição. O botão “Cadastre-se” em azul também chama atenção, mas com menor prioridade, cumprindo bem sua função como ação secundária.
 
 ### 3. Recomendações Ergonômicas
 
-**Agrupamento e distinção entre itens:** Elementos dispostos em ordem lógica: logo → campos → ações.  
-**Feedback imediato:** Campos mudam com o foco; botão "Entrar" se destaca.  
-**Carga de trabalho:** Interface simples e intuitiva, sem exigir memorização.
+***Agrupamento e distinção entre itens:*** Elementos dispostos em ordem lógica: logo → campos → ações.  
+***Feedback imediato:*** Campos mudam com o foco; botão "Entrar" se destaca.  
+***Carga de trabalho:*** Interface simples e intuitiva, sem exigir memorização.
 
 ### 4. Regras de Ouro (Shneiderman):
 
-**Consistência:** Estilo visual padronizado (cores, botões e campos).  
-**Atalhos:** “Manter conectado” facilita acessos frequentes.  
-**Feedback Informativo:** Campos e botões respondem ao clique/foco.  
-**Minimizar Carga de Memória:** Tudo essencial está visível e intuitivo.  
-**Controle ao Usuário:** Opções claras: entrar, recuperar senha ou cadastrar.  
-**Prevenir Erros:** Layout simples reduz chances de erro.  
-**Desfazer Ações:** Tela básica, sem ações críticas para desfazer.  
-**Fechar Ciclo de Diálogo:** Ação de login leva a um próximo passo claro.
+***Consistência:*** Estilo visual padronizado (cores, botões e campos).  
+***Atalhos:*** “Manter conectado” facilita acessos frequentes.  
+***Feedback Informativo:*** Campos e botões respondem ao clique/foco.  
+***Minimizar Carga de Memória:*** Tudo essencial está visível e intuitivo.  
+***Controle ao Usuário:*** Opções claras: entrar, recuperar senha ou cadastrar.  
+***Prevenir Erros:*** Layout simples reduz chances de erro.  
+***Desfazer Ações:*** Tela básica, sem ações críticas para desfazer.  
+***Fechar Ciclo de Diálogo:*** Ação de login leva a um próximo passo claro.
 
 <img width="900" alt="login" src="https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d" />
 
@@ -109,33 +109,33 @@ A tela permite que novos usuários criem uma conta na plataforma. Nela, são sol
 
 ### 2. Princípios Gestálticos
 
-**Proximidade:** Os três campos estão alinhados verticalmente com espaçamento, formando um agrupamento lógico e visual coeso.  
+***Proximidade:*** Os três campos estão alinhados verticalmente com espaçamento, formando um agrupamento lógico e visual coeso.  
 
-**Similaridade:** Todos os campos seguem o mesmo padrão de design com ícones à esquerda, campos com o mesmo tamanho e estilo, facilitando a identificação de que pertencem ao mesmo conjunto funcional.  
+***Similaridade:*** Todos os campos seguem o mesmo padrão de design com ícones à esquerda, campos com o mesmo tamanho e estilo, facilitando a identificação de que pertencem ao mesmo conjunto funcional.  
 
-**Figura-fundo:** O formulário está inserido em um container branco sobre um fundo acinzentado com textura, o que facilita a distinção clara entre conteúdo principal e plano de fundo.  
+***Figura-fundo:*** O formulário está inserido em um container branco sobre um fundo acinzentado com textura, o que facilita a distinção clara entre conteúdo principal e plano de fundo.  
 
-**Continuidade:** A estrutura vertical conduz o olhar do usuário naturalmente do título até o botão “Cadastrar”, promovendo um fluxo de navegação fluido.  
+***Continuidade:*** A estrutura vertical conduz o olhar do usuário naturalmente do título até o botão “Cadastrar”, promovendo um fluxo de navegação fluido.  
 
-**Foco:** O botão azul escuro “Cadastrar” se destaca dos demais elementos, indicando com clareza a ação principal esperada nesta tela.
+***Foco:*** O botão azul escuro “Cadastrar” se destaca dos demais elementos, indicando com clareza a ação principal esperada nesta tela.
 
 ### 3. Recomendações Ergonômicas
 
-**Agrupamento e distinção entre itens:** A separação clara entre campos e botão torna a interação intuitiva.  
-**Feedback imediato:** Espera-se que os campos respondam ao foco e preenchimento com mudanças visuais (ex: borda azul, preenchimento suave).  
-**Carga de trabalho:** A tela contém apenas o essencial, reduzindo a sobrecarga mental e tornando o cadastro simples e direto.  
-**Segurança perceptível:** Ícones de cadeado nos campos de senha reforçam a noção de proteção de dados.
+***Agrupamento e distinção entre itens:*** A separação clara entre campos e botão torna a interação intuitiva.  
+***Feedback imediato:*** Espera-se que os campos respondam ao foco e preenchimento com mudanças visuais (ex: borda azul, preenchimento suave).  
+***Carga de trabalho:*** A tela contém apenas o essencial, reduzindo a sobrecarga mental e tornando o cadastro simples e direto.  
+***Segurança perceptível:*** Ícones de cadeado nos campos de senha reforçam a noção de proteção de dados.
 
 ### 4. Regras de Ouro (Shneiderman):
 
-**Consistência:** A tela segue o padrão visual estabelecido pelo restante da plataforma, com campos e botões no mesmo estilo.  
-**Atalhos:** O campo “Confirmar Senha” ajuda a evitar erros futuros, sem exigir memorizações complexas.  
-**Feedback Informativo:** A interação com os campos e o clique no botão devem retornar feedbacks claros (visuais e/ou mensagens).  
-**Minimizar Carga de Memória:** Todas as instruções e campos estão visíveis, não exigindo recordações do usuário.  
-**Controle ao Usuário:** O usuário pode optar por cadastrar-se ou retornar para a tela anterior sem bloqueios.  
-**Prevenir Erros:** A confirmação da senha evita falhas comuns de digitação.  
-**Desfazer Ações:** O usuário pode apagar ou editar qualquer campo antes de enviar.  
-**Fechar Ciclo de Diálogo:** Após clicar em “Cadastrar”, o sistema deve apresentar uma resposta clara: sucesso ou mensagem de erro.
+***Consistência:*** A tela segue o padrão visual estabelecido pelo restante da plataforma, com campos e botões no mesmo estilo.  
+***Atalhos:*** O campo “Confirmar Senha” ajuda a evitar erros futuros, sem exigir memorizações complexas.  
+***Feedback Informativo:*** A interação com os campos e o clique no botão devem retornar feedbacks claros (visuais e/ou mensagens).  
+***Minimizar Carga de Memória:*** Todas as instruções e campos estão visíveis, não exigindo recordações do usuário.  
+***Controle ao Usuário:*** O usuário pode optar por cadastrar-se ou retornar para a tela anterior sem bloqueios.  
+***Prevenir Erros:*** A confirmação da senha evita falhas comuns de digitação.  
+***Desfazer Ações:*** O usuário pode apagar ou editar qualquer campo antes de enviar.  
+***Fechar Ciclo de Diálogo:*** Após clicar em “Cadastrar”, o sistema deve apresentar uma resposta clara: sucesso ou mensagem de erro.
 
 <img width="900" alt="cadastro" src="https://github.com/user-attachments/assets/094421e7-8393-4f16-b173-6ca3ecb378a9" />
 
@@ -149,33 +149,33 @@ A tela permite ao usuário atualizar suas informações pessoais, como e-mail, s
 
 ### 2. Princípios Gestálticos
 
-**Proximidade:** Os campos de e-mail e redefinição de senha estão agrupados de maneira lógica, facilitando o reconhecimento de que fazem parte de uma mesma seção de edição de dados.  
+***Proximidade:*** Os campos de e-mail e redefinição de senha estão agrupados de maneira lógica, facilitando o reconhecimento de que fazem parte de uma mesma seção de edição de dados.  
 
-**Similaridade:** Todos os campos seguem um padrão visual uniforme, com campos cinza claro, ícones de lápis para edição, e fontes consistentes, fortalecendo a coerência entre elementos.  
+***Similaridade:*** Todos os campos seguem um padrão visual uniforme, com campos cinza claro, ícones de lápis para edição, e fontes consistentes, fortalecendo a coerência entre elementos.  
 
-**Figura-fundo:** O uso de um fundo branco e uma faixa central com textura acinzentada destaca os elementos interativos em primeiro plano, como o botão de envio de foto e os campos de texto.  
+***Figura-fundo:*** O uso de um fundo branco e uma faixa central com textura acinzentada destaca os elementos interativos em primeiro plano, como o botão de envio de foto e os campos de texto.  
 
-**Continuidade:** A organização dos elementos de cima para baixo (e-mail, imagem, redefinição de senha, botão) conduz o olhar do usuário de maneira fluida e intuitiva.  
+***Continuidade:*** A organização dos elementos de cima para baixo (e-mail, imagem, redefinição de senha, botão) conduz o olhar do usuário de maneira fluida e intuitiva.  
 
-**Foco:** O botão azul escuro “Salvar alterações” se destaca dos demais elementos da tela, indicando claramente a ação final desejada.
+***Foco:*** O botão azul escuro “Salvar alterações” se destaca dos demais elementos da tela, indicando claramente a ação final desejada.
 
 ### 3. Recomendações Ergonômicas
 
-**Agrupamento e distinção entre itens:** Campos bem organizados em blocos funcionais (e-mail, imagem, senha).  
-**Feedback imediato:** Os campos de edição têm ícones visíveis (lápis), sugerindo edição; espera-se que os campos e botões ofereçam resposta visual ao toque.  
-**Carga de trabalho:** A interface é simples, objetiva e não sobrecarrega o usuário com informações desnecessárias.  
-**Consistência visual:** Ícones, cores e tipografia reforçam a identidade da interface.
+***Agrupamento e distinção entre itens:*** Campos bem organizados em blocos funcionais (e-mail, imagem, senha).  
+***Feedback imediato:*** Os campos de edição têm ícones visíveis (lápis), sugerindo edição; espera-se que os campos e botões ofereçam resposta visual ao toque.  
+***Carga de trabalho:*** A interface é simples, objetiva e não sobrecarrega o usuário com informações desnecessárias.  
+***Consistência visual:*** Ícones, cores e tipografia reforçam a identidade da interface.
 
 ### 4. Regras de Ouro (Shneiderman):
 
-**Consistência:** Os elementos seguem o mesmo padrão visual das outras telas do sistema.  
-**Atalhos:** A função de carregar nova foto está em local acessível e visível, agilizando a ação.  
-**Feedback Informativo:** Espera-se feedback visual ou textual ao clicar em “Salvar alterações” ou ao interagir com os campos.  
-**Minimizar Carga de Memória:** Todas as informações e ações estão visíveis, sem necessidade de memorização de passos.  
-**Controle ao Usuário:** O usuário pode editar ou não suas informações e cancelar a ação antes de confirmar.  
-**Prevenir Erros:** A confirmação de nova senha ajuda a evitar trocas não intencionais.  
-**Desfazer Ações:** Possibilidade de apagar ou corrigir dados antes de salvar.  
-**Fechar Ciclo de Diálogo:** O botão “Salvar alterações” finaliza claramente a ação, indicando que as mudanças foram aplicadas.
+***Consistência:*** Os elementos seguem o mesmo padrão visual das outras telas do sistema.  
+***Atalhos:*** A função de carregar nova foto está em local acessível e visível, agilizando a ação.  
+***Feedback Informativo:*** Espera-se feedback visual ou textual ao clicar em “Salvar alterações” ou ao interagir com os campos.  
+***Minimizar Carga de Memória:*** Todas as informações e ações estão visíveis, sem necessidade de memorização de passos.  
+***Controle ao Usuário:*** O usuário pode editar ou não suas informações e cancelar a ação antes de confirmar.  
+***Prevenir Erros:*** A confirmação de nova senha ajuda a evitar trocas não intencionais.  
+***Desfazer Ações:*** Possibilidade de apagar ou corrigir dados antes de salvar.  
+***Fechar Ciclo de Diálogo:*** O botão “Salvar alterações” finaliza claramente a ação, indicando que as mudanças foram aplicadas.
 
 <img width="900" alt="gerenciar-perfil" src="https://github.com/user-attachments/assets/0add2dd0-2438-4b68-9583-3abc42fac5fa" />
 
