@@ -97,8 +97,47 @@ A tela também oferece a opção “Cadastre-se”, que direciona o usuário par
 **Desfazer Ações:** Tela básica, sem ações críticas para desfazer.  
 **Fechar Ciclo de Diálogo:** Ação de login leva a um próximo passo claro.
 
-<img width="700" alt="login" src="https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d" />
+<img width="900" alt="login" src="https://github.com/user-attachments/assets/443eb6aa-7055-422a-b13d-f53c88d78b8d" />
 
+
+
+## Protótipo Cadastro
+
+### 1. Objetivo da Tela  
+
+A tela permite que novos usuários criem uma conta na plataforma. Nela, são solicitados três campos obrigatórios: **Email**, **Senha** e **Confirmação de Senha**. O botão “Cadastrar” finaliza o processo de criação de conta. Essa etapa é essencial para garantir o acesso  seguro ao sistema.  
+
+### 2. Princípios Gestálticos
+
+**Proximidade:** Os três campos estão alinhados verticalmente com espaçamento, formando um agrupamento lógico e visual coeso.  
+
+**Similaridade:** Todos os campos seguem o mesmo padrão de design com ícones à esquerda, campos com o mesmo tamanho e estilo, facilitando a identificação de que pertencem ao mesmo conjunto funcional.  
+
+**Figura-fundo:** O formulário está inserido em um container branco sobre um fundo acinzentado com textura, o que facilita a distinção clara entre conteúdo principal e plano de fundo.  
+
+**Continuidade:** A estrutura vertical conduz o olhar do usuário naturalmente do título até o botão “Cadastrar”, promovendo um fluxo de navegação fluido.  
+
+**Foco:** O botão azul escuro “Cadastrar” se destaca dos demais elementos, indicando com clareza a ação principal esperada nesta tela.
+
+### 3. Recomendações Ergonômicas
+
+**Agrupamento e distinção entre itens:** A separação clara entre campos e botão torna a interação intuitiva.  
+**Feedback imediato:** Espera-se que os campos respondam ao foco e preenchimento com mudanças visuais (ex: borda azul, preenchimento suave).  
+**Carga de trabalho:** A tela contém apenas o essencial, reduzindo a sobrecarga mental e tornando o cadastro simples e direto.  
+**Segurança perceptível:** Ícones de cadeado nos campos de senha reforçam a noção de proteção de dados.
+
+### 4. Regras de Ouro (Shneiderman):
+
+**Consistência:** A tela segue o padrão visual estabelecido pelo restante da plataforma, com campos e botões no mesmo estilo.  
+**Atalhos:** O campo “Confirmar Senha” ajuda a evitar erros futuros, sem exigir memorizações complexas.  
+**Feedback Informativo:** A interação com os campos e o clique no botão devem retornar feedbacks claros (visuais e/ou mensagens).  
+**Minimizar Carga de Memória:** Todas as instruções e campos estão visíveis, não exigindo recordações do usuário.  
+**Controle ao Usuário:** O usuário pode optar por cadastrar-se ou retornar para a tela anterior sem bloqueios.  
+**Prevenir Erros:** A confirmação da senha evita falhas comuns de digitação.  
+**Desfazer Ações:** O usuário pode apagar ou editar qualquer campo antes de enviar.  
+**Fechar Ciclo de Diálogo:** Após clicar em “Cadastrar”, o sistema deve apresentar uma resposta clara: sucesso ou mensagem de erro.
+
+<img width="900" alt="cadastro" src="[https://github.com/user-attachments/assets/your-image-here"](https://github.com/user-attachments/assets/094421e7-8393-4f16-b173-6ca3ecb378a9) />
 
 
 
