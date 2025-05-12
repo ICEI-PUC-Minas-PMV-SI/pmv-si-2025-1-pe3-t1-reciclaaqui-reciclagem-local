@@ -137,7 +137,7 @@ A tela permite que novos usuários criem uma conta na plataforma. Nela, são sol
 **Desfazer Ações:** O usuário pode apagar ou editar qualquer campo antes de enviar.  
 **Fechar Ciclo de Diálogo:** Após clicar em “Cadastrar”, o sistema deve apresentar uma resposta clara: sucesso ou mensagem de erro.
 
-<img width="900" alt="cadastro" src="https://github.com/user-attachments/assets/094421e7-8393-4f16-b173-6ca3ecb378a9 />
+<img width="900" alt="cadastro" src="https://github.com/user-attachments/assets/094421e7-8393-4f16-b173-6ca3ecb378a9" />
 
 
 
