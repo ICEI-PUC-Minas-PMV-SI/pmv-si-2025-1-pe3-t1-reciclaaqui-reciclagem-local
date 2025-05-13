@@ -71,13 +71,9 @@ A tela também oferece a opção “Cadastre-se”, que direciona o usuário par
 ### 2. Princípios Gestálticos
 
 ***Proximidade:*** Os campos de login e senha estão próximos um do outro, formando um grupo visual coerente de entrada de dados. O botão “Entrar” também está logo abaixo, reforçando a ideia de sequência de ação.  
-
 ***Similaridade:*** Os campos de texto (“Login” e “Senha”) possuem o mesmo formato e ícone à esquerda, o que facilita a associação como partes de um mesmo grupo funcional. Botões (“Entrar” e “Cadastre-se”) têm estilos distintos, o que diferencia as ações primária e secundária.  
-
 ***Figura-fundo:*** O container branco central (com campos e botões) se destaca do fundo acinzentado discreto, facilitando a percepção do que é clicável e separando visualmente o conteúdo principal do plano de fundo.  
-
 ***Continuidade:*** A organização vertical dos elementos (campos de entrada → botão de ação → link de recuperação → botão de cadastro) guia o olhar do usuário de forma natural e fluida, do topo para baixo.  
-
 ***Foco:*** O botão verde “Entrar” se destaca como principal ação da tela, tanto pela cor vibrante quanto pela posição. O botão “Cadastre-se” em azul também chama atenção, mas com menor prioridade, cumprindo bem sua função como ação secundária.
 
 ### 3. Recomendações Ergonômicas
@@ -110,13 +106,9 @@ A tela permite que novos usuários criem uma conta na plataforma. Nela, são sol
 ### 2. Princípios Gestálticos
 
 ***Proximidade:*** Os três campos estão alinhados verticalmente com espaçamento, formando um agrupamento lógico e visual coeso.  
-
 ***Similaridade:*** Todos os campos seguem o mesmo padrão de design com ícones à esquerda, campos com o mesmo tamanho e estilo, facilitando a identificação de que pertencem ao mesmo conjunto funcional.  
-
 ***Figura-fundo:*** O formulário está inserido em um container branco sobre um fundo acinzentado com textura, o que facilita a distinção clara entre conteúdo principal e plano de fundo.  
-
 ***Continuidade:*** A estrutura vertical conduz o olhar do usuário naturalmente do título até o botão “Cadastrar”, promovendo um fluxo de navegação fluido.  
-
 ***Foco:*** O botão azul escuro “Cadastrar” se destaca dos demais elementos, indicando com clareza a ação principal esperada nesta tela.
 
 ### 3. Recomendações Ergonômicas
@@ -150,13 +142,9 @@ A tela permite ao usuário atualizar suas informações pessoais, como e-mail, s
 ### 2. Princípios Gestálticos
 
 ***Proximidade:*** Os campos de e-mail e redefinição de senha estão agrupados de maneira lógica, facilitando o reconhecimento de que fazem parte de uma mesma seção de edição de dados.  
-
 ***Similaridade:*** Todos os campos seguem um padrão visual uniforme, com campos cinza claro, ícones de lápis para edição, e fontes consistentes, fortalecendo a coerência entre elementos.  
-
 ***Figura-fundo:*** O uso de um fundo branco e uma faixa central com textura acinzentada destaca os elementos interativos em primeiro plano, como o botão de envio de foto e os campos de texto.  
-
 ***Continuidade:*** A organização dos elementos de cima para baixo (e-mail, imagem, redefinição de senha, botão) conduz o olhar do usuário de maneira fluida e intuitiva.  
-
 ***Foco:*** O botão azul escuro “Salvar alterações” se destaca dos demais elementos da tela, indicando claramente a ação final desejada.
 
 ### 3. Recomendações Ergonômicas
@@ -270,27 +258,24 @@ Quando o usuário seleciona um ponto de coleta para avaliar:
 
 ### 2. Princípios Gestálticos
 
-***Proximidade:*** Elementos relacionados, como os critérios de avaliação (Nota Geral, Facilidade de Acesso, Horário de Funcionamento) e suas respectivas estrelas, estão próximos entre si. Isso ajuda o usuário a perceber que essas informações fazem parte de um mesmo grupo funcional.
-
-***Similaridade*** As estrelas de avaliação seguem o mesmo formato visual (tamanho, cor e estilo), indicando que todas têm a mesma função: atribuir uma nota. O mesmo vale para os títulos dos critérios, que usam uma tipografia padronizada e negrito.
-
-***Continuidade*** A disposição vertical e alinhada dos campos de avaliação guia o olhar do usuário de forma natural do topo ao botão final "Enviar Avaliação", mantendo o fluxo visual coerente.
-
+***Proximidade:*** Elementos relacionados, como os critérios de avaliação (Nota Geral, Facilidade de Acesso, Horário de Funcionamento) e suas respectivas estrelas, estão próximos entre si. Isso ajuda o usuário a perceber que essas informações fazem parte de um mesmo grupo funcional.  
+***Similaridade*** As estrelas de avaliação seguem o mesmo formato visual (tamanho, cor e estilo), indicando que todas têm a mesma função: atribuir uma nota. O mesmo vale para os títulos dos critérios, que usam uma tipografia padronizada e negrito.  
+***Continuidade*** A disposição vertical e alinhada dos campos de avaliação guia o olhar do usuário de forma natural do topo ao botão final "Enviar Avaliação", mantendo o fluxo visual coerente.  
 ***Figura-Fundo*** O uso de fundo branco com elementos em verde e amarelo cria um contraste eficaz, facilitando a identificação do conteúdo relevante (estrelas, botões, textos) em relação ao plano de fundo.
 
 ### 3. Recomendações Ergonômicas
 
 ***Uso de Cores:*** As cores utilizadas seguem um padrão para assuntos relacionados ao Meio Ambiente.  
 ***Carga de trabalho:*** A tela é simples, clara e não exige memorização ou esforço do usuário para compreender as informações.  
-***Feedback imediato:*** Os campos de avaliação oferecem resposta imediata ao clique.
+***Feedback imediato:*** Os campos de avaliação oferecem resposta imediata ao clique.  
 ***Legibilidade:*** Texto com fontes legíveis e bom contraste entre os textos e o fundo.  
 
 
 ### 4. Regras de Ouro (Shneiderman):
 
-***Consistência:*** Todos os botões, ícones e fontes seguem um padrão visual consistente, facilitando o reconhecimento de ações.
-***Prevenir erros*** Campos obrigatórios estão bem sinalizados.
-***Reduzir a carga de memória do usuário***  As informações sobre os pontos de coleta e ícones são exibidos evitando que o usuário precise memorizar detalhes.
+***Consistência:*** Todos os botões, ícones e fontes seguem um padrão visual consistente, facilitando o reconhecimento de ações.  
+***Prevenir erros*** Campos obrigatórios estão bem sinalizados.  
+***Reduzir a carga de memória do usuário***  As informações sobre os pontos de coleta e ícones são exibidos evitando que o usuário precise memorizar detalhes.  
 ***Controle ao Usuário:*** O usuário pode editar ou não sua avaliação antes de enviar.  
 ***Fechar Ciclo de Diálogo:*** Após clicar no botão de enviar avaliação, o sistema exibirá uma mensagem confimando o sucesso ou erro da ação.
 
