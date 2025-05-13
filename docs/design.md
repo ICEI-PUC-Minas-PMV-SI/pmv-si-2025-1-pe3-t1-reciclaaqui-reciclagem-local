@@ -256,3 +256,44 @@ Quando o usuário acessa a opção “Ranking de Sustentabilidade” no sistema:
 
 <img width="1151" alt="Prototipo Ranking de Sustentabilidade" src="https://github.com/user-attachments/assets/97eff055-0479-42c9-8d5e-5e4621d46b28" />
 
+## Protótipo Avaliar Pontos de Coleta
+
+### 1. Objetivo da Tela
+
+A tela tem como objetivo permitir que os usuários avaliem os pontos de coleta disponíveis no sistema, fornecendo feedbacks sobre aspectos como qualidade geral, facilidade de acesso e horário de funcionamento. As avaliações são atribuídas individualmente a cada quesito por meio de um sistema de estrelas, e a nota geral do ponto de coleta é calculada com base na média dessas avaliações. 
+
+Quando o usuário seleciona um ponto de coleta para avaliar:
+- O sistema exibe dados básicos do local selecionado (nome e endereço).
+- A interface apresenta campos de avaliação com estrelas para Nota Geral, Facilidade de Acesso e Horário de Funcionamento.
+- O usuário pode complementar a avaliação com um comentário opcional.
+- Ao finalizar, o botão "Enviar Avaliação" registra o feedback.
+
+### 2. Princípios Gestálticos
+
+***Proximidade:*** Elementos relacionados, como os critérios de avaliação (Nota Geral, Facilidade de Acesso, Horário de Funcionamento) e suas respectivas estrelas, estão próximos entre si. Isso ajuda o usuário a perceber que essas informações fazem parte de um mesmo grupo funcional.
+
+***Similaridade*** As estrelas de avaliação seguem o mesmo formato visual (tamanho, cor e estilo), indicando que todas têm a mesma função: atribuir uma nota. O mesmo vale para os títulos dos critérios, que usam uma tipografia padronizada e negrito.
+
+***Continuidade*** A disposição vertical e alinhada dos campos de avaliação guia o olhar do usuário de forma natural do topo ao botão final "Enviar Avaliação", mantendo o fluxo visual coerente.
+
+***Figura-Fundo*** O uso de fundo branco com elementos em verde e amarelo cria um contraste eficaz, facilitando a identificação do conteúdo relevante (estrelas, botões, textos) em relação ao plano de fundo.
+
+### 3. Recomendações Ergonômicas
+
+***Uso de Cores:*** As cores utilizadas seguem um padrão para assuntos relacionados ao Meio Ambiente.  
+***Carga de trabalho:*** A tela é simples, clara e não exige memorização ou esforço do usuário para compreender as informações.  
+***Feedback imediato:*** Os campos de avaliação oferecem resposta imediata ao clique.
+***Legibilidade:*** Texto com fontes legíveis e bom contraste entre os textos e o fundo.  
+
+
+### 4. Regras de Ouro (Shneiderman):
+
+***Consistência:*** Todos os botões, ícones e fontes seguem um padrão visual consistente, facilitando o reconhecimento de ações.
+***Prevenir erros*** Campos obrigatórios estão bem sinalizados.
+***Reduzir a carga de memória do usuário***  As informações sobre os pontos de coleta e ícones são exibidos evitando que o usuário precise memorizar detalhes.
+***Controle ao Usuário:*** O usuário pode editar ou não sua avaliação antes de enviar.  
+***Fechar Ciclo de Diálogo:*** Após clicar no botão de enviar avaliação, o sistema exibirá uma mensagem confimando o sucesso ou erro da ação.
+
+<img width="1200" alt="Avaliar Pontos de Coleta" src="https://github.com/user-attachments/assets/019358e5-6429-435e-9fc0-549d9744a8d3" />
+
+
