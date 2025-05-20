@@ -296,26 +296,26 @@ Os principais elementos da interface incluem:
 
 ### 2. Princípios Gestálticos
 
-***Proximidade***: Cada bloco de notícia agrupa imagem, título e data/hora de publicação próximos entre si, reforçando que fazem parte do mesmo item informativo.
-***Similaridade***: Todos os blocos de notícias seguem o mesmo layout (imagem à esquerda, texto à direita), facilitando a identificação e leitura. Os ícones laterais também compartilham o mesmo estilo visual.
-***Continuidade***: A organização vertical e sequencial dos blocos de notícia guia naturalmente o olhar do usuário de cima para baixo, favorecendo a leitura contínua.
-Figura-Fundo: O fundo cinza claro contrasta com os cartões brancos das notícias, destacando claramente o conteúdo principal e evitando confusão visual.
+***Proximidade:*** Cada bloco de notícia agrupa imagem, título e data/hora de publicação próximos entre si, reforçando que fazem parte do mesmo item informativo.
+***Similaridade:*** Todos os blocos de notícias seguem o mesmo layout (imagem à esquerda, texto à direita), facilitando a identificação e leitura. Os ícones laterais também compartilham o mesmo estilo visual.
+***Continuidade:*** A organização vertical e sequencial dos blocos de notícia guia naturalmente o olhar do usuário de cima para baixo, favorecendo a leitura contínua.
+***Figura-Fundo:*** O fundo cinza claro contrasta com os cartões brancos das notícias, destacando claramente o conteúdo principal e evitando confusão visual.
 
 ### 3. Recomendações Ergonômicas
 
-***Uso de Cores***: As cores predominantes (verde, branco e cinza) reforçam a temática ambiental e mantêm um visual limpo e harmonioso.
-***Carga de trabalho***: A tela é simples e objetiva, apresentando o conteúdo de forma clara, sem sobrecarregar o usuário com informações desnecessárias.
-***Feedback imediato***: A busca e os ícones de interação (compartilhar, salvar) sugerem ações diretas e fáceis de compreender.
-***Legibilidade***: O uso de fonte preta sobre fundo branco e cinza claro garante boa leitura. Títulos em negrito ajudam na identificação rápida dos conteúdos.
+***Uso de Cores:*** As cores predominantes (verde, branco e cinza) reforçam a temática ambiental e mantêm um visual limpo e harmonioso.
+***Carga de trabalho:*** A tela é simples e objetiva, apresentando o conteúdo de forma clara, sem sobrecarregar o usuário com informações desnecessárias.
+***Feedback imediato:*** A busca e os ícones de interação (compartilhar, salvar) sugerem ações diretas e fáceis de compreender.
+***Legibilidade:*** O uso de fonte preta sobre fundo branco e cinza claro garante boa leitura. Títulos em negrito ajudam na identificação rápida dos conteúdos.
 
 
 ### 4. Regras de Ouro (Shneiderman):
 
-***Consistência***: O layout das notícias e os ícones seguem um padrão coeso, reforçando a familiaridade com a navegação.
-***Prevenir erros***: A estrutura da interface evita cliques confusos, com ícones bem separados e intuitivos.
-***Reduzir a carga de memória do usuário***: As informações essenciais (título, imagem e data) estão visíveis, não exigindo memorização.
-***Controle ao Usuário***: O usuário decide o que buscar, ler, compartilhar ou salvar.
-***Fechar Ciclo de Diálogo***: Ao interagir com botões como "salvar" ou "compartilhar", é esperado que o sistema forneça feedback visual ou textual, indicando que a ação foi realizada com sucesso.
+***Consistência:*** O layout das notícias e os ícones seguem um padrão coeso, reforçando a familiaridade com a navegação.
+***Prevenir erros:*** A estrutura da interface evita cliques confusos, com ícones bem separados e intuitivos.
+***Reduzir a carga de memória do usuário:*** As informações essenciais (título, imagem e data) estão visíveis, não exigindo memorização.
+***Controle ao Usuário:*** O usuário decide o que buscar, ler, compartilhar ou salvar.
+***Fechar Ciclo de Diálogo:*** Ao interagir com botões como "salvar" ou "compartilhar", é esperado que o sistema forneça feedback visual ou textual, indicando que a ação foi realizada com sucesso.
 
 <img width="1200" alt="Avaliar Pontos de Coleta" src="https://i.imgur.com/OnrPhMw.png" />
 
@@ -336,26 +336,26 @@ Os principais elementos da interface incluem:
 
 ### 2. Princípios Gestálticos
 
-***Proximidade***: As miniaturas dos vídeos estão agrupadas com seus respectivos títulos e duração, facilitando a identificação de que fazem parte de um mesmo item.
-***Similaridade***: Os vídeos seguem o mesmo padrão de exibição (miniatura com moldura, título abaixo e tempo no canto inferior), o que contribui para uma navegação mais intuitiva.
-***Continuidade***: A disposição horizontal dos vídeos em linha orienta naturalmente o olhar do usuário da esquerda para a direita, promovendo uma navegação fluida.
-***Figura-Fundo***: O fundo cinza claro e os cartões brancos dos vídeos criam contraste, destacando os elementos principais e facilitando a leitura visual.
+***Proximidade:*** As miniaturas dos vídeos estão agrupadas com seus respectivos títulos e duração, facilitando a identificação de que fazem parte de um mesmo item.
+***Similaridade:*** Os vídeos seguem o mesmo padrão de exibição (miniatura com moldura, título abaixo e tempo no canto inferior), o que contribui para uma navegação mais intuitiva.
+***Continuidade:*** A disposição horizontal dos vídeos em linha orienta naturalmente o olhar do usuário da esquerda para a direita, promovendo uma navegação fluida.
+***Figura-Fundo:*** O fundo cinza claro e os cartões brancos dos vídeos criam contraste, destacando os elementos principais e facilitando a leitura visual.
 
 ### 3. Recomendações Ergonômicas
 
-***Uso de Cores***: A interface usa tons de verde e cinza, alinhados com a identidade visual ecológica e com boa harmonia visual.
-***Carga de trabalho***: A tela oferece informações de maneira simples, visual e direta, com vídeos curtos e bem sinalizados.
-***Feedback imediato***: O botão de busca e os vídeos indicam ações claras ao passar o cursor, promovendo resposta imediata.
-***Legibilidade***: Tipografias com bom espaçamento, cores de alto contraste e títulos curtos ajudam na leitura rápida e sem esforço.
+***Uso de Cores:*** A interface usa tons de verde e cinza, alinhados com a identidade visual ecológica e com boa harmonia visual.
+***Carga de trabalho:*** A tela oferece informações de maneira simples, visual e direta, com vídeos curtos e bem sinalizados.
+***Feedback imediato:*** O botão de busca e os vídeos indicam ações claras ao passar o cursor, promovendo resposta imediata.
+***Legibilidade:*** Tipografias com bom espaçamento, cores de alto contraste e títulos curtos ajudam na leitura rápida e sem esforço.
 
 
 ### 4. Regras de Ouro (Shneiderman):
 
-***Consistência***: Os vídeos, botões e links seguem padrões visuais uniformes, facilitando o uso por parte do usuário.
-***Prevenir erros***: A interface é limpa, com poucos elementos clicáveis agrupados de forma lógica, evitando erros de navegação.
-***Reduzir a carga de memória do usuário***: As informações são visuais e contextualizadas, eliminando a necessidade de memorização.
-***Controle ao Usuário***: O usuário escolhe o vídeo que deseja assistir, podendo navegar ou buscar outros conteúdos livremente.
-***Fechar Ciclo de Diálogo***: Após assistir a um vídeo, o usuário pode continuar explorando a tela ou seguir para outras seções informativas.
+***Consistência:*** Os vídeos, botões e links seguem padrões visuais uniformes, facilitando o uso por parte do usuário.
+***Prevenir erros:*** A interface é limpa, com poucos elementos clicáveis agrupados de forma lógica, evitando erros de navegação.
+***Reduzir a carga de memória do usuário:*** As informações são visuais e contextualizadas, eliminando a necessidade de memorização.
+***Controle ao Usuário:*** O usuário escolhe o vídeo que deseja assistir, podendo navegar ou buscar outros conteúdos livremente.
+***Fechar Ciclo de Diálogo:*** Após assistir a um vídeo, o usuário pode continuar explorando a tela ou seguir para outras seções informativas.
 
 <img width="1200" alt="Avaliar Pontos de Coleta" src="https://i.imgur.com/6uG2SyM.png" />
 
