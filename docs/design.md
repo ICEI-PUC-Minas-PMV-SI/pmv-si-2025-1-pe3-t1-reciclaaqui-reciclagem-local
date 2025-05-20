@@ -289,10 +289,10 @@ A tela tem como objetivo informar os usuários sobre notícias atuais relacionad
 
 Os principais elementos da interface incluem:
 
--Lista de notícias com imagens e títulos resumidos.
--Data e hora da publicação de cada notícia.
--Campo de busca no topo da tela.
--Ícones laterais para acessar notícias em alta, compartilhar e visualizar notícias salvas.
+- Lista de notícias com imagens e títulos resumidos.
+- Data e hora da publicação de cada notícia.
+- Campo de busca no topo da tela.
+- Ícones laterais para acessar notícias em alta, compartilhar e visualizar notícias salvas.
 
 ### 2. Princípios Gestálticos
 
@@ -328,11 +328,11 @@ A tela tem como objetivo educar os usuários sobre práticas e conceitos de reci
 
 Os principais elementos da interface incluem:
 
--Banner de destaque com chamada educativa.
--Seção de vídeos com miniaturas, títulos e duração.
--Campo de busca para filtrar conteúdos.
--Menu lateral com links para conteúdos adicionais (Artigos, Fóruns, Mais informações).
--Aviso em destaque incentivando o preenchimento de um formulário.
+- Banner de destaque com chamada educativa.
+- Seção de vídeos com miniaturas, títulos e duração.
+- Campo de busca para filtrar conteúdos.
+- Menu lateral com links para conteúdos adicionais (Artigos, Fóruns, Mais informações).
+- Aviso em destaque incentivando o preenchimento de um formulário.
 
 ### 2. Princípios Gestálticos
 
