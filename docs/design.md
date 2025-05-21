@@ -380,4 +380,40 @@ Os principais elementos da interface incluem:
 <img width="1200" alt="Avaliar Pontos de Coleta" src="https://i.imgur.com/6uG2SyM.png" />
 
 
+## Protótipo Compartilhar Informações 
+
+### 1. Objetivo da Tela
+
+A tela tem como objetivo permitir que os usuários compartilhem conteúdos e informações relevantes sobre reciclagem por meio de diferentes canais. O compartilhamento amplia o alcance do conteúdo e estimula o engajamento com práticas sustentáveis.
+
+Quando o usuário seleciona a opção "compartilhar" na tela de gerenciar conteúdo informativo, o sistema:
+
+- Exibe o título, imagem e data da publicação selecionada.
+- Apresenta quatro opções de compartilhamento: **WhatsApp**, **Email**, **Copiar link** e **Facebook**.
+- Permite o compartilhamento com apenas um clique, usando ícones visuais que facilitam o reconhecimento.
+
+### 2. Princípios Gestálticos
+
+***Proximidade:*** Os botões de compartilhamento estão agrupados logo abaixo do conteúdo da notícia, reforçando sua relação direta com a ação de compartilhar.  
+***Similaridade:*** Todos os botões seguem o mesmo estilo visual (tamanho, borda arredondada e ícone + texto), deixando claro que representam ações semelhantes.  
+***Figura-Fundo:*** O uso de uma janela modal com fundo branco sobreposto ao conteúdo cria contraste e direciona a atenção do usuário à ação de compartilhamento.  
+***Foco:*** A tela reduz distrações ao destacar a informação principal e apresentar as ações disponíveis de forma clara.
+
+### 3. Recomendações Ergonômicas
+
+***Carga de trabalho:*** A interface é simples e direta, reduzindo o esforço cognitivo e evitando a sobrecarga de informações.  
+***Legibilidade:*** Tipografia limpa e contraste adequado entre texto e fundo garantem boa leitura e compreensão rápida. <br>
+***Acessibilidade Visual:*** Ícones grandes, bom contraste de cores e espaçamento que facilita o toque e a leitura. <br>
+ ***Feedback imediato:***  A botão de compartilhar responde imediatamente enviando a informação para o canal selecionado pelo usuário.
+
+### 4. Regras de Ouro (Shneiderman)
+
+***Consistência:*** Todos os botões têm o mesmo formato, tamanho e linguagem visual.  
+***Reduzir a carga de memória do usuário:*** O conteúdo da notícia é exibido no mesmo espaço da ação, evitando a necessidade de lembrar detalhes de outra tela.  
+***Prevenir erros:*** A interface limita a ação do usuário a cliques em canais predefinidos, reduzindo a chance de erro.  
+***Controle ao Usuário:*** O usuário escolhe livremente o canal por onde deseja compartilhar.  
+***Fechar Ciclo de Diálogo:*** Após compartilhar um conteúdo, o usuário pode o ciclo de diálogo e continuar vendo ou compartilhando outros conteúdos
+
+
+<img width="1200" alt="Compartilhar Informações" src="https://github.com/user-attachments/assets/380cd383-9da1-416d-a58c-30f94e1cd9e6"/>
 
