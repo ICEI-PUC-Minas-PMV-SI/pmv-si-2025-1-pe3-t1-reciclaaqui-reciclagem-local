@@ -1,0 +1,89 @@
+.login-container {
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-box {
+  background: white;
+  padding: 4rem;
+  padding-top: 1rem;;
+  border-radius: 12px;
+  min-width: 420px;
+  min-height: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  max-width: 280px;
+  margin-bottom: 1rem;
+}
+
+.logo span {
+  color: #2e7d32;
+}
+
+.input {
+  width: 98%;
+  padding: 10px;
+  margin: 0.8rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.options {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+  color: white;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.forgot {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaa;
+  margin: 1rem 0;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.divider span {
+  margin: 0.5rem 8px;
+}
+
+.btn-blue {
+  background-color: #0d47a1;
+  color: white;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
