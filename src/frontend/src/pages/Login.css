@@ -31,7 +31,7 @@
 }
 
 .input {
-  width: 98%;
+  width: 100%;
   padding: 10px;
   margin: 0.8rem 0;
   border-radius: 6px;
@@ -45,7 +45,7 @@
 }
 
 .btn-green {
-  background-color: #4CAF50;
+  background-color: #6CA632;
   color: white;
   width: 80%;
   padding: 10px;
@@ -79,11 +79,22 @@
 }
 
 .btn-blue {
-  background-color: #0d47a1;
+  background-color: #072B73;
   color: white;
   width: 80%;
   padding: 10px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.btn-blue2 {
+  background-color: #072B73;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5vh;
 }
