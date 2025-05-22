@@ -417,3 +417,38 @@ Quando o usuário seleciona a opção "compartilhar" na tela de gerenciar conte�
 
 <img width="1200" alt="Compartilhar Informações" src="https://github.com/user-attachments/assets/380cd383-9da1-416d-a58c-30f94e1cd9e6"/>
 
+## Protótipo Listar Pontos de Coleta
+
+### 1. Objetivo da Tela
+
+A tela tem como objetivo auxiliar os usuários na localização de pontos de coleta de resíduos recicláveis próximos à sua localização. Ao acessar a seção **"Pontos de Coleta"**, o usuário pode visualizar, em um mapa interativo, os locais disponíveis para descarte, bem como os tipos de materiais aceitos em cada ponto.
+
+O sistema permite que o usuário:
+
+- Visualize uma lista dos pontos de coleta próximos, ordenados por distância.
+- Utilize filtros para selecionar quais tipos de resíduos deseja descartar (ícones coloridos representam plástico, vidro, metal e não-recicláveis).
+- Clique em um ponto da lista ou diretamente no mapa para ver os detalhes e a distância até o local.
+- Pesquise pontos de coleta por endereço ou nome.
+
+### 2. Princípios Gestálticos
+
+- **Proximidade**: As informações de cada ponto de coleta (nome, endereço e ícones de materiais) são apresentadas em blocos visuais coesos, facilitando a compreensão como uma unidade.
+- **Similaridade**: Todos os cards dos pontos de coleta compartilham o mesmo padrão de layout, cor de fundo e estilo de ícones, criando uma identidade visual clara e uniforme.
+- **Figura-Fundo**: O contraste entre o painel lateral (com fundo claro) e o mapa (com elementos visuais de localização) separa com clareza as áreas de listagem e navegação espacial.
+- **Foco**: A janela de destaque sobre o mapa exibe os detalhes do ponto selecionado, direcionando a atenção do usuário de forma eficaz.
+
+### 3. Recomendações Ergonômicas
+
+- **Carga de trabalho**: A interface apresenta informações essenciais de forma resumida e visual, reduzindo a sobrecarga cognitiva.
+- **Legibilidade**: Uso de fontes legíveis, layout organizado e contraste adequado entre texto e fundo favorecem a leitura.
+- **Acessibilidade visual**: Ícones coloridos e reconhecíveis para os tipos de resíduos, além de espaçamento adequado entre elementos interativos.
+- **Feedback imediato**: Ao clicar em um ponto da lista ou do mapa, uma janela informativa é exibida com detalhes, fornecendo feedback visual imediato.
+
+### 4. Regras de Ouro (Shneiderman)
+
+- **Consistência**: Elementos visuais como botões, ícones e estrutura dos cards seguem o mesmo padrão em toda a interface.
+- **Reduzir a carga de memória do usuário**: A informação de materiais aceitos, endereço e distância é sempre apresentada no mesmo formato, facilitando a comparação entre pontos.
+- **Prevenir erros**: A interação com os pontos é baseada em cliques simples e informações visuais, minimizando riscos de navegação equivocada.
+- **Controle ao Usuário**: O usuário escolhe livremente quais filtros aplicar e quais pontos visualizar.
+
+![{CEE27547-2F41-498F-A9B4-428C3BEA34AC}](https://github.com/user-attachments/assets/92362b45-ced5-4ebf-bd25-b0b351bdc7d6)
