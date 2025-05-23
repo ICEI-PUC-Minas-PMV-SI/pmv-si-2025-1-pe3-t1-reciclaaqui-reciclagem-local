@@ -11,6 +11,7 @@ O ReciclaAqui é um sistema web que conecta os usuários a pontos de reciclagem 
 ## Integrantes
 
 * Ana Clara Rodrigues de Araújo
+* Carlos Alberto Morais Junior
 * Ingrid Rebeca Silva
 * Isabelle Alves de Lima
 * Pedro Henrique Barroso Ribeiro dos Santos
