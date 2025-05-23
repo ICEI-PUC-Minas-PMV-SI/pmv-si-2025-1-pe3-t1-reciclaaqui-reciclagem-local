@@ -431,4 +431,42 @@ O sistema permite que o usuário:
 ***Prevenir erros:*** A interação com os pontos é baseada em cliques simples e informações visuais, minimizando riscos de navegação equivocada.  
 ***Controle ao Usuário:*** O usuário escolhe livremente quais filtros aplicar e quais pontos visualizar.  
 
-![{CEE27547-2F41-498F-A9B4-428C3BEA34AC}](https://github.com/user-attachments/assets/92362b45-ced5-4ebf-bd25-b0b351bdc7d6)
+<img width="1200" alt="Compartilhar Informações" src="https://github.com/user-attachments/assets/92362b45-ced5-4ebf-bd25-b0b351bdc7d6"/>
+
+
+## Protótipo Tela de Cadastro de Ponto de Coleta
+
+### 1. Objetivo da Tela
+
+A tela tem como objetivo permitir que os usuários cadastrem novos pontos de coleta no sistema ReciclaAqui, facilitando a expansão da rede de coleta seletiva e promovendo o engajamento com práticas sustentáveis. O formulário foi projetado para ser simples, intuitivo e visualmente coerente com a identidade da plataforma.
+
+Ao acessar essa tela, o usuário pode:
+
+- Informar os dados principais do ponto de coleta, como nome, endereço e descrição.
+- Selecionar os tipos de materiais recicláveis aceitos no local.
+- Enviar uma imagem ilustrativa do ponto.
+- Concluir o processo com um único clique no botão “Cadastrar”.
+
+### 2. Princípios Gestálticos
+
+- **Proximidade**: Os campos relacionados estão organizados em blocos claros (informações básicas, materiais recicláveis, imagem e ação final), facilitando a leitura e compreensão do formulário.
+- **Similaridade**: Os botões de seleção de materiais recicláveis seguem o mesmo estilo visual (formato circular e alinhamento à esquerda), reforçando sua função comum.
+- **Figura-Fundo**: A estrutura de cores e contrastes destaca o formulário do plano de fundo, guiando o olhar do usuário para a tarefa de preenchimento.
+- **Foco**: O botão “Cadastrar” em azul escuro destaca-se no final do formulário, chamando a atenção para a principal ação esperada do usuário.
+
+### 3. Recomendações Ergonômicas
+
+- **Carga de trabalho**: O formulário é compacto e objetivo, pedindo apenas as informações essenciais para o cadastro.
+- **Legibilidade**: Campos bem espaçados e tipografia clara facilitam a leitura e o preenchimento.
+- **Acessibilidade visual**: Uso de ícones e texto nos botões auxilia o reconhecimento, com boa separação visual entre elementos.
+- **Feedback esperado**: Embora ainda não representado visualmente, é recomendável implementar mensagens de sucesso e validação (ex: “Ponto cadastrado com sucesso!” ou “Campo obrigatório não preenchido”).
+
+### 4. Regras de Ouro (Shneiderman)
+
+- **Consistência**: Os campos seguem um padrão visual coeso, mantendo o design uniforme com o restante do site.
+- **Reduzir a carga de memória do usuário**: O formulário apresenta todos os campos na mesma tela, evitando a necessidade de lembrar informações de outras etapas.
+- **Prevenir erros**: O uso de botões pré-definidos para os tipos de materiais evita erros de digitação e promove uniformidade de dados.
+- **Controle ao Usuário**: O usuário pode decidir livremente quais informações adicionar e quais categorias selecionar.
+- **Fechar Ciclo de Diálogo**: A expectativa é que, ao submeter o formulário, o sistema forneça feedback imediato, encerrando a ação de forma clara.
+
+<img width="1200" alt="Compartilhar Informações" src="https://github.com/user-attachments/assets/1769377a-56fa-4920-b5a1-d675cb6c1404"/>
