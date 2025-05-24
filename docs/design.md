@@ -470,3 +470,86 @@ Ao acessar essa tela, o usuário pode:
 - **Fechar Ciclo de Diálogo**: A expectativa é que, ao submeter o formulário, o sistema forneça feedback imediato, encerrando a ação de forma clara.
 
 <img width="1200" alt="Compartilhar Informações" src="https://github.com/user-attachments/assets/1769377a-56fa-4920-b5a1-d675cb6c1404"/>
+
+## Protótipo Registrar Açoes de reciclagem
+
+### 1. Objetivo da Tela
+
+A tela tem como objetivo permitir que os usuários registrem suas ações de reciclagem, informando o tipo de material reciclado, a quantidade e o ponto de coleta utilizado. O sistema deve armazenar essas informações para histórico do usuário e cálculo de métricas ambientais.
+
+Ao acessar essa tela, o usuário pode:
+
+- O sistema exibe um formulário simples para registro.
+- Campos incluem: seleção do material, quantidade, unidade de medida e ponto de coleta.
+- Um botão "Registrar Ação" salva a informação.
+
+### 2. Princípios Gestálticos aplicados
+
+- **Proximidade**: Campos relacionados (como "Quantidade" e "Unidade de medida") estarão agrupados próximos
+- **Similaridade**: Todos os campos de entrada compartilham o mesmo estilo visual, os botões mantêm consistência em todo o site, e os ícones de materiais recicláveis seguem o padrão internacional de cores (azul para papel, amarelo para metal, etc.
+- ***Figura-Fundo:*** O design utiliza um fundo claro (#FFFFFF) com elementos interativos em cores temáticas (#388E3C para ações primárias), garantindo alto contraste e acessibilidade, enquanto o botão principal recebe destaque visual através de gradiente verde (#43A047 a #2E7D32), sombra sutil e tamanho aumentado para direcionar o foco do usuário.
+  - **Foco**: O botão “Enviar” em verde destaca-se no final do formulário, chamando a atenção para a principal ação esperada do usuário.
+
+### 3. Recomendações Ergonômicas
+
+- **Carga de trabalho**: O formulário é compacto e objetivo, pedindo apenas as informações essenciais para o registro de reciclagem.
+- **Legibilidade**: Campos bem espaçados e tipografia clara facilitam a leitura e o preenchimento.
+- **Acessibilidade visual**: Uso de ícones e texto nos botões auxilia o reconhecimento, com boa separação visual entre elementos.
+- **Feedback esperado**: Microinterações em todos os campos (hover, focus states) e notificação toast persistente por 5s após registro, incluindo:
+- Ícone de confirmação ✅
+- Resumo da ação ("2kg de plástico registrados")
+- Impacto ambiental calculado ("+15 pontos | Economizou 8L água")
+
+### 4. Regras de Ouro (Shneiderman)
+
+- **Consistência**: Os campos seguem um padrão visual coeso, mantendo o design uniforme com o restante do site.
+- **Reduzir a carga de memória do usuário**: O formulário apresenta todos os campos na mesma tela, evitando a necessidade de lembrar informações de outras etapas.
+- **Prevenir erros**: O uso de botões pré-definidos para os tipos de materiais evita erros de digitação e promove uniformidade de dados.
+- **Controle ao Usuário**: O usuário pode decidir livremente quais informações adicionar e quais categorias selecionar.
+- **Fechar Ciclo de Diálogo**: A expectativa é que, ao submeter o formulário, o sistema forneça feedback imediato, encerrando a ação de forma clara.
+
+
+![Registros a](https://github.com/user-attachments/assets/e1703ed2-c572-4ae0-8245-89a66c8f4c73)
+
+## Protótipo Histórico de reciclagem
+
+### 1. Objetivo da Tela
+
+Permitir que usuários visualizem, organizem e analisem todas as ações de reciclagem registradas, com métricas de impacto ambiental e progresso.
+
+Ao acessar essa tela, o usuário pode:
+
+- Visualização cronológica ou categorizada dos registros
+- Filtros por material, período, ponto de coleta,quantidade ou tipo de ordenação.
+- Resumo de impacto acumulado (ex: "Total: 42kg reciclados | 200L água economizados")
+
+
+### 2. Princípios Gestálticos aplicados
+
+- **Proximidade**: Campos relacionados (como "Quantidade" e "Unidade de medida") estarão agrupados próximos
+- **Similaridade**: Todos os campos de entrada compartilham o mesmo estilo visual, os botões mantêm consistência em todo o site, e os ícones de materiais recicláveis seguem o padrão internacional de cores (azul para papel, amarelo para metal, etc.
+- ***Figura-Fundo:*** O design utiliza um fundo claro (#FFFFFF) com elementos interativos em cores temáticas (#388E3C para ações primárias), garantindo alto contraste e acessibilidade, enquanto o botão principal recebe destaque visual através de gradiente verde (#43A047 a #2E7D32), sombra sutil e tamanho aumentado para direcionar o foco do usuário.
+  - **Foco**: O botão “Filtrar” em verde destaca-se no final do formulário, chamando a atenção para a principal ação esperada do usuário.
+
+### 3. Recomendações Ergonômicas
+
+- **Carga de trabalho**:Todos os filtros (material, quantidade, status e período) são exibidos em um único painel colapsável, com espaçamento adequado entre controles e pré-visualização em tempo real dos resultados aplicados, garantindo eficiência sem sobrecarregar a interface.
+- **Legibilidade**: Campos bem espaçados e tipografia clara facilitam a leitura e o preenchimento.
+- **Acessibilidade visual**: UBadges coloridos para status (🟢 Validado, 🟡 Pendente, 🔴 Rejeitado) e barra de progresso horizontal para metas de reciclagem mensal.
+- **Feedback esperado**: Microinterações em todos os campos (hover, focus states) e notificação toast persistente por 5s após registro, incluindo:
+- Tooltips explicativos sobre cálculos de pontos (ex: "1kg plástico = 5pts")
+- Preview ao passar o mouse nos filtros
+
+
+### 4. Regras de Ouro (Shneiderman)
+
+- **Consistência**: O sistema apresenta a quantidade de pontos conquistados separadamente por categoria de material (plástico, papel, vidro etc.), conforme as ações de reciclagem registradas pelo usuário."
+- **Reduzir a carga de memória do usuário**: Todos os filtros (material, quantidade, status e período) são exibidos em um único painel colapsável, com espaçamento adequado entre controles e pré-visualização em tempo real dos resultados aplicados, garantindo eficiência sem sobrecarregar a interface.
+- **Prevenir erros**: O uso de botões pré-definidos para os tipos de materiais evita erros de digitação e promove uniformidade de dados.
+- **Controle ao Usuário**: O usuário pode decidir livremente quais informações adicionar e quais categorias selecionar.
+- **Fechar Ciclo de Diálogo**: A expectativa é que, ao submeter a busca integrada, o sistema forneça feedback imediato, encerrando a ação de forma clara.
+![H de Reciclagem](https://github.com/user-attachments/assets/70434a7d-f20c-4ce9-8805-ce0068000b95)
+
+![Com o filtro](https://github.com/user-attachments/assets/749058b3-d6a7-4ae4-95bc-81780564940c)
+
+
