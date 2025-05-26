@@ -1,8 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import logo from '../img/logo.png';
 import { useState } from 'react';
 
 function Login() {
+  const navigate = useNavigate();
+  const handleLogin = () => {
+    navigate('/perfil');
+  };
   const [modoCadastro, setModoCadastro] = useState(false);
 
   return (
@@ -31,8 +36,9 @@ function Login() {
                 <input type="checkbox" /> Manter conectado.
               </label>
             </div>
-
-            <button className="btn-green w-100 mb-3">Entrar</button>
+          
+            <button onClick={handleLogin}
+            className="btn-green w-100 mb-3">Entrar</button>
 
             <p className="forgot text-center">Esqueceu a senha?</p>
 
