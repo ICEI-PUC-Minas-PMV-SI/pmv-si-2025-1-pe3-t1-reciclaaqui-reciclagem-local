@@ -1,0 +1,456 @@
+/* Container */
+.container {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* gray-100 - fallback color */
+  font-family: Arial, sans-serif;
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Fixa a imagem de fundo ao rolar */
+}
+
+/* Header */
+.header {
+  background-color: rgba(255, 255, 255, 0.95); /* Fundo branco semi-transparente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+  padding: 1.2rem 2.5rem; /* Aumento de padding */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; /* Espaçamento maior entre ReciclaAqui e ReciclaNEWS */
+}
+
+.logo {
+  font-size: 1.5rem; /* Tamanho da fonte maior */
+  font-weight: bold;
+  color: #047857; /* green-700 */
+  display: flex;
+  align-items: center;
+  padding-right: 2.5rem; /* Aumentado padding à direita */
+  border-right: 2px solid #e5e7eb; /* Borda mais grossa */
+}
+
+.logo-img {
+  height: 2.8rem; /* Altura da logo maior */
+  margin-right: 0.8rem; /* Ajuste de margem */
+}
+
+.logo-highlight {
+  color: #059669; /* green-600 */
+}
+
+.recicla-news {
+  font-size: 1.5rem; /* Tamanho da fonte maior */
+  font-weight: bold;
+  color: #4b5563; /* gray-600 */
+  display: flex;
+  align-items: center;
+  gap: 0.6rem; /* Espaçamento entre o ícone e o texto */
+}
+
+.icon-news {
+  font-size: 1.8rem; /* Tamanho do ícone de jornal maior */
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* Aumento do espaçamento entre os links */
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1rem; /* Tamanho da fonte maior */
+  color: #4b5563; /* gray-600 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem; /* Espaçamento entre ícone e texto */
+}
+
+.nav-link:hover {
+  color: #047857; /* green-700 */
+}
+
+.icon-nav {
+  font-size: 1.2rem; /* Tamanho dos ícones de navegação maior */
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  max-width: 90rem; /* Aumentado o max-width para ocupar mais espaço */
+  margin: 2.5rem auto; /* Aumento da margem superior e inferior */
+  gap: 3rem; /* Aumento do espaçamento entre as seções */
+}
+
+/* Articles and Search Wrapper */
+.articles-and-search {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Espaçamento maior entre barra de pesquisa e artigos */
+}
+
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  justify-content: flex-end; /* Alinha o search bar à direita */
+  width: 100%; /* Garante que o container ocupe a largura total */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+  border-radius: 9999px;
+  padding: 0.6rem 1.5rem; /* Aumento de padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px; /* Aumentado a largura máxima da barra de pesquisa */
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.8rem; /* Aumento de padding */
+  flex-grow: 1;
+  font-size: 1.1rem; /* Tamanho da fonte maior */
+}
+
+.search-button {
+  background-color: transparent;
+  color: #4b5563;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem; /* Tamanho do ícone maior */
+  padding: 0;
+}
+
+/* Articles Section */
+.articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Espaçamento maior entre os artigos */
+}
+
+.article {
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+  border-radius: 0.75rem; /* Borda mais arredondada */
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #d1d5db; /* Borda mais visível */
+}
+
+.article-img {
+  width: 35%; /* Largura da imagem ligeiramente maior */
+  max-width: 200px; /* Aumentado o limite de largura para a imagem */
+  height: auto;
+  object-fit: cover;
+}
+
+.article-text {
+  padding: 1.5rem; /* Aumento de padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 1.3rem; /* Tamanho da fonte maior */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  color: #374151; /* gray-700 */
+}
+
+.article-date {
+  font-size: 0.95rem; /* Tamanho da fonte maior */
+  color: #6b7280; /* gray-500 */
+  margin-top: 0.8rem; /* Aumento da margem superior */
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.icon-date {
+  font-size: 1rem; /* Tamanho do ícone de relógio maior */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 280px; /* Largura fixa maior para a sidebar */
+  padding: 1.5rem; /* Aumento de padding */
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+  border-radius: 0.75rem; /* Borda mais arredondada */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; /* Espaçamento maior entre os itens da sidebar */
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* Espaçamento entre o ícone e o texto */
+  color: #4b5563; /* gray-600 */
+  font-weight: 500;
+  font-size: 1rem; /* Tamanho da fonte maior */
+  padding: 0.6rem 0; /* Padding vertical para os itens */
+}
+
+.icon-sidebar {
+  font-size: 1.3rem; /* Tamanho dos ícones da sidebar maior */
+  color: #059669; /* green-600 */
+}
+
+/* Responsividade */
+
+/* Telas médias (e.g., tablets) */
+@media (max-width: 1024px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+
+  .header-left {
+    gap: 1.5rem;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    padding-right: 1.5rem;
+  }
+
+  .logo-img {
+    height: 2.2rem;
+  }
+
+  .recicla-news {
+    font-size: 1.3rem;
+  }
+
+  .icon-news {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .icon-nav {
+    font-size: 1rem;
+  }
+
+  .main-content {
+    max-width: 90%;
+    margin: 2rem auto;
+    gap: 2rem;
+    flex-direction: column; /* Empilha as seções em telas menores */
+    align-items: center;
+  }
+
+  .articles-and-search {
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .search-bar-container {
+    justify-content: center; /* Centraliza a barra de pesquisa */
+  }
+
+  .search-bar {
+    max-width: 500px; /* Aumenta um pouco a largura para tablets */
+    padding: 0.5rem 1.2rem;
+  }
+
+  .search-input {
+    font-size: 1rem;
+  }
+
+  .search-button {
+    font-size: 1.2rem;
+  }
+
+  .articles {
+    gap: 1rem;
+  }
+
+  .article {
+    flex-direction: row; /* Mantém a disposição lado a lado, se houver espaço */
+    align-items: center;
+    padding: 1rem; /* Adicionado padding para melhor espaçamento interno */
+  }
+
+  .article-img {
+    width: 30%;
+    max-width: 180px; /* Ajusta o max-width */
+    height: 120px; /* Define uma altura fixa para evitar distorção em certas proporções */
+  }
+
+  .article-text {
+    padding: 0 1.2rem; /* Ajusta o padding */
+  }
+
+  .article-title {
+    font-size: 1.15rem;
+  }
+
+  .article-date {
+    font-size: 0.9rem;
+  }
+
+  .sidebar {
+    width: 90%; /* Ocupa mais largura em tablets */
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    align-items: center; /* Centraliza os itens na sidebar */
+  }
+
+  .sidebar-item {
+    font-size: 0.95rem;
+    padding: 0.4rem 0;
+  }
+
+  .icon-sidebar {
+    font-size: 1.2rem;
+  }
+}
+
+/* Telas pequenas (e.g., smartphones) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 0.8rem;
+  }
+
+  .header-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .logo {
+    border-right: none;
+    padding-right: 0;
+    font-size: 1.2rem;
+  }
+
+  .logo-img {
+    height: 2rem;
+  }
+
+  .recicla-news {
+    font-size: 1.2rem;
+  }
+
+  .icon-news {
+    font-size: 1.4rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%; /* Ocupa a largura total */
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    margin: 1.5rem auto;
+    gap: 1.5rem;
+    max-width: 95%; /* Ocupa mais largura em telas pequenas */
+  }
+
+  .search-bar {
+    max-width: 90%; /* Limita a largura da barra de pesquisa em mobile */
+  }
+
+  .article {
+    flex-direction: column; /* Empilha a imagem e o texto do artigo */
+    align-items: center;
+    padding: 0; /* Remove padding do artigo para que a imagem ocupe a borda */
+  }
+
+  .article-img {
+    width: 100%; /* Imagem ocupa 100% da largura do artigo */
+    max-width: none;
+    height: 180px; /* Altura fixa para imagens em mobile */
+    border-top-left-radius: 0.75rem; /* Ajusta o arredondamento */
+    border-top-right-radius: 0.75rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .article-text {
+    padding: 1rem; /* Adiciona padding ao texto do artigo */
+    width: 100%; /* Ocupa a largura total */
+  }
+
+  .article-title {
+    font-size: 1.1rem;
+  }
+
+  .article-date {
+    font-size: 0.85rem;
+  }
+
+  .sidebar {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .sidebar-item {
+    font-size: 0.9rem;
+  }
+
+  .icon-sidebar {
+    font-size: 1.1rem;
+  }
+}
+
+/* Telas muito pequenas (e.g., alguns smartphones antigos) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .logo-img {
+    height: 1.8rem;
+  }
+  .recicla-news {
+    font-size: 1.1rem;
+  }
+  .icon-news {
+    font-size: 1.3rem;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+  }
+  .icon-nav {
+    font-size: 0.9rem;
+  }
+  .article-title {
+    font-size: 1rem;
+  }
+  .article-date {
+    font-size: 0.8rem;
+  }
+}
