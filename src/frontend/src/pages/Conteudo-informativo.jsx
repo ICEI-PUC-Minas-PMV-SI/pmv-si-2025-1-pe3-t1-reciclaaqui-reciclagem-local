@@ -42,7 +42,7 @@ export default function Conteudoinformativo() {
 
           <section className="articles">
             <article className="article">
-              <img src="https://i.imgur.com/gU9yJ5N.png" alt="Resíduos" className="article-img" /> {/* Substitua pelo caminho da sua imagem */}
+              <img src="https://al.se.leg.br/wp-content/uploads/2016/04/lixo.jpg" alt="Resíduos" className="article-img" /> {/* Su */}
               <div className="article-text">
                 <h2 className="article-title">
                   Importação de resíduos sólidos pode impactar setor, diz associação
@@ -54,7 +54,7 @@ export default function Conteudoinformativo() {
             </article>
 
             <article className="article">
-              <img src="https://i.imgur.com/W2d4V9F.png" alt="Lixo reciclado" className="article-img" /> {/* Substitua pelo caminho da sua imagem */}
+              <img src="https://climainfo.org.br/wp-content/uploads/2024/02/lixo-crescer-biodiversidade-clima.webp" alt="Lixo reciclado" className="article-img" /> {/* Su*/}
               <div className="article-text">
                 <h2 className="article-title">
                   Governo libera importação de “lixo” para reciclagem
@@ -66,7 +66,7 @@ export default function Conteudoinformativo() {
             </article>
 
             <article className="article">
-              <img src="https://i.imgur.com/1G2XkY7.png" alt="Plástico dissolvível" className="article-img" /> {/* Substitua pelo caminho da sua imagem */}
+              <img src="https://www.direcional.com.br/wp-content/uploads/2021/04/shutterstock_731239045.jpg" alt="Plástico dissolvível" className="article-img" /> {/* Su */}
               <div className="article-text">
                 <h2 className="article-title">
                   Plástico que dissolve em água pode solucionar descarte de lixo eletrônico
