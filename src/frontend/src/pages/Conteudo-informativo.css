@@ -206,6 +206,151 @@
   color: #059669;
 }
 
+/* Estilos para o card de compartilhamento */
+.card-flutuante {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Garante que fique acima do conteúdo */
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card-header .logo {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-date {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.share-options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.share-options-container p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+}
+
+.share-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none; /* Para links se você usar <a> */
+}
+
+.share-button.whatsapp {
+  color: #25d366;
+  font-weight: bold;
+}
+
+.share-button.email {
+  color: #ea4335;
+  font-weight: bold;
+}
+
+.share-button.facebook {
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.share-button.link {
+  color: black;
+  font-weight: bold;
+}
+
+.share-button svg {
+  margin-right: 5px;
+}
+
+.close-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+.compartilhar-button {
+  color:white;
+  font-weight: bold;
+  background-color: #059669;
+  width:20%;
+  border-radius: 5px;
+}
+
+/* Overlay para escurecer o fundo quando o card estiver aberto */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com 50% de opacidade */
+  z-index: 999; /* Abaixo do card, mas acima do conteúdo principal */
+}
+
+
 @media (max-width: 1024px) {
   .header {
     padding: 1rem 2rem;
