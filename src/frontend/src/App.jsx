@@ -5,6 +5,8 @@ import ConteudoInformativo from './pages/Conteudo-informativo';
 import ConteudoPersonalizado from './pages/Conteudo-personalizado';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import DetalharPonto from './pages/Detalhar-ponto';
+import CadastrarPonto from './pages/Cadastrar-ponto';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/Conteudo-informativo" element={<ConteudoInformativo />} /> 
         <Route path="/Conteudo-personalizado" element={<ConteudoPersonalizado />} /> 
+        <Route path="/detalhar-ponto" element={<DetalharPonto />} />
+        <Route path="/cadastrar-ponto" element={<CadastrarPonto />} />
       </Routes>
     </Router>
   );
