@@ -10,7 +10,7 @@ html, body {
   background-color: #f8f8f8;
   background-image: url('../assets/papel-textura.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   font-family: sans-serif;
 }
