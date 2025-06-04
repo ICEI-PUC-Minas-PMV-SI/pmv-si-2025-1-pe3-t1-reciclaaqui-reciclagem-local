@@ -1,0 +1,20 @@
+{
+  "pontos": [
+    {
+      "id": "3d51",
+      "nome": "Ponto teste 1",
+      "endereco": "Rua Jorge Serpa Mercê, 20, Bangu, Rio de Janeiro",
+      "descricao": "Descrição teste 1",
+      "materiais": [
+        "Plástico",
+        "Orgânico",
+        "Não-Recicláveis",
+        "Eletrônicos",
+        "Metal",
+        "Outros"
+      ],
+      "outros": "Teste Outros",
+      "imagem": "ChatGPT Image 3 de jun. de 2025, 19_40_39.png"
+    }
+  ]
+}
