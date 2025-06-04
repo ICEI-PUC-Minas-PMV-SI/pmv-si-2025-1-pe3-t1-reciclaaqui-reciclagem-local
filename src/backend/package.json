@@ -6,5 +6,10 @@
   },
   "dependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "engines": {
+  "node": "18.x"
+}
+
+  
 }
