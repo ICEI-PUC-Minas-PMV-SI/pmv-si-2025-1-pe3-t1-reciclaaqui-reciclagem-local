@@ -1,29 +1,36 @@
-*{
+* {
+  box-sizing: border-box;
   color: black;
 }
 
-body {
+html, body {
+  min-height: 100dvh;
   margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
   background-image: url('../assets/papel-textura.png');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-position: center;
   font-family: sans-serif;
 }
 
 
 .container {
-  background-image: url('../assets/papel-textura.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  max-width: 600px;
+  margin: 6rem auto 2rem;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
+}
+
+@media (max-width: 640px) {
+  .container {
+    margin: 7rem 1rem 2rem;
+    padding: 1.5rem;
+  }
 }
 
 .header {
@@ -34,17 +41,17 @@ body {
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  padding: 1.2rem 2.5rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .logo {
@@ -53,37 +60,29 @@ body {
   color: #047857;
   display: flex;
   align-items: center;
-  padding-right: 2.5rem;
+  padding-right: 1.5rem;
   border-right: 2px solid #e5e7eb;
 }
 
 .logo-img {
-  height: 2.8rem;
-  margin-right: 0.8rem;
-}
-
-.logo-highlight {
-  color: #059669;
-}
-
-.recicla-news {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #4b5563;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.icon-news {
-  font-size: 1.8rem;
+  height: 2.4rem;
+  margin-right: 0.6rem;
 }
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+  }
+}
+
 
 .nav-link {
   font-size: 1rem;
@@ -103,78 +102,115 @@ body {
   font-size: 1.2rem;
 }
 
+h2 {
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+
 .formulario-ponto {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  font-family: sans-serif;
-  margin-top: 2rem;
+  gap: 1rem;
 }
 
 .inputs-topo {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .inputs-topo input {
-  flex: 1;
-  padding: 1rem;
-  border-radius: 15px;
-  border: none;
-  background: #e8e8e8;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #e5e7eb;
 }
 
 textarea {
-  padding: 1rem;
-  border-radius: 15px;
-  border: none;
-  background: #e8e8e8;
-  min-height: 120px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
   resize: vertical;
+  min-height: 100px;
+  background-color: #e5e7eb;
 }
 
-.materiais {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.checkboxes {
+.checkbox-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.4rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem 1rem;
 }
 
-.checkboxes label {
+.form-check-label {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
+.form-check-input {
+  border-color: #059669;
+}
+
 input[type="file"] {
   padding: 0.5rem;
-  border-radius: 15px;
-  background: #e8e8e8;
+  background: #eee;
+  border-radius: 8px;
   border: none;
-  cursor: pointer;
 }
 
 button {
-  align-self: center;
-  padding: 0.8rem 2rem;
-  background: #002766;
+  background: #002f6c;
   color: white;
-  font-weight: bold;
   border: none;
-  border-radius: 10px;
-  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
+  width: 160px;
+  align-self: center;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #004080;
+}
+
+.autocomplete-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  z-index: 9999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion {
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.4;
+  border-left: 4px solid transparent;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+  border-left: 4px solid #4caf50;
 }
 
 input[type="text"], textarea {
