@@ -189,11 +189,6 @@ const CadastrarPonto = () => {
           />
         )}
 
-        <input
-          type="file"
-          onChange={(e) => setForm({ ...form, imagem: e.target.files[0] })}
-        />
-
         <button type="submit">Cadastrar</button>
       </form>
     </div>
