@@ -216,3 +216,68 @@ button:hover {
 input[type="text"], textarea {
   font-size: 1rem;
 }
+
+.page_detalhar {
+  height: 100vh;
+  width: 100vw;
+  background-color: #059669;
+  overflow: hidden;
+}
+
+.lista_pontos {
+  background-color: white;
+  height: 100vh;
+  width: 450px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  transition: all ease-in-out 0.5s;
+  padding: 20px;
+  padding-top: 80px;
+  overflow-y: scroll;
+}
+
+.lista_on{
+  left:0px;
+}
+
+.lista_off {
+  left:-450px;
+}
+
+@media (max-width: 640px) {
+  .lista_pontos {
+    width: 100vw;
+  }
+
+  .lista_on{
+  left:0px;
+}
+
+.lista_off {
+  left:-100%;
+}
+}
+
+.lista_btn {
+  position: absolute;
+  z-index: 99;
+  top: 120px;
+  left: 20px;
+  width: 50px;
+  background-color: #059669;
+  transition: all ease-in-out 0.5s;
+  transform: rotate(180deg);
+}
+
+.lbtn_on {
+  transform: rotate(0deg);
+}
+
+.lbtn_off {
+  transform: rotate(180deg);
+}
+
+.bi-chevron-left {
+ color: white;
+}
