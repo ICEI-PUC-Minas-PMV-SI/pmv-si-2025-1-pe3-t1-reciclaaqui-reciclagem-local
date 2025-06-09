@@ -108,10 +108,6 @@ export default function News() {
     <span>Em alta</span>
   </div>
   <div className="sidebar-item">
-    <i className="bi bi-chat-dots icon-sidebar"></i>
-    <span>Compartilhe</span>
-  </div>
-  <div className="sidebar-item">
     <i className="bi bi-bookmark-check icon-sidebar"></i>
     <span>Notícias Salvas</span>
   </div>
