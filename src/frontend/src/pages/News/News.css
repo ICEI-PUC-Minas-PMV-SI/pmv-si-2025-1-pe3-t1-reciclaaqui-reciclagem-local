@@ -165,14 +165,18 @@
 .share-buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 20px;
   width: 100%;
+}
+
+.btn-icon {
+  width: 100%;   
 }
 
 .share-button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -182,31 +186,20 @@
   font-size: 1em;
 }
 
-.share-button.whatsapp {
+.whatsapp i {
   color: #25d366;
 }
 
-.share-button.email {
+.email i {
   color: #ea4335;
 }
 
-.share-button.facebook {
+.facebook i {
   color: #1877f2;
 }
 
-.share-button.link {
+.copiar_link {
   color: black;
-}
-
-.close-button {
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  margin-top: 20px;
 }
 
 .compartilhar-button {

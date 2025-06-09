@@ -12,8 +12,8 @@ import {
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import DetalharPonto from './pages/DetalharPonto';
-import CadastrarPonto from './pages/CadastrarPonto';
+//import DetalharPonto from './pages/DetalharPonto';
+//import CadastrarPonto from './pages/CadastrarPonto';
 
 function App() {
   return (

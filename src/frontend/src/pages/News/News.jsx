@@ -135,27 +135,28 @@ export default function News() {
         {artigoParaCompartilhar.data}
       </p>
       <div className="share-options-container">
-        <p>Compartilhar via:</p>
+        <p> <b>Compartilhar via: </b></p>
         <div className="share-buttons">
-          <button className="btn-icon" onClick={compartilharWhatsapp}>
-            <i className="bi bi-whatsapp me-1"></i> WhatsApp
+          <button className="btn-icon whatsapp" onClick={compartilharWhatsapp}>
+            <i className="bi bi-whatsapp me-1"></i> Whatsapp
           </button>
-          <button className="btn-icon" onClick={compartilharEmail}>
+          <button className="btn-icon email" onClick={compartilharEmail}>
             <i className="bi bi-envelope-fill me-1"></i> Email
           </button>
-          <button className="btn-icon" onClick={() => navigator.clipboard.writeText(artigoParaCompartilhar.link).then(() => alert('Link copiado!'))}>
+          <button className="btn-icon copiar_link" onClick={() => navigator.clipboard.writeText(artigoParaCompartilhar.link).then(() => alert('Link copiado!'))}>
             <i className="bi bi-link-45deg me-1"></i> Copiar link
           </button>
-          <button className="btn-icon" onClick={compartilharFacebook}>
+          <button className="btn-icon facebook" onClick={compartilharFacebook}>
             <i className="bi bi-facebook me-1"></i> Facebook
           </button>
         </div>
+      <br></br>
       </div>
-      <button className="btn-secondary-wide mt-3" onClick={aoClicarFecharCompartilhar}>
-        <i className="bi bi-x-lg me-1"></i> Fechar
+      <button className="btn btn-success" onClick={aoClicarFecharCompartilhar}>
+        <i className="bi bi-x-lg me-1"></i> Fechar 
       </button>
     </div>
-  </>
+  </> 
 )}
 
     </div>
