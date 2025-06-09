@@ -1,0 +1,22 @@
+{
+  "noticias": [
+    {
+      "titulo": "Importação de resíduos sólidos pode impactar setor, diz associação",
+      "data": "28/04/2025 às 19:55",
+      "imagem": "https://al.se.leg.br/wp-content/uploads/2016/04/lixo.jpg",
+      "link": "https://www.example.com/noticia1"
+    },
+    {
+      "titulo": "Governo libera importação de “lixo” para reciclagem",
+      "data": "27/04/2025 às 20:32",
+      "imagem": "https://climainfo.org.br/wp-content/uploads/2024/02/lixo-crescer-biodiversidade-clima.webp",
+      "link": "https://www.example.com/noticia2"
+    },
+    {
+      "titulo": "Plástico que dissolve em água pode solucionar descarte de lixo eletrônico",
+      "data": "25/04/2025 às 15:11",
+      "imagem": "https://www.direcional.com.br/wp-content/uploads/2021/04/shutterstock_731239045.jpg",
+      "link": "https://www.example.com/noticia3"
+    }
+  ]
+}
