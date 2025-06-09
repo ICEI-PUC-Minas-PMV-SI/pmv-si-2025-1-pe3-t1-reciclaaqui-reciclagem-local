@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Alice de Araujo",
+    "pontos": 102074,
+    "avatar": "img/ranking/alice.png"
+  },
+  {
+    "nome": "Wallysson Rocha",
+    "pontos": 98116,
+    "avatar": "img/ranking/wallysson.png"
+  },
+  {
+    "nome": "Celine Bianchi",
+    "pontos": 72351,
+    "avatar": "img/ranking/celine.png"
+  },
+  {
+    "nome": "Ana Julia Ramos",
+    "pontos": 32411,
+    "avatar": "img/ranking/ana.png"
+  },
+  {
+    "nome": "Saulo Alves da Silva",
+    "pontos": 17099,
+    "avatar": "img/ranking/saulo.png"
+  },
+  {
+    "nome": "Henrique da Silva",
+    "pontos": 8075,
+    "avatar": "img/ranking/henrique.png"
+  }
+]

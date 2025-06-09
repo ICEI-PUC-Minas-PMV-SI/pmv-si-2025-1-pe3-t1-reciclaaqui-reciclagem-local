@@ -1,0 +1,178 @@
+.menu-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #ffffff;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* BOTÃO HAMBÚRGUER */
+.menu-btn {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #5c913b;
+  cursor: pointer;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #41722b;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* LOGO */
+.logo {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* LINKS À DIREITA */
+.menu-direita {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #5c913b;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.menu-link:hover {
+  color: #41722b;
+}
+
+/* BOTÃO HAMBÚRGUER */
+.menu-btn {
+  left: -50px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px;
+  color: #5c913b;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #41722b;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-btn i {
+  color: #5c913b !important;
+  font-size: 28px;
+}
+.menu-btn:hover i,
+.menu-btn:focus i {
+  color: #41722b !important;
+}
+
+/* MENU LATERAL */
+.menu-lateral {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  width: 220px;
+  background-color: #ffffff;
+  border: 2px solid #5c913b;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 36px 0 0 0;
+}
+
+.menu-lateral li {
+  margin-bottom: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-lateral a {
+  color: #5c913b;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu-lateral a:hover {
+  color: #41722b;
+}
+
+.fechar-btn {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #5c913b;
+  cursor: pointer;
+}
+
+.fechar-btn:hover,
+.fechar-btn:focus {
+  color: #41722b;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* LINKS DO MENU */
+.menu-link {
+  text-decoration: none;
+  color: #5c913b;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu-link:hover {
+  color: #41722b;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-lateral li {
+  margin-bottom: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

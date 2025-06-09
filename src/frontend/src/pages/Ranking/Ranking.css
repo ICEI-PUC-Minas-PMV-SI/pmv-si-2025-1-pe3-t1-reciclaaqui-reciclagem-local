@@ -1,0 +1,78 @@
+.ranking-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ranking-header i {
+  font-size: 2rem;
+  color: #5c913b;
+}
+
+.ranking-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5c913b;
+}
+
+.ranking-subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #1e40af;
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ranking-info {
+  display: flex;
+  align-items: center;
+  background-color: #8bc34a;
+  border-radius: 9999px;
+  padding: 0.75rem 1rem;
+  flex-grow: 1;
+  gap: 1rem;
+}
+.ranking-posicao {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ranking-posicao img {
+  width: 40px;
+  height: 40px;
+}
+
+.ranking-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #5c913b; 
+}
+
+
+.ranking-nome {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.ranking-pontos {
+  font-weight: bold;
+  color: white;
+}

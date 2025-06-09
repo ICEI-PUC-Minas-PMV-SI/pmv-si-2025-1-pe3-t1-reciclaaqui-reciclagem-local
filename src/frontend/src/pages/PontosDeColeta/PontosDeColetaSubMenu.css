@@ -1,0 +1,25 @@
+.submenu-pontos {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.submenu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.submenu-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu-item a:hover {
+  color: #059669;
+}

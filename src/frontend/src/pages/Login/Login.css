@@ -1,0 +1,75 @@
+/* Container geral da página de login */
+.login-container {
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa branca central com campos de login/cadastro */
+.login-box {
+  background: white;
+  padding: 4rem 2rem 2rem 2rem;
+  border-radius: 12px;
+  min-width: 420px;
+  min-height: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo superior */
+.logo-login {
+  max-width: 260px;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  border: none !important;
+}
+
+/* Opção "manter conectado" */
+.options {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* Link de esqueci a senha */
+.forgot {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+/* Divisor com "Ou" entre os botões */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaa;
+  margin: 1rem 0;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.divider span {
+  margin: 0.5rem 8px;
+}
+
+/* Botão com estilo de link */
+.btn-link {
+  background: none;
+  border: none;
+  color: #072B73;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  color: #041E52;
+}

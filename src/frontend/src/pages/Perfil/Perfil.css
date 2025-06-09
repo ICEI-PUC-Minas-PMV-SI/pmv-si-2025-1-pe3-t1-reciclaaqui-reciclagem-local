@@ -1,0 +1,75 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  font-size: 16px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #838383;
+  font-size: 20px;
+}
+
+.avatar-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.default-avatar {
+  font-size: 32px;
+  color: #6CA632;
+}
+
+.upload-label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #838383;
+  border-radius: 8px;
+  padding: 5px 20px;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.file-input {
+  display: none;
+}

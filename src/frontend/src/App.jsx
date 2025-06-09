@@ -1,8 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Perfil from './pages/Perfil';
-import ConteudoInformativo from './pages/Conteudo-informativo';
-import ConteudoPersonalizado from './pages/Conteudo-personalizado';
+import { Routes, Route } from 'react-router-dom';
+import {
+  Login,
+  Perfil,
+  Home,
+  GuiaReciclagem,
+  Ranking,
+  PontosDeColeta,
+  HistoricoReciclagem,
+  News
+} from './index.js';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import DetalharPonto from './pages/DetalharPonto';
@@ -10,16 +17,16 @@ import CadastrarPonto from './pages/CadastrarPonto';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/perfil" element={<Perfil />} />
-        <Route path="/Conteudo-informativo" element={<ConteudoInformativo />} /> 
-        <Route path="/Conteudo-personalizado" element={<ConteudoPersonalizado />} /> 
-        <Route path="/detalhar-ponto" element={<DetalharPonto />} />
-        <Route path="/cadastrar-ponto" element={<CadastrarPonto />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/perfil" element={<Perfil />} />
+      <Route path="/guia-reciclagem" element={<GuiaReciclagem />} />
+      <Route path="/ranking" element={<Ranking />} />
+      <Route path="/pontos-de-coleta/*" element={<PontosDeColeta />} />
+      <Route path="/historico-reciclagem/" element={<HistoricoReciclagem />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/news" element={<News />} />
+    </Routes>
   );
 }
 
