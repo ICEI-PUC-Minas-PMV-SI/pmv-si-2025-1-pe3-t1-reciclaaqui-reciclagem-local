@@ -8,6 +8,14 @@
       { "icone": "bi bi-recycle text-success" },
       { "icone": "bi bi-trash text-danger" },
       { "icone": "bi bi-battery-charging text-warning" }
+    ],
+    "avaliacoes": [
+      {
+        "notaGeral": 5,
+        "facilidadeAcesso": 4,
+        "horarioFuncionamento": 5,
+        "comentario": "Muito bom!"
+      }
     ]
   },
   {
@@ -18,6 +26,14 @@
     "materiais": [
       { "icone": "bi bi-tv text-danger" },
       { "icone": "bi bi-bag-check text-primary" }
+    ],
+    "avaliacoes": [
+      {
+        "notaGeral": 4,
+        "facilidadeAcesso": 3,
+        "horarioFuncionamento": 4,
+        "comentario": "Podia ter horário estendido"
+      }
     ]
   },
   {
@@ -28,6 +44,14 @@
     "materiais": [
       { "icone": "bi bi-lightbulb text-warning" },
       { "icone": "bi bi-plug text-danger" }
+    ],
+        "avaliacoes": [
+      {
+        "notaGeral": 4,
+        "facilidadeAcesso": 2,
+        "horarioFuncionamento": 5,
+        "comentario": "Acessibilidade ruim"
+      }
     ]
   }
 ]
