@@ -16,5 +16,12 @@
       "outros": "Teste Outros",
       "imagem": "ChatGPT Image 3 de jun. de 2025, 19_40_39.png"
     }
+  ],
+  "usuarios": [
+    {
+      "email": "ingg",
+      "senha": "teste1",
+      "id": 1
+    }
   ]
 }
