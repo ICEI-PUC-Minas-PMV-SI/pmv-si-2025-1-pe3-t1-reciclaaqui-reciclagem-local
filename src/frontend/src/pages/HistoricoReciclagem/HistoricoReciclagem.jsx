@@ -40,10 +40,16 @@ export default function HistoricoReciclagem() {
           {guiaData.map((item, idx) => (
             <div className="item" key={idx} onClick={() => abrirModal(item)}>
               <img src={item.imagem} alt={item.nome} />
+              <div className="item-content"> {/* Container para o texto */}
+                <p className="item-descricao">{item.descricao}</p> 
+                                <h3 className="item-titulo">{item.nome}</h3>
+
+                 <p className="item-subdescricao">{item.subdescricao}</p>
+
+              </div>
             </div>
           ))}
         </div>
-
         <p className="nota">
           Evite misturar resíduos orgânicos com recicláveis. Mantenha limpos os materiais recicláveis.
         </p>

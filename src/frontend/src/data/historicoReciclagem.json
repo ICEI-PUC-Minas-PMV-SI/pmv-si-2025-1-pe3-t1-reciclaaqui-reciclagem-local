@@ -1,32 +1,44 @@
 [
   {
-    "nome": "PAPEL",
+    "nome": "Kilos",
     "imagem": "/img/historicoReciclagem/pesoKg.png",
-    "descricao": "Papéis como jornais, revistas, folhas usadas, caixas de papelão e cadernos podem ser reciclados desde que estejam limpos e secos. É importante retirar grampos, fitas adesivas e evitar qualquer tipo de sujeira orgânica, como gordura e restos de comida, que inviabilizam a reciclagem do material."
+    "descricao": "Você reciclou um total de",
+    "subdescricao":  "Isso equivale a 0 celulares."
+
   },
   {
-    "nome": "PLÁSTICO",
+    "nome": "árvores",
     "imagem": "/img/historicoReciclagem/arvoreMuda.png",
-    "descricao": "Garrafas PET, sacolas plásticas, tampas, embalagens de produtos de limpeza, potes de alimentos e frascos de cosméticos são plásticos recicláveis. Devem estar limpos e sem resíduos. Plásticos com resíduos orgânicos ou misturados a outros materiais, como metal ou papel, dificultam o processo."
+    "descricao": "Você evitou o corte de",
+    "subdescricao":  "Isso equivale a 0 camas de casal"
+
   },
   {
-    "nome": "VIDRO",
+    "nome": "litros de água",
     "imagem": "/img/historicoReciclagem/torneiraAgua.png",
-    "descricao": "Garrafas, potes, frascos de alimentos e recipientes de vidro são recicláveis, desde que estejam limpos e sem restos de conteúdo. Evite misturar com cerâmica, porcelana ou vidro temperado, pois esses materiais têm composição diferente e não podem ser reciclados juntos com o vidro comum."
+    "descricao": "Você reciclou um total de",
+    "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
+
   },
-  {
-    "nome": "METAL",
+  { 
+    "nome": "litros de água",
     "imagem": "/img/historicoReciclagem/quantidadeAgua.png",
-    "descricao": "Latas de refrigerante, cerveja e alimentos, tampas metálicas, embalagens de alumínio, ferragens e objetos pequenos de metal podem ser reciclados. Antes do descarte, é recomendado limpar as latas e retirar resíduos orgânicos para não atrair insetos nem contaminar outros materiais recicláveis."
+    "descricao": "Você eivtou a contaminação de",
+    "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
+
   },
   {
-    "nome": "ORGÂNICO",
+    "nome": "kWh de energia",
     "imagem": "/img/historicoReciclagem/energiaLimpa.png",
-    "descricao": "Resíduos orgânicos incluem restos de comida, cascas de frutas, legumes, borra de café, saquinhos de chá, folhas secas e aparas de jardim. Esses materiais devem ser compostados, transformando-se em adubo natural. É essencial separá-los dos recicláveis para evitar a contaminação do processo."
+    "descricao": " Você ajudou a economizar",
+    "subdescricao":  "Equivalente a abastecer 0 residências por dia"
+
   },
   {
-    "nome": "NÃO RECICLÁVEL",
+    "nome": "de CO2",
     "imagem": "/img/historicoReciclagem/climaGlobal.png",
-    "descricao": "Resíduos como papel higiênico, fraldas descartáveis, papel carbono, espelhos quebrados, louças, cerâmicas e embalagens com restos orgânicos ou químicos não podem ser reciclados. Esses itens devem ser descartados de forma correta para evitar danos ao meio ambiente e ao processo de triagem."
+    "descricao": "Você evitou a emissão de",
+    "subdescricao":  "Compensando o gasto de 0 pessoas por dia"
+
   }
 ]
