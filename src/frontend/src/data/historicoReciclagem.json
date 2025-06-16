@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "PAPEL",
+    "imagem": "/img/historicoReciclagem/pesoKg.png",
+    "descricao": "Papéis como jornais, revistas, folhas usadas, caixas de papelão e cadernos podem ser reciclados desde que estejam limpos e secos. É importante retirar grampos, fitas adesivas e evitar qualquer tipo de sujeira orgânica, como gordura e restos de comida, que inviabilizam a reciclagem do material."
+  },
+  {
+    "nome": "PLÁSTICO",
+    "imagem": "/img/historicoReciclagem/arvoreMuda.png",
+    "descricao": "Garrafas PET, sacolas plásticas, tampas, embalagens de produtos de limpeza, potes de alimentos e frascos de cosméticos são plásticos recicláveis. Devem estar limpos e sem resíduos. Plásticos com resíduos orgânicos ou misturados a outros materiais, como metal ou papel, dificultam o processo."
+  },
+  {
+    "nome": "VIDRO",
+    "imagem": "/img/historicoReciclagem/torneiraAgua.png",
+    "descricao": "Garrafas, potes, frascos de alimentos e recipientes de vidro são recicláveis, desde que estejam limpos e sem restos de conteúdo. Evite misturar com cerâmica, porcelana ou vidro temperado, pois esses materiais têm composição diferente e não podem ser reciclados juntos com o vidro comum."
+  },
+  {
+    "nome": "METAL",
+    "imagem": "/img/historicoReciclagem/quantidadeAgua.png",
+    "descricao": "Latas de refrigerante, cerveja e alimentos, tampas metálicas, embalagens de alumínio, ferragens e objetos pequenos de metal podem ser reciclados. Antes do descarte, é recomendado limpar as latas e retirar resíduos orgânicos para não atrair insetos nem contaminar outros materiais recicláveis."
+  },
+  {
+    "nome": "ORGÂNICO",
+    "imagem": "/img/historicoReciclagem/energiaLimpa.png",
+    "descricao": "Resíduos orgânicos incluem restos de comida, cascas de frutas, legumes, borra de café, saquinhos de chá, folhas secas e aparas de jardim. Esses materiais devem ser compostados, transformando-se em adubo natural. É essencial separá-los dos recicláveis para evitar a contaminação do processo."
+  },
+  {
+    "nome": "NÃO RECICLÁVEL",
+    "imagem": "/img/historicoReciclagem/climaGlobal.png",
+    "descricao": "Resíduos como papel higiênico, fraldas descartáveis, papel carbono, espelhos quebrados, louças, cerâmicas e embalagens com restos orgânicos ou químicos não podem ser reciclados. Esses itens devem ser descartados de forma correta para evitar danos ao meio ambiente e ao processo de triagem."
+  }
+]
