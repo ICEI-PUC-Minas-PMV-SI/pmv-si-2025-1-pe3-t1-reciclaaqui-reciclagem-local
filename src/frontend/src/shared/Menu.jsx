@@ -23,6 +23,7 @@ export default function Menu() {
                 <li><i className="bi bi-trophy"></i> <Link to="/ranking">Meu Ranking</Link></li>
                 <li><i className="bi bi-geo-alt"></i> <Link to="/pontos-de-coleta">Pontos de Coleta</Link></li>
                 <li><i className="bi bi-clock-history"></i> <Link to="/historico-reciclagem">Histórico de Reciclagem</Link></li>
+                <li><i className="bi bi-journal-plus"></i> <Link to="/registro-de-acoes">Registro de Ações</Link></li>
                 <li><i className="bi bi-newspaper"></i> <Link to="/news">News</Link></li>
               </ul>
             </nav>

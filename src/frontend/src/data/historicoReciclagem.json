@@ -1,41 +1,41 @@
 [
   {
-    "nome": "Kilos",
+    "nome": "0 Kilos",
     "imagem": "/img/historicoReciclagem/pesoKg.png",
     "descricao": "Você reciclou um total de",
     "subdescricao":  "Isso equivale a 0 celulares."
 
   },
   {
-    "nome": "árvores",
+    "nome": "0 árvores",
     "imagem": "/img/historicoReciclagem/arvoreMuda.png",
     "descricao": "Você evitou o corte de",
     "subdescricao":  "Isso equivale a 0 camas de casal"
 
   },
   {
-    "nome": "litros de água",
+    "nome": "0 litros de água",
     "imagem": "/img/historicoReciclagem/torneiraAgua.png",
     "descricao": "Você reciclou um total de",
     "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
 
   },
   { 
-    "nome": "litros de água",
+    "nome": "0 litros de água",
     "imagem": "/img/historicoReciclagem/quantidadeAgua.png",
     "descricao": "Você eivtou a contaminação de",
     "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
 
   },
   {
-    "nome": "kWh de energia",
+    "nome": "0 kWh de energia",
     "imagem": "/img/historicoReciclagem/energiaLimpa.png",
     "descricao": " Você ajudou a economizar",
     "subdescricao":  "Equivalente a abastecer 0 residências por dia"
 
   },
   {
-    "nome": "de CO2",
+    "nome": "0 de CO2",
     "imagem": "/img/historicoReciclagem/climaGlobal.png",
     "descricao": "Você evitou a emissão de",
     "subdescricao":  "Compensando o gasto de 0 pessoas por dia"

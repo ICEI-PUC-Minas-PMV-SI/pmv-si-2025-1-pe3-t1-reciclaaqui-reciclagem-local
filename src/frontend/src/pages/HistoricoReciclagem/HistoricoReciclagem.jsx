@@ -51,7 +51,7 @@ export default function HistoricoReciclagem() {
           ))}
         </div>
         <p className="nota">
-          Evite misturar resíduos orgânicos com recicláveis. Mantenha limpos os materiais recicláveis.
+          Saiba mais sobre o histórico de reciclagem e como ele pode ajudar a melhorar a sustentabilidade.
         </p>
       </section>
 
