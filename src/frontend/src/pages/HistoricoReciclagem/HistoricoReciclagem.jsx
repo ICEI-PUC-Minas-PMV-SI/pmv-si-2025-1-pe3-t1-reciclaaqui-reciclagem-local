@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import Menu from '../../shared/Menu';
 import './HistoricoReciclagem.css';
-
+const parseLocalDate = (str) => {
+  const [year, month, day] = str.split('-');
+  return new Date(+year, +month - 1, +day);
+};
 export default function HistoricoReciclagem() {
   const [modalAberto, setModalAberto] = useState(false);
   const [filtroModalAberto, setFiltroModalAberto] = useState(false);
@@ -104,10 +107,14 @@ export default function HistoricoReciclagem() {
       const matchMaterial = filtros.tipoMaterial === '' || item.tipoMaterial === filtros.tipoMaterial;
       const matchQuantidade = filtros.quantidade === '' ||
         (item.quantidade && item.quantidade >= parseFloat(filtros.quantidade));
-      const matchDataInicial = filtros.dataInicial === '' ||
-          (item.dataInicial && new Date(item.dataInicial) >= new Date(filtros.dataInicial));
-      const matchDataFinal = filtros.dataFinal === '' ||
-          (item.dataInicial && new Date(item.dataInicial) >= new Date(filtros.dataInicial));
+     const matchDataInicial =
+      filtros.dataInicial === '' ||
+        (item.dataInicial && new Date(item.dataInicial).setHours(0, 0, 0, 0) >= parseLocalDate(filtros.dataInicial).setHours(0, 0, 0, 0));
+
+      const matchDataFinal =
+        filtros.dataFinal === '' ||
+          (item.dataInicial && new Date(item.dataInicial).setHours(0, 0, 0, 0) <= parseLocalDate(filtros.dataFinal).setHours(0, 0, 0, 0));
+
       const matchPontoColeta = filtros.pontoColeta === '' || item.pontoColeta === filtros.pontoColeta;
 
       let matchPeriodo = true;
