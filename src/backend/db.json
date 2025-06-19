@@ -23,5 +23,124 @@
       "senha": "teste1",
       "id": 1
     }
+  ],
+  "acoes": [
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "papel",
+      "quantidade": 57,
+      "dataInicial": "2025-06-18",
+      "dataFinal": "2025-06-18",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "Teste lalallallaalalalal",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T16:36:04.642Z",
+      "id": 1
+    },
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "plastico",
+      "quantidade": 55.8,
+      "dataInicial": "2025-06-18",
+      "dataFinal": "2025-06-18",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "teste",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T16:42:52.989Z",
+      "id": 2
+    },
+    {
+      "pontoColeta": "Teste Lalalalalaalala",
+      "tipoMaterial": "metal",
+      "quantidade": 123,
+      "dataInicial": "2025-06-18",
+      "dataFinal": "2025-06-18",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "funciona pls",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T16:50:16.199Z",
+      "id": 3
+    },
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "plastico",
+      "quantidade": 1234,
+      "dataInicial": "2025-06-19",
+      "dataFinal": "2025-06-19",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "testeplastico",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:51:44.993Z",
+      "id": 4
+    },
+    {
+      "pontoColeta": "Tentativa funciona pfvr",
+      "tipoMaterial": "papel",
+      "quantidade": 123,
+      "dataInicial": "2025-06-20",
+      "dataFinal": "2025-06-20",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "testepapel",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:52:05.175Z",
+      "id": 5
+    },
+    {
+      "pontoColeta": "Tentativa funciona pfvr2",
+      "tipoMaterial": "vidro",
+      "quantidade": 1234,
+      "dataInicial": "2025-06-21",
+      "dataFinal": "2025-06-21",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "testevrido",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:52:37.799Z",
+      "id": 6
+    },
+    {
+      "pontoColeta": "Teste Lalalalalaalala",
+      "tipoMaterial": "metal",
+      "quantidade": 344,
+      "dataInicial": "2025-06-30",
+      "dataFinal": "2025-06-30",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "metal may",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:53:01.802Z",
+      "id": 7
+    },
+    {
+      "pontoColeta": "Tentativa funciona pfvr",
+      "tipoMaterial": "organico",
+      "quantidade": 12342,
+      "dataInicial": "2025-06-23",
+      "dataFinal": "2025-06-23",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "organinic",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:53:25.039Z",
+      "id": 8
+    },
+    {
+      "pontoColeta": "testep",
+      "tipoMaterial": "eletronico",
+      "quantidade": 2444,
+      "dataInicial": "2025-06-26",
+      "dataFinal": "2025-06-26",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "teste lalala eletriccc",
+      "status": "pendente",
+      "dataRegistro": "2025-06-18T21:53:44.850Z",
+      "id": 9
+    }
   ]
 }

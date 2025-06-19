@@ -1,32 +1,44 @@
 [
   {
-    "nome": "Alice de Araujo",
-    "pontos": 102074,
-    "avatar": "img/ranking/alice.png"
+    "nome": "0 Kilos",
+    "imagem": "/img/historicoReciclagem/pesoKg.png",
+    "descricao": "Você reciclou um total de",
+    "subdescricao":  "Isso equivale a 0 celulares."
+
   },
   {
-    "nome": "Wallysson Rocha",
-    "pontos": 98116,
-    "avatar": "img/ranking/wallysson.png"
+    "nome": "0 árvores",
+    "imagem": "/img/historicoReciclagem/arvoreMuda.png",
+    "descricao": "Você evitou o corte de",
+    "subdescricao":  "Isso equivale a 0 camas de casal"
+
   },
   {
-    "nome": "Celine Bianchi",
-    "pontos": 72351,
-    "avatar": "img/ranking/celine.png"
+    "nome": "0 litros de água",
+    "imagem": "/img/historicoReciclagem/torneiraAgua.png",
+    "descricao": "Você reciclou um total de",
+    "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
+
+  },
+  { 
+    "nome": "0 litros de água",
+    "imagem": "/img/historicoReciclagem/quantidadeAgua.png",
+    "descricao": "Você eivtou a contaminação de",
+    "subdescricao":  "Equivalente a abastecer 0 pessoas por dia"
+
   },
   {
-    "nome": "Ana Julia Ramos",
-    "pontos": 32411,
-    "avatar": "img/ranking/ana.png"
+    "nome": "0 kWh de energia",
+    "imagem": "/img/historicoReciclagem/energiaLimpa.png",
+    "descricao": " Você ajudou a economizar",
+    "subdescricao":  "Equivalente a abastecer 0 residências por dia"
+
   },
   {
-    "nome": "Saulo Alves da Silva",
-    "pontos": 17099,
-    "avatar": "img/ranking/saulo.png"
-  },
-  {
-    "nome": "Henrique da Silva",
-    "pontos": 8075,
-    "avatar": "img/ranking/henrique.png"
+    "nome": "0 de CO2",
+    "imagem": "/img/historicoReciclagem/climaGlobal.png",
+    "descricao": "Você evitou a emissão de",
+    "subdescricao":  "Compensando o gasto de 0 pessoas por dia"
+
   }
 ]

@@ -6,6 +6,7 @@ export { default as GuiaReciclagem } from './pages/GuiaReciclagem/GuiaReciclagem
 export { default as Ranking } from './pages/Ranking/Ranking';
 export { default as PontosDeColeta } from './pages/PontosDeColeta/PontosDeColeta';
 export { default as HistoricoReciclagem } from './pages/HistoricoReciclagem/HistoricoReciclagem';
+export { default as RegistroAcoes } from './pages/RegistroAcoes/RegistroDeAcoes';
 export { default as News } from './pages/News/News';
 
 // Subpáginas (acessadas dentro de PontosDeColeta)

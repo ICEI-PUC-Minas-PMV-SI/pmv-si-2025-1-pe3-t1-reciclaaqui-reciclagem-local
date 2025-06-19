@@ -7,7 +7,8 @@ import {
   Ranking,
   PontosDeColeta,
   HistoricoReciclagem,
-  News
+  News,
+  RegistroAcoes
 } from './index.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,6 +25,7 @@ function App() {
       <Route path="/ranking" element={<Ranking />} />
       <Route path="/pontos-de-coleta/*" element={<PontosDeColeta />} />
       <Route path="/historico-reciclagem/" element={<HistoricoReciclagem />} />
+      <Route path="/registro-de-acoes" element={<RegistroAcoes />} />
       <Route path="/home" element={<Home />} />
       <Route path="/news" element={<News />} />
     </Routes>

@@ -1,15 +1,52 @@
-// HistoricoReciclagem.jsx
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Menu from '../../shared/Menu';
 import './HistoricoReciclagem.css';
-import guiaData from '../../data/HistoricoReciclagem.json';
 
 export default function HistoricoReciclagem() {
   const [modalAberto, setModalAberto] = useState(false);
+  const [filtroModalAberto, setFiltroModalAberto] = useState(false);
   const [itemSelecionado, setItemSelecionado] = useState(null);
+  const [termoPesquisa, setTermoPesquisa] = useState('');
+  const [dados, setDados] = useState([]);
+  const [pontosColeta, setPontosColeta] = useState([]);
+  const [carregando, setCarregando] = useState(true);
+  const [erro, setErro] = useState(null);
+  const [mostrarTodos, setMostrarTodos] = useState(false);
+
+  const [filtros, setFiltros] = useState({
+    status: '',
+    tipoMaterial: '',
+    quantidade: '',
+    dataInicial: '',
+    dataFinal: '',
+    ordenacao: 'recentes',
+    pontoColeta: '',
+    periodo: ''
+  });
+
+  useEffect(() => {
+    async function carregarDados() {
+      try {
+        const [resAcoes, resPontos] = await Promise.all([
+          fetch('http://localhost:10000/acoes'),
+          fetch('http://localhost:10000/pontos')
+        ]);
+
+        if (!resAcoes.ok || !resPontos.ok) throw new Error('Erro ao buscar dados.');
+        const jsonAcoes = await resAcoes.json();
+        const jsonPontos = await resPontos.json();
+        setDados(jsonAcoes);
+        setPontosColeta(jsonPontos.map(p => p.nome));
+      } catch (error) {
+        setErro(error.message);
+      } finally {
+        setCarregando(false);
+      }
+    }
+    carregarDados();
+  }, []);
 
   const abrirModal = (item) => {
-    console.log("modal aberto com item:", item);
     setItemSelecionado(item);
     setModalAberto(true);
   };
@@ -19,72 +56,265 @@ export default function HistoricoReciclagem() {
     setItemSelecionado(null);
   };
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFiltros(prev => ({ ...prev, [name]: value }));
+  };
+
+  const limparFiltros = () => {
+    setFiltros({
+      status: '',
+      tipoMaterial: '',
+      quantidade: '',
+      dataInicial: '',
+      dataFinal: '',
+      ordenacao: 'recentes',
+      pontoColeta: '',
+      periodo: ''
+    });
+    setTermoPesquisa('');
+    setMostrarTodos(false);
+  };
+
+  const aplicarFiltros = () => {
+    if (filtros.dataInicial && filtros.dataFinal && new Date(filtros.dataFinal) < new Date(filtros.dataInicial)) {
+      alert('A data final não pode ser anterior à data inicial');
+      return;
+    }
+    setFiltroModalAberto(false);
+    setMostrarTodos(false);
+  };
+
+  const hasActiveFilters = () => {
+    return (
+      Object.entries(filtros).some(([key, val]) => {
+        if (key === 'ordenacao') return val !== 'recentes';
+        return val !== '';
+      }) || termoPesquisa !== ''
+    );
+  };
+
+  const filtrarDados = () => {
+    return dados.filter(item => {
+      const matchSearch = termoPesquisa === '' ||
+        item.tipoMaterial?.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
+        item.comentario?.toLowerCase().includes(termoPesquisa.toLowerCase());
+
+      const matchStatus = filtros.status === '' || item.status === filtros.status;
+      const matchMaterial = filtros.tipoMaterial === '' || item.tipoMaterial === filtros.tipoMaterial;
+      const matchQuantidade = filtros.quantidade === '' ||
+        (item.quantidade && item.quantidade >= parseFloat(filtros.quantidade));
+      const matchDataInicial = filtros.dataInicial === '' ||
+        (item.dataRegistro && new Date(item.dataRegistro) >= new Date(filtros.dataInicial));
+      const matchDataFinal = filtros.dataFinal === '' ||
+        (item.dataRegistro && new Date(item.dataRegistro) <= new Date(filtros.dataFinal));
+      const matchPontoColeta = filtros.pontoColeta === '' || item.pontoColeta === filtros.pontoColeta;
+
+      let matchPeriodo = true;
+      if (filtros.periodo) {
+        const today = new Date();
+        const itemDate = new Date(item.dataRegistro);
+
+        switch (filtros.periodo) {
+          case 'hoje':
+            matchPeriodo = itemDate.toDateString() === today.toDateString();
+            break;
+          case 'semana':
+            const startOfWeek = new Date(today);
+            startOfWeek.setDate(today.getDate() - today.getDay());
+            matchPeriodo = itemDate >= startOfWeek;
+            break;
+          case 'mes':
+            matchPeriodo = itemDate.getMonth() === today.getMonth() &&
+                           itemDate.getFullYear() === today.getFullYear();
+            break;
+          case 'ano':
+            matchPeriodo = itemDate.getFullYear() === today.getFullYear();
+            break;
+        }
+      }
+
+      return matchSearch && matchStatus && matchMaterial &&
+             matchQuantidade && matchDataInicial && matchDataFinal &&
+             matchPontoColeta && matchPeriodo;
+    }).sort((a, b) => {
+      switch (filtros.ordenacao) {
+        case 'antigos':
+          return new Date(a.dataRegistro) - new Date(b.dataRegistro);
+        case 'quantidade':
+          return (b.quantidade || 0) - (a.quantidade || 0);
+        default:
+          return new Date(b.dataRegistro) - new Date(a.dataRegistro);
+      }
+    });
+  };
+
+  const calcularImpacto = () => {
+    const totalKg = dados.reduce((sum, item) => sum + (item.quantidade || 0), 0);
+
+    return [
+      {
+        nome: `${totalKg.toFixed(2)} Kilos`,
+        imagem: "/img/historicoReciclagem/pesoKg.png",
+        descricao: "Você reciclou um total de",
+        subdescricao: `Isso equivale a ${(totalKg / 0.2).toFixed(0)} celulares.`
+      },
+      {
+        nome: `${(totalKg / 50).toFixed(0)} árvores`,
+        imagem: "/img/historicoReciclagem/arvoreMuda.png",
+        descricao: "Você evitou o corte de",
+        subdescricao: `Isso equivale a ${(totalKg / 70).toFixed(0)} camas de casal`
+      },
+      {
+        nome: `${(totalKg * 20).toFixed(2)} litros de água`,
+        imagem: "/img/historicoReciclagem/torneiraAgua.png",
+        descricao: "Você reciclou um total de",
+        subdescricao: `Equivalente a abastecer ${(totalKg * 20 / 150).toFixed(0)} pessoas por dia`
+      },
+      {
+        nome: `${(totalKg * 25).toFixed(2)} litros de água`,
+        imagem: "/img/historicoReciclagem/quantidadeAgua.png",
+        descricao: "Você evitou a contaminação de",
+        subdescricao: `Equivalente a abastecer ${(totalKg * 25 / 150).toFixed(0)} pessoas por dia`
+      },
+      {
+        nome: `${(totalKg * 15).toFixed(2)} kWh de energia`,
+        imagem: "/img/historicoReciclagem/energiaLimpa.png",
+        descricao: "Você ajudou a economizar",
+        subdescricao: `Equivalente a abastecer ${(totalKg * 15 / 8).toFixed(0)} residências por dia`
+      },
+      {
+        nome: `${(totalKg * 2).toFixed(2)} kg de CO2`,
+        imagem: "/img/historicoReciclagem/climaGlobal.png",
+        descricao: "Você evitou a emissão de",
+        subdescricao: `Compensando o gasto de ${(totalKg * 2 / 4).toFixed(0)} pessoas por dia`
+      }
+    ];
+  };
+
+  const registrosVisiveis = mostrarTodos
+    ? dados
+    : hasActiveFilters()
+    ? filtrarDados()
+    : calcularImpacto();
+
   return (
     <div className="container">
       <Menu />
-
       <section className="guia-header-box">
         <div className="guia-header-content">
           <i className="bi bi-recycle guia-icon"></i>
           <div>
             <h1 className="guia-titulo">Histórico de Reciclagem</h1>
-            <p className="guia-subtitulo">
-              Inclui indicadores como taxa de reciclagem, redução de resíduos e comparações temporais.
-            </p>
           </div>
+        </div>
+
+        <div className="guia-search-filter">
+          {hasActiveFilters() && !mostrarTodos && (
+            <button className="filter-button remove-filters-btn" onClick={limparFiltros}>
+              <i className="bi bi-x-circle"></i> Remover Filtros
+            </button>
+          )}
+
+          <button className="filter-button apply-filters-btn" onClick={() => setFiltroModalAberto(true)}>
+            <i className="bi bi-funnel"></i> Filtrar
+          </button>
+
+          <button className="filter-button apply-filters-btn" onClick={() => setMostrarTodos(true)}>
+            <i className="bi bi-list"></i> Mostrar todas as ações registradas
+          </button>
         </div>
       </section>
 
       <section className="guia-box">
-        <div className="historico-grid">
-          {guiaData.map((item, idx) => (
-            <div className="item" key={idx} onClick={() => abrirModal(item)}>
-              <img src={item.imagem} alt={item.nome} />
-              <div className="item-content"> {/* Container para o texto */}
-                <p className="item-descricao">{item.descricao}</p> 
-                                <h3 className="item-titulo">{item.nome}</h3>
-
-                 <p className="item-subdescricao">{item.subdescricao}</p>
-
+        {carregando ? (
+          <p className="loading">Carregando histórico...</p>
+        ) : erro ? (
+          <p className="error">Erro ao carregar dados: {erro}</p>
+        ) : (
+          <div className="historico-grid">
+            {registrosVisiveis.map((item, idx) => (
+              <div className="item" key={idx} onClick={() => abrirModal(item)}>
+                <img src={item.fotoPreview || item.imagem || 'https://via.placeholder.com/150'} alt={item.nome || item.tipoMaterial} />
+                <div className="item-content">
+                  <h3 className="item-titulo">{item.nome || `Material: ${item.tipoMaterial}`}</h3>
+                  <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
+                  {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
+                  {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
+                  {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
+                  {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
+                  {item.dataRegistro && <p className="item-subdescricao">Data: {new Date(item.dataRegistro).toLocaleDateString('pt-BR')}</p>}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
         <p className="nota">
           Saiba mais sobre o histórico de reciclagem e como ele pode ajudar a melhorar a sustentabilidade.
         </p>
       </section>
 
-      {modalAberto && itemSelecionado && (
-        <>
-        <div className="overlay" onClick={fecharModal}></div>
-        <div className="card-flutuante">
-        <div className="card-header">
-          <i className="bi bi-recycle me-2"></i> Recicla<strong>GUIA</strong>
+      {/* Modal de Filtros */}
+      {filtroModalAberto && (
+        <div className="modal-filtro">
+          <div className="modal-filtro-card">
+            <h3>Filtros</h3>
+           <label>Data Inicial:</label>
+            <input type="date" name="dataInicial" value={filtros.dataInicial} onChange={handleInputChange} />
+
+            <label>Data Final:</label>
+            <input type="date" name="dataFinal" value={filtros.dataFinal} onChange={handleInputChange} />
+
+            <label>Ordenar por:</label>
+            <select name="ordenacao" value={filtros.ordenacao} onChange={handleInputChange}>
+              <option value="recentes">Mais Recentes</option>
+              <option value="antigos">Mais Antigos</option>
+              <option value="quantidade">Maior Quantidade</option>
+            </select>
+
+            <label>Período:</label>
+            <select name="periodo" value={filtros.periodo} onChange={handleInputChange}>
+              <option value="">Todos</option>
+              <option value="hoje">Hoje</option>
+              <option value="semana">Esta Semana</option>
+              <option value="mes">Este Mês</option>
+              <option value="ano">Este Ano</option>
+            </select>
+
+            <label>Ponto de Coleta:</label>
+            <select name="pontoColeta" value={filtros.pontoColeta} onChange={handleInputChange}>
+              <option value="">Todos</option>
+              {pontosColeta.map((ponto, i) => (
+                <option key={i} value={ponto}>{ponto}</option>
+              ))}
+            </select>
+
+            <label>Status:</label>
+            <select name="status" value={filtros.status} onChange={handleInputChange}>
+              <option value="">Todos</option>
+              <option value="pendente">Pendente</option>
+              <option value="completo">Completo</option>
+              <option value="cancelado">Cancelado</option>
+            </select>
+
+            <label>Tipo de Material:</label>
+            <select name="tipoMaterial" value={filtros.tipoMaterial} onChange={handleInputChange}>
+              <option value="">Todos</option>
+              <option value="plastico">Plástico</option>
+              <option value="papel">Papel</option>
+              <option value="metal">Metal</option>
+              <option value="vidro">Vidro</option>
+              <option value="organico">Orgânico</option>
+              <option value="eletronico">Eletrônico</option>
+            </select>
+
+            <div className="modal-filtro-botoes">
+              <button onClick={limparFiltros}>Limpar</button>
+              <button onClick={aplicarFiltros}>Aplicar</button>
+            </div>
+          </div>
         </div>
-        <img src={itemSelecionado.imagem} alt={itemSelecionado.nome} className="card-image" />
-        <p className="card-description">
-          <i className="bi bi-info-circle me-2"></i>
-          {itemSelecionado.descricao}
-        </p>
-        <button className="btn-secondary-wide mt-3" onClick={fecharModal}>
-          <i className="bi bi-x-lg me-1"></i> Fechar
-        </button>
-      </div>
-
-
-        </>
       )}
     </div>
-
-    
   );
-
-    <div className={styles['historico-grid']}>
-  {guiaData.map((item, idx) => (
-    <div className={styles.item} key={idx} onClick={() => abrirModal(item)}>
-      <img src={item.imagem} alt={item.nome} className={styles['item-img']} />
-    </div>
-  ))}
-</div>
 }
