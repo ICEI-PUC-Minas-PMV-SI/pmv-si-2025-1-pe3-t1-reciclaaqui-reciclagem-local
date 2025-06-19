@@ -9,7 +9,8 @@ import {
   HistoricoReciclagem,
   News,
   RegistroAcoes,
-  Avaliacoes
+  Avaliacoes,
+  ListarAvaliacoes
 } from './index.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,7 +30,8 @@ function App() {
       <Route path="/registro-de-acoes" element={<RegistroAcoes />} />
       <Route path="/home" element={<Home />} />
       <Route path="/news" element={<News />} />
-      <Route path="/avaliacoes/:id" element={<Avaliacoes />} />
+      <Route path="/avaliar/:id" element={<Avaliacoes />} />
+      <Route path="/listar-avaliacoes/:id" element={<ListarAvaliacoes />} />
     </Routes>
   );
 }

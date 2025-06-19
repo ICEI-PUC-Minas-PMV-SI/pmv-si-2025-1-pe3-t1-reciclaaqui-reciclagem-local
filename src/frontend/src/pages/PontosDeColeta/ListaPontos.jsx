@@ -34,10 +34,10 @@ export default function ListaPontos() {
                     <i key={i} className={m.icone}></i>
                   ))}
                 </div>
-                
-                {/* Botão de avaliação */}
-                <Link to={`/avaliacoes/${ponto.id}`} className="botao-avaliacao">
-                <i className="bi bi-star-fill"></i> Avaliar
+
+                {/* Botão de listar avaliacoes */}
+                <Link to={`/listar-avaliacoes/${ponto.id}`} className="botao-avaliacao">
+                <i className="bi bi-star-fill"></i> Avaliações
                 </Link>
               </div>
             ))}
