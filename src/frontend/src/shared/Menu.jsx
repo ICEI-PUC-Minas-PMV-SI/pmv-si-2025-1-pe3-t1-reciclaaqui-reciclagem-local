@@ -30,7 +30,9 @@ export default function Menu() {
           )}
         </div>
 
-        <img src="/img/logo.png" alt="Logo ReciclaAqui" className="logo" />
+        <Link to="/home">
+          <img src="/img/logo.png" alt="Logo ReciclaAqui" className="logo" />
+        </Link>
 
       </div>
 
