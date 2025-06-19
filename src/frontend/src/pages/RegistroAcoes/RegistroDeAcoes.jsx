@@ -2,6 +2,12 @@ import { useState, useRef } from 'react';
 import Menu from '../../shared/Menu';
 import './RegistroDeAcoes.css';
 
+// Função para evitar problemas de fuso horário ao salvar datas
+const parseLocalDate = (str) => {
+  const [year, month, day] = str.split('-');
+  return new Date(+year, +month - 1, +day);
+};
+
 export default function RegistroDeAcoes() {
   const [modalAberto, setModalAberto] = useState(false);
   const [itemSelecionado, setItemSelecionado] = useState(null);
@@ -23,12 +29,10 @@ export default function RegistroDeAcoes() {
   });
   const fileInputRef = useRef(null);
 
-  // Função corrigida para upload de imagem
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;
 
-    // Verifica se é imagem
     if (!file.type.startsWith('image/')) {
       setSubmitStatus({
         success: false,
@@ -38,7 +42,6 @@ export default function RegistroDeAcoes() {
       return;
     }
 
-    // Verifica tamanho (5MB máximo)
     if (file.size > 5 * 1024 * 1024) {
       setSubmitStatus({
         success: false,
@@ -98,10 +101,12 @@ export default function RegistroDeAcoes() {
 
       const payload = {
         ...formData,
-        quantidade: Number(formData.quantidade), 
+        quantidade: Number(formData.quantidade),
         foto: fotoBase64,
         status: "pendente",
-        dataRegistro: new Date().toISOString()
+        dataRegistro: new Date().toISOString(),
+        dataInicial: parseLocalDate(formData.dataInicial).toISOString(),
+        dataFinal: formData.dataFinal ? parseLocalDate(formData.dataFinal).toISOString() : ''
       };
 
       const response = await fetch('http://localhost:10000/acoes', {
@@ -118,7 +123,6 @@ export default function RegistroDeAcoes() {
         show: true
       });
 
-      // Reset do formulário
       setFormData({
         pontoColeta: '',
         tipoMaterial: '',
@@ -129,7 +133,7 @@ export default function RegistroDeAcoes() {
         fotoPreview: null,
         comentario: ''
       });
-      
+
       if (fileInputRef.current) fileInputRef.current.value = '';
 
     } catch (error) {
@@ -152,11 +156,11 @@ export default function RegistroDeAcoes() {
     });
   };
 
+  // O restante do JSX permanece igual ao original
   return (
     <div className="registro-de-acoes-container">
       <Menu />
-
-      <section className="registro-header-box">
+         <section className="registro-header-box">
         <div className="registro-header-content">
           <i className="bi bi-clipboard-check registro-icon"></i>
           <div>
