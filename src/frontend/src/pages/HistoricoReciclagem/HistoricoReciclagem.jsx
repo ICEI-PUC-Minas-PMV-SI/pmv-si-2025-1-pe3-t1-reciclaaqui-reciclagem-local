@@ -105,15 +105,15 @@ export default function HistoricoReciclagem() {
       const matchQuantidade = filtros.quantidade === '' ||
         (item.quantidade && item.quantidade >= parseFloat(filtros.quantidade));
       const matchDataInicial = filtros.dataInicial === '' ||
-        (item.dataRegistro && new Date(item.dataRegistro) >= new Date(filtros.dataInicial));
+          (item.dataInicial && new Date(item.dataInicial) >= new Date(filtros.dataInicial));
       const matchDataFinal = filtros.dataFinal === '' ||
-        (item.dataRegistro && new Date(item.dataRegistro) <= new Date(filtros.dataFinal));
+          (item.dataInicial && new Date(item.dataInicial) >= new Date(filtros.dataInicial));
       const matchPontoColeta = filtros.pontoColeta === '' || item.pontoColeta === filtros.pontoColeta;
 
       let matchPeriodo = true;
       if (filtros.periodo) {
         const today = new Date();
-        const itemDate = new Date(item.dataRegistro);
+        const itemDate = new Date(item.dataInicial);
 
         switch (filtros.periodo) {
           case 'hoje':
@@ -243,7 +243,7 @@ export default function HistoricoReciclagem() {
                   {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
                   {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
                   {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
-                  {item.dataRegistro && <p className="item-subdescricao">Data: {new Date(item.dataRegistro).toLocaleDateString('pt-BR')}</p>}
+                  {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
                 </div>
               </div>
             ))}
