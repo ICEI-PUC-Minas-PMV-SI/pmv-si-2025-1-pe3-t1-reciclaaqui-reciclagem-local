@@ -1,5 +1,6 @@
 [
   {
+    "id":"001",
     "nome": "Ponto de Coleta 1",
     "endereco": "R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG",
     "distancia": "1.5km",
@@ -19,6 +20,7 @@
     ]
   },
   {
+    "id":"002",
     "nome": "Ponto de Coleta 2",
     "endereco": "R. Dom José Gaspar, 501 - Coração Eucarístico, Belo Horizonte - MG",
     "distancia": "2.3km",
@@ -37,6 +39,7 @@
     ]
   },
   {
+    "id":"003",
     "nome": "Ponto de Coleta 3",
     "endereco": "R. Dom José Gaspar, 502 - Coração Eucarístico, Belo Horizonte - MG",
     "distancia": "2.5km",

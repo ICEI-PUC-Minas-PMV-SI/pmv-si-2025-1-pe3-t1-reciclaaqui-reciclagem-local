@@ -2,6 +2,8 @@
 import Menu from '../../shared/Menu';
 import './ListaPontos.css';
 import pontos from '../../data/listaPontos.json';
+import { Link } from "react-router-dom";
+
 
 export default function ListaPontos() {
   return (
@@ -19,6 +21,7 @@ export default function ListaPontos() {
             <button><i className="bi bi-funnel"></i> Filtrar</button>
           </div>
 
+
           <div className="lista-cartoes">
             {pontos.map((ponto, idx) => (
               <div key={idx} className="lista-cartao">
@@ -31,9 +34,15 @@ export default function ListaPontos() {
                     <i key={i} className={m.icone}></i>
                   ))}
                 </div>
+
+                {/* Botão de listar avaliacoes */}
+                <Link to={`/listar-avaliacoes/${ponto.id}`} className="botao-avaliacao">
+                <i className="bi bi-star-fill"></i> Avaliações
+                </Link>
               </div>
             ))}
           </div>
+
         </div>
 
    <div className="lista-mapa">

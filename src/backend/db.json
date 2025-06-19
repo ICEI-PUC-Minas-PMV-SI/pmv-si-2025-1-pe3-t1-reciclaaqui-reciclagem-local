@@ -76,58 +76,6 @@
       "status": "pendente",
       "dataRegistro": "2025-06-19T03:25:15.082Z",
       "id": 4
-    },
-    {
-      "pontoColeta": "Teste Modificado",
-      "tipoMaterial": "papel",
-      "quantidade": 23,
-      "dataInicial": "2025-06-19T03:00:00.000Z",
-      "dataFinal": "2025-06-19T03:00:00.000Z",
-      "foto": null,
-      "fotoPreview": null,
-      "comentario": "teste",
-      "status": "pendente",
-      "dataRegistro": "2025-06-19T04:45:31.889Z",
-      "id": 5
-    },
-    {
-      "pontoColeta": "teste",
-      "tipoMaterial": "organico",
-      "quantidade": 899,
-      "dataInicial": "2025-06-23T03:00:00.000Z",
-      "dataFinal": "2025-06-29T03:00:00.000Z",
-      "foto": null,
-      "fotoPreview": null,
-      "comentario": "tesge",
-      "status": "pendente",
-      "dataRegistro": "2025-06-19T04:45:48.663Z",
-      "id": 6
-    },
-    {
-      "pontoColeta": "Teste Lalalalalaalala",
-      "tipoMaterial": "vidro",
-      "quantidade": 123,
-      "dataInicial": "2025-06-24T03:00:00.000Z",
-      "dataFinal": "2025-06-25T03:00:00.000Z",
-      "foto": null,
-      "fotoPreview": null,
-      "comentario": "teste",
-      "status": "pendente",
-      "dataRegistro": "2025-06-19T04:46:09.002Z",
-      "id": 7
-    },
-    {
-      "pontoColeta": "Teste Modificado",
-      "tipoMaterial": "papel",
-      "quantidade": 23,
-      "dataInicial": "2025-06-12T03:00:00.000Z",
-      "dataFinal": "2025-06-24T03:00:00.000Z",
-      "foto": null,
-      "fotoPreview": null,
-      "comentario": "23",
-      "status": "pendente",
-      "dataRegistro": "2025-06-19T05:57:27.921Z",
-      "id": 8
     }
   ]
 }
