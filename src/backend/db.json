@@ -76,6 +76,32 @@
       "status": "pendente",
       "dataRegistro": "2025-06-19T03:25:15.082Z",
       "id": 4
+    },
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "vidro",
+      "quantidade": 478,
+      "dataInicial": "2025-06-26T03:00:00.000Z",
+      "dataFinal": "2025-06-27T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "resr",
+      "status": "pendente",
+      "dataRegistro": "2025-06-19T06:27:37.332Z",
+      "id": 5
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id_ponto": "001",
+      "nota_geral": 5,
+      "nota_acesso": 4,
+      "nota_horario": 4,
+      "nota_materiais": 5,
+      "comentario": "Muito bom!",
+      "id_avaliacao": "1750314980128",
+      "data": "2025-06-19T06:36:20.128Z",
+      "id": 1
     }
   ]
 }
