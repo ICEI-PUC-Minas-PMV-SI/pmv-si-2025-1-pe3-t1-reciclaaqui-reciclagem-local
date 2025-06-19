@@ -90,9 +90,18 @@ export default function RegistroDeAcoes() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
     setSubmitStatus({ ...submitStatus, show: false });
 
+    if (formData.dataFinal && formData.dataFinal < formData.dataInicial) {
+      setSubmitStatus({
+        success: false,
+        message: 'A data final não pode ser menor que a data inicial.',
+        show: true
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
     try {
       let fotoBase64 = null;
       if (formData.foto) {
@@ -156,25 +165,21 @@ export default function RegistroDeAcoes() {
     });
   };
 
-  // O restante do JSX permanece igual ao original
   return (
     <div className="registro-de-acoes-container">
       <Menu />
-         <section className="registro-header-box">
+      <section className="registro-header-box">
         <div className="registro-header-content">
-          <i className="bi bi-clipboard-check registro-icon"></i>
+          <i className="bi bi-clipboard-check registro-icon bg-verde"></i>
           <div>
             <h1 className="registro-titulo">Registro de Ações</h1>
             <p className="registro-subtitulo">
-              Acompanhe todas as ações de reciclagem realizadas
+              Registre suas ações de coleta e descarte de materiais recicláveis.
             </p>
           </div>
         </div>
       </section>
-
       <section className="formulario-registro">
-        <h2 className="form-titulo">Registrar Nova Ação</h2>
-        
         {submitStatus.show && (
           <div className={`alert ${submitStatus.success ? 'alert-success' : 'alert-error'}`}>
             {submitStatus.message}
@@ -191,7 +196,6 @@ export default function RegistroDeAcoes() {
           {/* Seção de Informações Básicas */}
           <div className="form-section">
             <h3 className="section-title">Informações Básicas</h3>
-            
             <div className="form-row">
               <div className="form-group">
                 <label>Ponto de Coleta *</label>
@@ -203,7 +207,6 @@ export default function RegistroDeAcoes() {
                   required
                 />
               </div>
-              
               <div className="form-group">
                 <label>Tipo de Material *</label>
                 <select
@@ -236,7 +239,6 @@ export default function RegistroDeAcoes() {
                   required
                 />
               </div>
-              
               <div className="form-row-group">
                 <div className="form-group">
                   <label>Data Inicial *</label>
@@ -255,6 +257,7 @@ export default function RegistroDeAcoes() {
                     name="dataFinal"
                     value={formData.dataFinal}
                     onChange={handleChange}
+                    min={formData.dataInicial}
                   />
                 </div>
               </div>
@@ -264,11 +267,9 @@ export default function RegistroDeAcoes() {
           {/* Seção de Foto e Comentários */}
           <div className="form-section">
             <h3 className="section-title">Mídia e Observações</h3>
-            
             <div className="form-row">
               <div className="form-group photo-upload">
                 <label>Foto da Ação (Opcional)</label>
-                
                 {formData.fotoPreview ? (
                   <div className="photo-preview-container">
                     <img 
@@ -304,7 +305,6 @@ export default function RegistroDeAcoes() {
                   </>
                 )}
               </div>
-              
               <div className="form-group">
                 <label>Comentários Adicionais</label>
                 <textarea
@@ -330,7 +330,6 @@ export default function RegistroDeAcoes() {
                 </>
               ) : (
                 <>
-                  <i className="bi bi-check-circle"></i>
                   Registrar Ação
                 </>
               )}

@@ -5,6 +5,17 @@ const parseLocalDate = (str) => {
   const [year, month, day] = str.split('-');
   return new Date(+year, +month - 1, +day);
 };
+
+const imagensFixas = {
+  plastico: '/img/historicoReciclagem/plasticoSacolas.png',
+  papel: '/img/historicoReciclagem/papelPapelao.png',
+  vidro: '/img/historicoReciclagem/vidroGarrafas.png',
+  metal: '/img/historicoReciclagem/metalFios.png',
+  organico: '/img/historicoReciclagem/organicosTerra.png',
+  eletronico: '/img/historicoReciclagem/eletronicosTech.png'
+};
+
+
 export default function HistoricoReciclagem() {
   const [modalAberto, setModalAberto] = useState(false);
   const [filtroModalAberto, setFiltroModalAberto] = useState(false);
@@ -240,20 +251,29 @@ export default function HistoricoReciclagem() {
           <p className="error">Erro ao carregar dados: {erro}</p>
         ) : (
           <div className="historico-grid">
-            {registrosVisiveis.map((item, idx) => (
-              <div className="item" key={idx} onClick={() => abrirModal(item)}>
-                <img src={item.fotoPreview || item.imagem || 'https://via.placeholder.com/150'} alt={item.nome || item.tipoMaterial} />
-                <div className="item-content">
-                  <h3 className="item-titulo">{item.nome || `Material: ${item.tipoMaterial}`}</h3>
-                  <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
-                  {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
-                  {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
-                  {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
-                  {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
-                  {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
-                </div>
-              </div>
-            ))}
+            {registrosVisiveis.map((item, idx) => {
+              const isRegistro = !!item.tipoMaterial;
+              const imagem = isRegistro
+                ? imagensFixas[item.tipoMaterial?.toLowerCase()] || 'https://via.placeholder.com/150'
+                : item.imagem;
+
+              return (
+                <div className="item" key={idx} onClick={() => abrirModal(item)}>
+                  <img src={imagem} alt={item.nome || item.tipoMaterial || 'Imagem'} 
+                    className={isRegistro ? 'img-registro' : 'img-informacao'} 
+                   />
+                   <div className="item-content">
+                      <h3 className="item-titulo">{item.nome || `Material: ${item.tipoMaterial}`}</h3>
+                      <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
+                      {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
+                      {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
+                      {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
+                      {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
+                      {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
+                    </div>
+                  </div>
+              );
+            })}
           </div>
         )}
         <p className="nota">
