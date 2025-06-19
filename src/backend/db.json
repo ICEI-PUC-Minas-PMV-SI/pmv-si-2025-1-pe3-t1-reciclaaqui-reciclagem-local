@@ -89,6 +89,19 @@
       "status": "pendente",
       "dataRegistro": "2025-06-19T06:27:37.332Z",
       "id": 5
+    },
+    {
+      "pontoColeta": "Tentativa funciona pfvr",
+      "tipoMaterial": "vidro",
+      "quantidade": 23,
+      "dataInicial": "2025-06-19T03:00:00.000Z",
+      "dataFinal": "2025-06-26T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "teste",
+      "status": "pendente",
+      "dataRegistro": "2025-06-19T21:26:22.302Z",
+      "id": 6
     }
   ],
   "avaliacoes": [

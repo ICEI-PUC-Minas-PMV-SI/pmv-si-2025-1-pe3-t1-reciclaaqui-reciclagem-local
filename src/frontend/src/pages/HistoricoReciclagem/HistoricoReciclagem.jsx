@@ -15,6 +15,15 @@ const imagensFixas = {
   eletronico: '/img/historicoReciclagem/eletronicosTech.png'
 };
 
+const nomesMateriais = {
+  plastico: 'Plástico',
+  papel: 'Papel',
+  metal: 'Metal',
+  vidro: 'Vidro',
+  organico: 'Orgânico',
+  eletronico: 'Eletrônico'
+};
+
 
 export default function HistoricoReciclagem() {
   const [modalAberto, setModalAberto] = useState(false);
@@ -263,8 +272,12 @@ export default function HistoricoReciclagem() {
                     className={isRegistro ? 'img-registro' : 'img-informacao'} 
                    />
                    <div className="item-content">
-                      <h3 className="item-titulo">{item.nome || `Material: ${item.tipoMaterial}`}</h3>
-                      <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
+                      <h3 className="item-titulo">
+                        {item.tipoMaterial
+                          ? `Material: ${nomesMateriais[item.tipoMaterial] || item.tipoMaterial}`
+                          : item.nome || 'Ação'}
+                      </h3>
+                    <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
                       {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
                       {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
                       {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
@@ -285,6 +298,10 @@ export default function HistoricoReciclagem() {
       {filtroModalAberto && (
         <div className="modal-filtro">
           <div className="modal-filtro-card">
+            <button type="button" className="fechar-modal-btn" onClick={() => setFiltroModalAberto(false)}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+
             <h3>Filtros</h3>
            <label>Data Inicial:</label>
             <input type="date" name="dataInicial" value={filtros.dataInicial} onChange={handleInputChange} />

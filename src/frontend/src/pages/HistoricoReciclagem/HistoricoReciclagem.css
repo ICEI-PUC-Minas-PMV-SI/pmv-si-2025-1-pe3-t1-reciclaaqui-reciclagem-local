@@ -219,12 +219,26 @@ p item-subdescricao {
   width: 90%;
   max-width: 500px;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 50%; 
+  left: 50%; 
   transform: translate(-50%, -50%);
   z-index: 1001;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow-y: auto;
+  max-height: 90vh; 
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+  .modal-filtro-card {
+    padding: 16px;
+    max-width: 95%;
+    width: 95%;
+    top: 55%; 
+    border-radius: 6px;
+  }
+}
+
 
 .modal-filtro-header {
   display: flex;
@@ -341,7 +355,6 @@ p item-subdescricao {
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 500;
-  /* largura automática para ajustar lado a lado */
   width: auto;
   min-width: 120px; /* opcional */
 }
@@ -587,16 +600,7 @@ p item-subdescricao {
   z-index: 1000;
 }
 
-.modal-filtro-card {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 24px;
-  width: 90%;
-  max-width: 500px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  z-index: 1001;
-}
+
 
 .modal-filtro-card h3 {
   color: #5c913b;
@@ -691,3 +695,30 @@ p item-subdescricao {
   object-fit: cover;
   max-height: 220px; /* opcional */
 }
+
+
+.fechar-modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #4a7a2e;
+}
+.fechar-modal-btn:hover {
+  background-color: darkgreen; 
+}
+
+.modal-filtro-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  color: #4a7a2e;
+  align-items: center;
+
+}
+
+
