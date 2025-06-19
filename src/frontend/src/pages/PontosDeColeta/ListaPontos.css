@@ -109,6 +109,16 @@
   height: 100%;
 }
 
+.botao-avaliacao {
+  margin-top:3%;
+}
+
+
+.botao-avaliacao i {
+  color:rgb(221, 203, 85);
+}
+
+
 /* Responsividade */
 @media (max-width: 768px) {
   .lista-pontos-container {

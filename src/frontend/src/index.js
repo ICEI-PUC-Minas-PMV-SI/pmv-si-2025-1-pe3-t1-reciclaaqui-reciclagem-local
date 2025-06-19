@@ -8,6 +8,8 @@ export { default as PontosDeColeta } from './pages/PontosDeColeta/PontosDeColeta
 export { default as HistoricoReciclagem } from './pages/HistoricoReciclagem/HistoricoReciclagem';
 export { default as RegistroAcoes } from './pages/RegistroAcoes/RegistroDeAcoes';
 export { default as News } from './pages/News/News';
+export { default as Avaliacoes } from './pages/Avaliacoes/Avaliacoes';
+
 
 // Subpáginas (acessadas dentro de PontosDeColeta)
 export { default as ListaPontos } from './pages/PontosDeColeta/ListaPontos';
