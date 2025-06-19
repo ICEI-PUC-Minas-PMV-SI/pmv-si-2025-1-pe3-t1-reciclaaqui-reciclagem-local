@@ -35,11 +35,12 @@ export default function Avaliacoes() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    
+
     const avaliacaoCompleta = {
       ...formData,
       id_avaliacao: Date.now().toString(),
-      id_ponto: id || 'ponto-sem-id'
+      id_ponto: id || 'ponto-sem-id',
+      data: new Date().toISOString() // <-- Adiciona data e hora atual
     };
 
     try {
@@ -81,7 +82,6 @@ export default function Avaliacoes() {
   return (
     <div className={styles.container}>
       <Menu />
-      
       <div className={styles.mainContent}>
         <div className={styles.formContainer}>
           <button 
@@ -90,9 +90,9 @@ export default function Avaliacoes() {
           >
             <span className={styles.arrowIcon}>←</span> Voltar
           </button>
-          
+
           <h1 className={styles.formTitle}>Avaliar Ponto de Coleta</h1>
-          
+
           <form onSubmit={handleSubmit} className={styles.avaliacaoForm}>
             <RatingField 
               label="Nota Geral"
@@ -101,21 +101,18 @@ export default function Avaliacoes() {
               styles={styles}
               required
             />
-            
             <RatingField 
               label="Facilidade de Acesso"
               value={formData.nota_acesso}
               onChange={(value) => handleRatingChange(value, 'nota_acesso')}
               styles={styles}
             />
-            
             <RatingField 
               label="Horário de Funcionamento"
               value={formData.nota_horario}
               onChange={(value) => handleRatingChange(value, 'nota_horario')}
               styles={styles}
             />
-            
             <RatingField 
               label="Variedade de Materiais Aceitos"
               value={formData.nota_materiais}
