@@ -10,7 +10,7 @@ function LoginForm({ onEsqueciSenha }) {
 
   const handleLogin = async () => {
     try {
-      const resposta = await fetch('http://localhost:3001/usuarios');
+      const resposta = await fetch('http://localhost:10000/usuarios');
       const usuarios = await resposta.json();
 
       const usuarioEncontrado = usuarios.find(
