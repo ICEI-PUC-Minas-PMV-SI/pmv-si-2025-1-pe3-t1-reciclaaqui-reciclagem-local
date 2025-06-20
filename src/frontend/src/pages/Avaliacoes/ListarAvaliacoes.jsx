@@ -66,6 +66,12 @@ export default function ListaAvaliacoes() {
       <div className={styles.mainContent}>
         {ponto ? (
           <>
+            <div className={styles.topButtons}>
+              <Link to="/home" className={styles.botaoVoltarHome}>
+                ← Voltar
+              </Link>
+            </div>
+
             <h1 className={styles.titulo}>
               <i className="bi bi-geo-alt"></i> {ponto.endereco}
             </h1>
@@ -107,6 +113,13 @@ export default function ListaAvaliacoes() {
                 <div className={styles.listaAvaliacoes}>
                   {avaliacoesExibidas.map((avaliacao) => (
                     <div key={avaliacao.id_avaliacao} className={styles.avaliacaoCard}>
+                      <div className={styles.autorData}>
+                        <strong>{avaliacao.nome_usuario || 'Usuário'}</strong> —{' '}
+                        {new Date(avaliacao.data).toLocaleString('pt-BR', {
+                          dateStyle: 'short',
+                          timeStyle: 'short'
+                        })}
+                      </div>
                       <div><strong>Nota Geral:</strong> {renderEstrelas(avaliacao.nota_geral)} {avaliacao.nota_geral}</div>
                       <div><strong>Acesso:</strong> {renderEstrelas(avaliacao.nota_acesso)} {avaliacao.nota_acesso}</div>
                       <div><strong>Horário:</strong> {renderEstrelas(avaliacao.nota_horario)} {avaliacao.nota_horario}</div>
@@ -135,7 +148,6 @@ export default function ListaAvaliacoes() {
               <p>Nenhuma avaliação encontrada para este ponto.</p>
             )}
 
-            {/* Botão de avaliação sempre visível */}
             <div className={styles.avaliarWrapper}>
               <Link to={`/avaliar/${id}`} className={styles.botaoAvaliar}>
                 Avaliar este ponto

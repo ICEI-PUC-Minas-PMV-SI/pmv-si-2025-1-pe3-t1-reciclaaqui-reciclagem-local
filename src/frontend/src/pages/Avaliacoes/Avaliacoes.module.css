@@ -81,6 +81,10 @@
   color: #e4e5e9;
 }
 
+.starButton:hover {
+  background-color: #388e3c ;
+}
+
 .starButtonActive {
   color: #ffc107;
 }
