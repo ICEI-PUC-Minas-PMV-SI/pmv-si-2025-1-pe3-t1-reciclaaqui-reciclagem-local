@@ -1,9 +1,15 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Menu.css';
 
 export default function Menu() {
   const [aberto, setAberto] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('usuarioLogado');
+    navigate('/'); // volta para a página de login
+  };
 
   return (
     <header className="menu-topo">
@@ -33,7 +39,6 @@ export default function Menu() {
         <Link to="/home">
           <img src="/img/logo.png" alt="Logo ReciclaAqui" className="logo" />
         </Link>
-
       </div>
 
       <div className="menu-direita">
@@ -43,6 +48,10 @@ export default function Menu() {
         <Link to="/perfil" className="menu-link">
           <i className="bi bi-person-circle"></i> Perfil
         </Link>
+
+        <button onClick={handleLogout} className="menu-link btn-logout">
+          <i className="bi bi-box-arrow-right"></i> Sair
+        </button>
       </div>
     </header>
   );
