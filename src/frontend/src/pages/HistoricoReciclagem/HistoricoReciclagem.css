@@ -889,3 +889,29 @@ textarea {
   object-fit: cover;
   border-radius: 8px;
 }
+
+.total-pontos {
+  background-color: #e0f7e9;
+  border: 1px solid #a2d4b0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.total-pontos h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2e7d32;
+}
+
+.total-pontos span {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.descricao-pontos {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #4e944f;
+}

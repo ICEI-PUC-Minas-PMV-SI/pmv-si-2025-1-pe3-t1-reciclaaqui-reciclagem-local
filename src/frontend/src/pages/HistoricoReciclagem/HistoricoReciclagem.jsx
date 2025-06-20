@@ -7,6 +7,7 @@ const parseLocalDate = (str) => {
   return new Date(+year, +month - 1, +day);
 };
 
+
 const imagensFixas = {
   plastico: '/img/historicoReciclagem/plasticoSacolas.png',
   papel: '/img/historicoReciclagem/papelPapelao.png',
@@ -35,6 +36,7 @@ export default function HistoricoReciclagem() {
   const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState(null);
   const [mostrarTodos, setMostrarTodos] = useState(false);
+  const [totalPontos, setTotalPontos] = useState(0);
 
   const [filtros, setFiltros] = useState({
     status: '',
@@ -54,7 +56,7 @@ useEffect(() => {
         const res = await fetch('http://localhost:10000/acoes');
         if (!res.ok) throw new Error('Erro ao buscar dados.');
         const json = await res.json();
-
+        
         const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
         if (!usuarioLogado) {
           setDados([]);
@@ -66,6 +68,10 @@ useEffect(() => {
         console.log('Usuário logado:', usuarioLogado);
 
         setDados(acoesDoUsuario);
+
+        const total = acoesDoUsuario.reduce((soma, acao) => soma + (acao.pontos || 0), 0);
+        setTotalPontos(total);
+
       } catch (error) {
         setErro(error.message);
       } finally {
@@ -192,13 +198,13 @@ useEffect(() => {
         nome: `${totalKg.toFixed(2)} Kilos`,
         imagem: "/img/historicoReciclagem/pesoKg.png",
         descricao: "Você reciclou um total de",
-        subdescricao: `Isso equivale a ${(totalKg / 0.2).toFixed(0)} celulares.`
+        subdescricao: `Isso equivale a ${(totalKg / 0.2).toFixed(0)} celular(es).`
       },
       {
         nome: `${(totalKg / 50).toFixed(0)} árvore(s)`,
         imagem: "/img/historicoReciclagem/arvoreMuda.png",
         descricao: "Você evitou o corte de",
-        subdescricao: `Isso equivale a ${(totalKg / 70).toFixed(0)} camas de casal`
+        subdescricao: `Isso equivale a ${(totalKg / 70).toFixed(0)} cama(s) de casal`
       },
       {
         nome: `${(totalKg * 20).toFixed(2)} litros de água`,
@@ -245,11 +251,13 @@ useEffect(() => {
         </div>
 
         <div className="guia-search-filter">
-          {(mostrarTodos || hasActiveFilters()) && (
-            <button className="filter-button remove-filters-btn" onClick={limparFiltros}>
-              <i className="bi bi-x-circle"></i> Remover Filtros
-            </button>
-          )}
+           {/* Mostrar botão remover filtros apenas se mostrarTodos=true e filtros ativos */}
+            {hasActiveFilters() && (
+              <button className="filter-button remove-filters-btn" onClick={limparFiltros}>
+                <i className="bi bi-x-circle"></i> Remover Filtros
+              </button>
+            )}
+
 
           <button className="filter-button apply-filters-btn" onClick={() => setFiltroModalAberto(true)}>
             <i className="bi bi-funnel"></i> Filtrar
@@ -261,10 +269,14 @@ useEffect(() => {
             </button>
           )}
 
-          {mostrarTodos && (
+          {(mostrarTodos || hasActiveFilters()) && (
             <button
               className="filter-button apply-filters-btn"
-              onClick={() => setMostrarTodos(false)}
+              onClick={() => {
+                setMostrarTodos(false);
+                limparFiltros(); // limpa os filtros para que apenas os impactos sejam mostrados
+              }}
+
             >
               <i className="bi bi-bar-chart"></i> Ver informações de impacto
             </button>
@@ -273,6 +285,11 @@ useEffect(() => {
       </section>
 
       <section className="guia-box">
+        <div className="total-pontos">
+        <h2>Total de Pontos Acumulados: <span>{totalPontos}</span></h2>
+        <p className="descricao-pontos">Esses pontos refletem o impacto positivo gerado pelas suas ações de reciclagem.</p>
+      </div>
+
         {carregando ? (
           <p className="loading">Carregando histórico...</p>
         ) : erro ? (
@@ -313,6 +330,7 @@ useEffect(() => {
           Saiba mais sobre o histórico de reciclagem e como ele pode ajudar a melhorar a sustentabilidade.
         </p>
       </section>
+      
 
       {/* Modal de Filtros */}
       {filtroModalAberto && (

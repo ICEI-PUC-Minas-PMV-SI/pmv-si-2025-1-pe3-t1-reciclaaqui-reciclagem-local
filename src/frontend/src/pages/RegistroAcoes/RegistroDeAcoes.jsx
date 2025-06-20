@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Menu from '../../shared/Menu';
 import './RegistroDeAcoes.css';
 
@@ -9,6 +9,8 @@ const parseLocalDate = (str) => {
 };
 
 export default function RegistroDeAcoes() {
+  const [pontosDeColeta, setPontosDeColeta] = useState([]);
+
   const [modalAberto, setModalAberto] = useState(false);
   const [itemSelecionado, setItemSelecionado] = useState(null);
   const [formData, setFormData] = useState({
@@ -21,6 +23,24 @@ export default function RegistroDeAcoes() {
     fotoPreview: null,
     comentario: ''
   });
+  useEffect(() => {
+  async function carregarPontos() {
+    try {
+      const resposta = await fetch('http://localhost:10000/pontos');
+      if (!resposta.ok) throw new Error('Erro ao buscar pontos de coleta');
+      const dados = await resposta.json();
+      setPontosDeColeta(dados);
+    } catch (erro) {
+      console.error('Erro ao carregar pontos de coleta:', erro);
+    }
+  }
+
+  carregarPontos();
+}, []);
+
+
+
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState({
     success: false,
@@ -87,6 +107,17 @@ export default function RegistroDeAcoes() {
       [name]: value
     }));
   };
+  const calcularPontos = (tipoMaterial, quantidade) => {
+  const fatores = {
+    plastico: 10,
+    papel: 5,
+    vidro: 7,
+    metal: 8,
+    organico: 4,
+    eletronico: 15
+  };
+  return (fatores[tipoMaterial] || 0) * quantidade;
+};
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -113,11 +144,13 @@ export default function RegistroDeAcoes() {
       if (formData.foto) {
         fotoBase64 = await convertToBase64(formData.foto);
       }
+      const pontos = calcularPontos(formData.tipoMaterial, Number(formData.quantidade));
 
       const payload = {
         ...formData,
         idUsuario: usuarioLogado.id,  // AQUI, associando o usuário logado
         quantidade: Number(formData.quantidade),
+        pontos: Math.round(pontos),
         foto: fotoBase64,
         status: "pendente",
         dataRegistro: new Date().toISOString(),
@@ -163,7 +196,7 @@ export default function RegistroDeAcoes() {
       setIsSubmitting(false);
     }
   };
-
+  
   const convertToBase64 = (file) => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -207,13 +240,20 @@ export default function RegistroDeAcoes() {
             <div className="form-row">
               <div className="form-group">
                 <label>Ponto de Coleta *</label>
-                <input
-                  type="text"
+               <select
                   name="pontoColeta"
                   value={formData.pontoColeta}
                   onChange={handleChange}
                   required
-                />
+                >
+                  <option value="">Selecione um ponto de coleta...</option>
+                  {pontosDeColeta.map((ponto) => (
+                    <option key={ponto.id} value={ponto.nome}>
+                      {ponto.nome}
+                    </option>
+                  ))}
+                </select>
+
               </div>
               <div className="form-group">
                 <label>Tipo de Material *</label>
