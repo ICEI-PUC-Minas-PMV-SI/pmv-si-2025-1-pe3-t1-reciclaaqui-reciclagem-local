@@ -16,7 +16,7 @@ function CadastroForm({ onVoltarLogin }) {
     };
 
     try {
-      const resposta = await fetch("http://localhost:3001/usuarios", {
+      const resposta = await fetch("http://localhost:10000/usuarios", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
