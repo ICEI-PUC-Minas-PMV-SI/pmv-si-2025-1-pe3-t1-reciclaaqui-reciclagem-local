@@ -70,8 +70,10 @@ export default function HistoricoReciclagem() {
   }, []);
 
   const abrirModal = (item) => {
-    setItemSelecionado(item);
-    setModalAberto(true);
+    if (item.tipoMaterial) {
+      setItemSelecionado(item);
+      setModalAberto(true);
+    }
   };
 
   const fecharModal = () => {
@@ -280,7 +282,6 @@ export default function HistoricoReciclagem() {
                     <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
                       {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
                       {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
-                      {item.comentario && <p className="item-subdescricao">Comentário: {item.comentario}</p>}
                       {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
                       {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
                     </div>
@@ -359,6 +360,69 @@ export default function HistoricoReciclagem() {
           </div>
         </div>
       )}
+
+      {/* Modal de detalhes do registro */}
+{modalAberto && itemSelecionado && (
+  <>
+    {/* Imagem de fundo desfocada */}
+    <div
+      className="modal-image-background"
+      style={{
+        backgroundImage: `url("${
+          imagensFixas[itemSelecionado.tipoMaterial?.toLowerCase()] || '/img/default.png'
+        }")`,
+      }}
+    />
+
+    {/* Modal com conteúdo */}
+    <div className="modal-detalhes-overlay" onClick={fecharModal}>
+      <div className="modal-detalhes-card" onClick={e => e.stopPropagation()}>
+        <button type="button" className="fechar-modal-btn" onClick={fecharModal}>
+          <i className="bi bi-x-lg"></i>
+        </button>
+
+        {/* Mostrar a foto registrada ou imagem fixa, porém essa imagem fica em destaque */}
+        {itemSelecionado.foto ? (
+          <img
+            src={`data:image/jpeg;base64,${itemSelecionado.foto}`}
+            alt={`Foto do registro de ${itemSelecionado.tipoMaterial}`}
+            className="modal-detalhes-imagem"
+          />
+        ) : (
+          <img
+            src={imagensFixas[itemSelecionado.tipoMaterial?.toLowerCase()] || '/img/default.png'}
+            alt={`Imagem padrão de ${itemSelecionado.tipoMaterial}`}
+            className="img-material-plastico"
+          />
+        )}
+
+        <div className="modal-detalhes-conteudo">
+          {itemSelecionado.comentario && (
+            <>
+              <h3>Comentário</h3>
+              <p>{itemSelecionado.comentario}</p>
+            </>
+          )}
+
+          <h3>Período</h3>
+          <p>
+            {itemSelecionado.dataInicial
+              ? new Date(itemSelecionado.dataInicial).toLocaleDateString('pt-BR')
+              : 'Data inicial não informada'}{' '}
+            -{' '}
+            {itemSelecionado.dataFinal
+              ? new Date(itemSelecionado.dataFinal).toLocaleDateString('pt-BR')
+              : 'Data final não informada'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </>
+)}
+
+
+
+
     </div>
   );
 }

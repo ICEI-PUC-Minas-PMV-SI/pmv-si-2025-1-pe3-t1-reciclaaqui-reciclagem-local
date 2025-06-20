@@ -312,6 +312,8 @@ export default function RegistroDeAcoes() {
                   value={formData.comentario}
                   onChange={handleChange}
                   rows="5"
+                  placeholder="Conte-nos mais sobre os materiais, descrevendo-os detalhadamente."
+
                 />
               </div>
             </div>
