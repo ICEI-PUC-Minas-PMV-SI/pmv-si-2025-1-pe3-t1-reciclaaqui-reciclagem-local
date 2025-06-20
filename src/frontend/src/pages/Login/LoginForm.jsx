@@ -18,6 +18,7 @@ function LoginForm({ onEsqueciSenha }) {
       );
 
       if (usuarioEncontrado) {
+        localStorage.setItem('usuarioLogado', JSON.stringify(usuarioEncontrado));
         setSucesso(true); 
         setTimeout(() => {
           navigate('/Home');

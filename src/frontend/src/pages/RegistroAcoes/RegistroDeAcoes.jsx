@@ -101,6 +101,12 @@ export default function RegistroDeAcoes() {
       return;
     }
 
+     const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+    if (!usuarioLogado) {
+      setSubmitStatus({ success: false, message: 'Usuário não está logado.', show: true });
+      return;
+    }
+
     setIsSubmitting(true);
     try {
       let fotoBase64 = null;
@@ -110,6 +116,7 @@ export default function RegistroDeAcoes() {
 
       const payload = {
         ...formData,
+        idUsuario: usuarioLogado.id,  // AQUI, associando o usuário logado
         quantidade: Number(formData.quantidade),
         foto: fotoBase64,
         status: "pendente",
@@ -117,6 +124,7 @@ export default function RegistroDeAcoes() {
         dataInicial: parseLocalDate(formData.dataInicial).toISOString(),
         dataFinal: formData.dataFinal ? parseLocalDate(formData.dataFinal).toISOString() : ''
       };
+
 
       const response = await fetch('http://localhost:10000/acoes', {
         method: 'POST',

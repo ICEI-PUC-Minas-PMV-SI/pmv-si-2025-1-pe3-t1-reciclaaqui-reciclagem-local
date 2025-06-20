@@ -57,6 +57,47 @@
       "status": "pendente",
       "dataRegistro": "2025-06-20T02:17:48.441Z",
       "id": 1
+    },
+    {
+      "pontoColeta": "tw",
+      "tipoMaterial": "papel",
+      "quantidade": 13,
+      "dataInicial": "2025-06-19T03:00:00.000Z",
+      "dataFinal": "2025-06-19T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "53",
+      "status": "pendente",
+      "dataRegistro": "2025-06-20T02:32:48.785Z",
+      "id": 2
+    },
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "vidro",
+      "quantidade": 12,
+      "dataInicial": "2025-06-19T03:00:00.000Z",
+      "dataFinal": "2025-06-24T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "",
+      "idUsuario": 4,
+      "status": "pendente",
+      "dataRegistro": "2025-06-20T04:08:46.922Z",
+      "id": 3
+    },
+    {
+      "pontoColeta": "Teste Modificado",
+      "tipoMaterial": "metal",
+      "quantidade": 34,
+      "dataInicial": "2025-06-19T03:00:00.000Z",
+      "dataFinal": "2025-07-01T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "testeana1",
+      "idUsuario": 5,
+      "status": "pendente",
+      "dataRegistro": "2025-06-20T04:10:37.086Z",
+      "id": 4
     }
   ],
   "avaliacoes": [
