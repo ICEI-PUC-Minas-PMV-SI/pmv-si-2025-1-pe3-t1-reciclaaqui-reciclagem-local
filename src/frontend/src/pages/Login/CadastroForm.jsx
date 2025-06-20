@@ -46,7 +46,7 @@ function CadastroForm({ onVoltarLogin }) {
         <input
           type="text"
           className="form-control"
-          placeholder="Email"
+          placeholder="Usuário"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />

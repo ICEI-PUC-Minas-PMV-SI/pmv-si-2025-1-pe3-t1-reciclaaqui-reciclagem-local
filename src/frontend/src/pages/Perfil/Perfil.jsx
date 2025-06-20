@@ -83,7 +83,7 @@ const ProfilePage = () => {
         <div className="input-group">
           <input
             type="email"
-            placeholder="Trocar endereço de email"
+            placeholder="Trocar nome de usuário"
             className="input"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
