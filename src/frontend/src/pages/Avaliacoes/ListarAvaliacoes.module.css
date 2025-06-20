@@ -82,12 +82,12 @@
   flex-direction: column;
   gap: 16px;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .listaAvaliacoes i {
   color: #FFD700 !important;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .listaAvaliacoes p {
@@ -160,4 +160,28 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.botaoVoltarHome {
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #5c913b;
+  font-weight: bold;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.botaoVoltarHome:hover {
+  text-decoration: none;
+  color: #49752b;
+}
+
+.autorData {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 6px;
 }

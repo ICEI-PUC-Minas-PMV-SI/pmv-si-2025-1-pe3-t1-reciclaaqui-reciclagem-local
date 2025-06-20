@@ -6,6 +6,9 @@ import styles from './Avaliacoes.module.css';
 export default function Avaliacoes() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const usuario= JSON.parse(localStorage.getItem('usuarioLogado'));
+  const nomeUsuario = usuario?.email || 'Usuário Anônimo';
+
   const [formData, setFormData] = useState({
     id_ponto: id || '',
     nota_geral: 0,
@@ -40,7 +43,8 @@ export default function Avaliacoes() {
       ...formData,
       id_avaliacao: Date.now().toString(),
       id_ponto: id || 'ponto-sem-id',
-      data: new Date().toISOString() // <-- Adiciona data e hora atual
+      data: new Date().toISOString(),
+      nome_usuario: nomeUsuario
     };
 
     try {
@@ -91,7 +95,7 @@ export default function Avaliacoes() {
             <span className={styles.arrowIcon}>←</span> Voltar
           </button>
 
-          <h1 className={styles.formTitle}>Avaliar Ponto de Coleta</h1>
+          <h1 className={styles.formTitle}> Avaliar Ponto de Coleta</h1>
 
           <form onSubmit={handleSubmit} className={styles.avaliacaoForm}>
             <RatingField 
