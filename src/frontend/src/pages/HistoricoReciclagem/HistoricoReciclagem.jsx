@@ -80,6 +80,24 @@ useEffect(() => {
     }
     carregarDados();
   }, []);
+useEffect(() => {
+  async function carregarPontosColeta() {
+    try {
+      const resposta = await fetch('http://localhost:10000/pontos');
+      if (!resposta.ok) throw new Error('Erro ao buscar pontos de coleta');
+      const dados = await resposta.json();
+      setPontosColeta(dados);
+    } catch (erro) {
+      console.error('Erro ao carregar pontos de coleta:', erro);
+    }
+  }
+
+  carregarPontosColeta();
+}, []);
+
+
+
+
 
   const abrirModal = (item) => {
     if (item.tipoMaterial) {
@@ -317,8 +335,17 @@ useEffect(() => {
                     </h3>
                     <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
                     {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
-                    {item.pontoColeta && <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>}
-                    {item.status && <p className="item-subdescricao">Status: {item.status}</p>}
+                    {(() => {
+                      const pontoCompleto = pontosColeta.find(p => p.nome === item.pontoColeta);
+                      return pontoCompleto ? (
+                        <p className="item-subdescricao">
+                          Ponto de Coleta: <strong>{pontoCompleto.nome}</strong><br />
+                          <small>{pontoCompleto.endereco}</small>
+                        </p>
+                      ) : (
+                        <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>
+                      );
+                    })()}
                     {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
                   </div>
                 </div>
@@ -364,12 +391,15 @@ useEffect(() => {
             </select>
 
             <label>Ponto de Coleta:</label>
-            <select name="pontoColeta" value={filtros.pontoColeta} onChange={handleInputChange}>
+           <select name="pontoColeta" value={filtros.pontoColeta} onChange={handleInputChange}>
               <option value="">Todos</option>
-              {pontosColeta.map((ponto, i) => (
-                <option key={i} value={ponto}>{ponto}</option>
+              {pontosColeta.map((ponto) => (
+                <option key={ponto.id} value={ponto.nome}>
+                  {ponto.nome}
+                </option>
               ))}
             </select>
+
 
             <label>Status:</label>
             <select name="status" value={filtros.status} onChange={handleInputChange}>

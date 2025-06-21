@@ -296,21 +296,6 @@
     }
   ],
   "acoes": [
-    {
-      "pontoColeta": "Ponto teste 1",
-      "tipoMaterial": "vidro",
-      "quantidade": 12,
-      "dataInicial": "2025-06-19T03:00:00.000Z",
-      "dataFinal": "2025-06-20T03:00:00.000Z",
-      "foto": null,
-      "fotoPreview": null,
-      "comentario": "teste Ana ",
-      "idUsuario": 6,
-      "pontos": 84,
-      "status": "pendente",
-      "dataRegistro": "2025-06-20T21:48:04.851Z",
-      "id": 1
-    }
   ],
   "avaliacoes": [
     {
