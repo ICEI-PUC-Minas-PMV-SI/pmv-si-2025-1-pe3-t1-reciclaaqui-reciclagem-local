@@ -14,7 +14,8 @@ const imagensFixas = {
   vidro: '/img/historicoReciclagem/vidroGarrafas.png',
   metal: '/img/historicoReciclagem/metalFios.png',
   organico: '/img/historicoReciclagem/organicosTerra.png',
-  eletronico: '/img/historicoReciclagem/eletronicosTech.png'
+  eletronico: '/img/historicoReciclagem/eletronicosTech.png',
+  outros: '/img/historicoReciclagem/outrosGarota.jpg',
 };
 
 const nomesMateriais = {
@@ -23,7 +24,8 @@ const nomesMateriais = {
   metal: 'Metal',
   vidro: 'Vidro',
   organico: 'Orgânico',
-  eletronico: 'Eletrônico'
+  eletronico: 'Eletrônico',
+  outros: 'Outros'
 };
 
 export default function HistoricoReciclagem() {
@@ -400,15 +402,6 @@ useEffect(() => {
               ))}
             </select>
 
-
-            <label>Status:</label>
-            <select name="status" value={filtros.status} onChange={handleInputChange}>
-              <option value="">Todos</option>
-              <option value="pendente">Pendente</option>
-              <option value="completo">Completo</option>
-              <option value="cancelado">Cancelado</option>
-            </select>
-
             <label>Tipo de Material:</label>
             <select name="tipoMaterial" value={filtros.tipoMaterial} onChange={handleInputChange}>
               <option value="">Todos</option>
@@ -418,6 +411,7 @@ useEffect(() => {
               <option value="vidro">Vidro</option>
               <option value="organico">Orgânico</option>
               <option value="eletronico">Eletrônico</option>
+              <option value="outros">Outros</option> 
             </select>
 
             <div className="modal-filtro-botoes">

@@ -114,7 +114,8 @@ export default function RegistroDeAcoes() {
     vidro: 7,
     metal: 8,
     organico: 4,
-    eletronico: 15
+    eletronico: 15,
+    outros: 2
   };
   return (fatores[tipoMaterial] || 0) * quantidade;
 };
@@ -270,6 +271,8 @@ export default function RegistroDeAcoes() {
                   <option value="metal">Metal</option>
                   <option value="organico">Orgânico</option>
                   <option value="eletronico">Eletrônico</option>
+                  <option value="outros">Outros</option>
+
                 </select>
               </div>
             </div>
