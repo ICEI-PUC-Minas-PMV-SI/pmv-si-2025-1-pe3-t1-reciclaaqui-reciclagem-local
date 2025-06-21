@@ -25,11 +25,11 @@ export default function Home() {
 
       {/* Aviso e barra de pesquisa */}
       <div className="barra-superior">
-        <p className="form-aviso">Responda nosso formulário para nos conhecermos melhor!</p>
+        {/*<p className="form-aviso">Responda nosso formulário para nos conhecermos melhor!</p>
         <div className="busca">
           <button className="icone-busca">🔍</button>
           <input type="text" placeholder="Pesquisar..." />
-        </div>
+        </div>*/}
       </div>
 
       {/* Seção de vídeos */}
@@ -37,9 +37,9 @@ export default function Home() {
         <div className="cabecalho-videos">
           <h2>📺 Vídeos</h2>
           <ul>
-            <li>• Artigos</li>
+           {/*  <li>• Artigos</li>
             <li>• Fóruns</li>
-            <li>• Mais informações</li>
+            <li>• Mais informações</li>*/}
           </ul>
         </div>
         <div className="videos-grid">
