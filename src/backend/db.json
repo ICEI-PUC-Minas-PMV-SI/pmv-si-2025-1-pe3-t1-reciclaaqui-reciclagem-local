@@ -1,20 +1,256 @@
 {
   "pontos": [
     {
-      "id": "3d51",
-      "nome": "Ponto teste 1",
-      "endereco": "Rua Jorge Serpa Mercê, 20, Bangu, Rio de Janeiro",
-      "descricao": "Descrição teste 1",
+      "id": "000",
+      "nome": "Ecoponto Savassi",
+      "endereco": "Av. Cristóvão Colombo, 655 - Savassi, Belo Horizonte - MG",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Eletrônicos",
+        "Orgânico",
+        "Plástico"
+      ],
+      "outros": "Baterias",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.792187370707513,
+      "longitude": -43.73486021021071,
+      "avaliacoes": [
+        {
+          "notaGeral": 4,
+          "facilidadeAcesso": 3,
+          "horarioFuncionamento": 5,
+          "comentario": "Bem localizado"
+        }
+      ]
+    },
+    {
+      "id": "001",
+      "nome": "Ecoponto Barreiro",
+      "endereco": "Rua Alcindo Vieira, 150 - Barreiro, Belo Horizonte - MG",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Papel",
+        "Plástico",
+        "Metal",
+        "Não-Recicláveis",
+        "Eletrônicos"
+      ],
+      "outros": "Óleo de cozinha",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.853411208400065,
+      "longitude": -44.03677277982676,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 4,
+          "horarioFuncionamento": 5,
+          "comentario": "Pode melhorar"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "nome": "Ecoponto Santa Efigênia",
+      "endereco": "Rua Niquelina, 1219 - Santa Efigênia, Belo Horizonte - MG",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
       "materiais": [
         "Plástico",
-        "Orgânico",
-        "Não-Recicláveis",
-        "Eletrônicos",
         "Metal",
-        "Outros"
+        "Papel"
       ],
-      "outros": "Teste Outros",
-      "imagem": "ChatGPT Image 3 de jun. de 2025, 19_40_39.png"
+      "outros": "Têxteis",
+      "imagem": "ecoponto.jpg",
+      "latitude": -20.180524956880056,
+      "longitude": -43.83121559870414,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 4,
+          "horarioFuncionamento": 5,
+          "comentario": "Fácil acesso"
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "nome": "Ecoponto Pampulha",
+      "endereco": "Av. Otacílio Negrão de Lima, 7500 - Pampulha, Belo Horizonte - MG",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Metal",
+        "Orgânico",
+        "Eletrônicos"
+      ],
+      "outros": "Remédios vencidos",
+      "imagem": "ecoponto.jpg",
+      "latitude": -20.052717368600653,
+      "longitude": -43.869562812443924,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 5,
+          "horarioFuncionamento": 5,
+          "comentario": "Fácil acesso"
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "nome": "Ecoponto Centro RJ",
+      "endereco": "Rua da Carioca, 10 - Centro, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Não-Recicláveis",
+        "Plástico",
+        "Papel"
+      ],
+      "outros": "",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.9958235159891,
+      "longitude": -43.66233283216829,
+      "avaliacoes": [
+        {
+          "notaGeral": 3,
+          "facilidadeAcesso": 4,
+          "horarioFuncionamento": 4,
+          "comentario": "Muito bom!"
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "nome": "Ecoponto Botafogo",
+      "endereco": "Rua São Clemente, 155 - Botafogo, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Vidro",
+        "Não-Recicláveis"
+      ],
+      "outros": "Pilhas",
+      "imagem": "ecoponto.jpg",
+      "latitude": -20.033105266787683,
+      "longitude": -44.09233423386571,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 5,
+          "horarioFuncionamento": 5,
+          "comentario": "Horário flexível"
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "nome": "Ecoponto Tijuca",
+      "endereco": "Rua Conde de Bonfim, 300 - Tijuca, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Plástico",
+        "Eletrônicos",
+        "Papel",
+        "Metal"
+      ],
+      "outros": "Remédios vencidos",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.969251142685323,
+      "longitude": -43.998772472551316,
+      "avaliacoes": [
+        {
+          "notaGeral": 4,
+          "facilidadeAcesso": 4,
+          "horarioFuncionamento": 5,
+          "comentario": "Pode melhorar"
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "nome": "Ecoponto Madureira",
+      "endereco": "Rua Carolina Machado, 200 - Madureira, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Eletrônicos",
+        "Papel",
+        "Metal"
+      ],
+      "outros": "Baterias",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.722115496707058,
+      "longitude": -44.071484412331515,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 5,
+          "horarioFuncionamento": 3,
+          "comentario": "Bem localizado"
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "nome": "Ecoponto Lapa",
+      "endereco": "Av. Mem de Sá, 100 - Lapa, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Não-Recicláveis",
+        "Papel",
+        "Eletrônicos",
+        "Plástico"
+      ],
+      "outros": "",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.812589964813068,
+      "longitude": -44.048370318349754,
+      "avaliacoes": [
+        {
+          "notaGeral": 5,
+          "facilidadeAcesso": 3,
+          "horarioFuncionamento": 4,
+          "comentario": "Bem localizado"
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "nome": "Ecoponto Lagoa",
+      "endereco": "Av. Epitácio Pessoa, 2480 - Lagoa, Rio de Janeiro - RJ",
+      "descricao": "Ponto de coleta seletiva com atendimento comunitário.",
+      "materiais": [
+        "Metal",
+        "Eletrônicos",
+        "Plástico"
+      ],
+      "outros": "Lâmpadas",
+      "imagem": "ecoponto.jpg",
+      "latitude": -19.732042356828956,
+      "longitude": -43.97023686616485,
+      "avaliacoes": [
+        {
+          "notaGeral": 3,
+          "facilidadeAcesso": 4,
+          "horarioFuncionamento": 5,
+          "comentario": "Muito bom!"
+        }
+      ]
+    },
+    {
+      "id": "1750466239657",
+      "nome": "Ecoponto Mundo Verde",
+      "endereco": "Rua Jorge Serpa Merce - Bangu, Rio de Janeiro - RJ, Brasil",
+      "descricao": "Descrição de Teste",
+      "materiais": [
+        "Plástico",
+        "Não-Recicláveis",
+        "Papel",
+        "Orgânico"
+      ],
+      "outros": "Tintas",
+      "imagem": "ecoponto.jpg",
+      "latitude": -22.8631334,
+      "longitude": -43.4614647,
+      "avaliacoes": [
+        {}
+      ]
     }
   ],
   "usuarios": [

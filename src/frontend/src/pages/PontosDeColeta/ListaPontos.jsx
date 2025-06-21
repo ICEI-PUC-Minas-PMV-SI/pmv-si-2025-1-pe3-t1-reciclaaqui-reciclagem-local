@@ -49,6 +49,7 @@ useEffect(() => {
       },
       (err) => {
         console.error("Erro ao obter localização:", err);
+        setLocalizacao({ latitude: -19.9, longitude: -43.9 });
       }
     );
   }
@@ -217,10 +218,10 @@ const pontosFiltrados = pontos
           className='btn_centralizar'
           onClick={voltarParaMinhaLocalizacao}
         >
-          <i class="bi bi-crosshair"></i>
+          <i className="bi bi-crosshair"></i>
         </button>
         <a className='btn_cadastrar' href='/pontos-de-coleta/cadastrar'>
-        <i class="bi bi-clipboard2-plus-fill"></i>
+        <i className="bi bi-clipboard2-plus-fill"></i>
           Cadastrar um ponto
         </a>
 
@@ -288,15 +289,17 @@ const pontosFiltrados = pontos
         </div>
 
         <div className="lista-mapa">
-  <MapContainer center={[-19.9, -43.9]} zoom={13} style={{ height: "100%", width: "100%" }}>
+  <MapContainer center={centroMapa} zoom={13} style={{ height: "100%", width: "100%" }}>
     <TileLayer
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
     />
-    {pontos.map((ponto, i) => (
-      <Marker
-        key={i}
-        position={[ponto.latitude, ponto.longitude]}
+    {pontos
+  .filter(p => p.latitude && p.longitude)
+  .map((ponto, i) => (
+    <Marker
+      key={i}
+      position={[Number(ponto.latitude), Number(ponto.longitude)]}
         icon={L.icon({
           iconUrl: pinR,
           iconSize: [40, 40],
