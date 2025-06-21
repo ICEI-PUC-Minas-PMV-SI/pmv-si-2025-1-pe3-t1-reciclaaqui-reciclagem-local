@@ -47,11 +47,13 @@ export default function Home() {
             thumb="https://i0.wp.com/www.larplasticos.com.br/wp-content/uploads/2018/07/lixeiras-de-coleta-seletiva-larplasticos.jpg?resize=660%2C396"
             title="O que é reciclagem? – eCycle"
             duracao="3:46"
+            link="https://www.youtube.com/watch?v=OQ5jpiKzNqg"
           />
           <VideoCard
             thumb="https://storage.googleapis.com/eureciclo-blog/1/2024/10/lixo-eletronico-dicas.jpg"
             title="Reciclagem: O que você precisa saber – Mais Ciência"
             duracao="9:56"
+            link="https://www.youtube.com/watch?v=Jr36f2wK4pk"
           />
         </div>
       </section>
@@ -59,14 +61,19 @@ export default function Home() {
   );
 }
 
-function VideoCard({ thumb, title, duracao }) {
+function VideoCard({ thumb, title, duracao, link }) {
   return (
-    <div className="video-card">
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="video-card"
+    >
       <div className="thumb-container">
         <img src={thumb} alt={title} className="thumb" />
         <span className="duracao">{duracao}</span>
       </div>
       <p className="video-titulo">{title}</p>
-    </div>
+    </a>
   );
 }

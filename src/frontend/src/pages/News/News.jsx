@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Menu from '../../shared/Menu';
 import noticiasData from '../../data/news.json'; 
 import './News.css';
@@ -6,6 +6,10 @@ import './News.css';
 export default function News() {
   const [mostrarCardCompartilhar, setMostrarCardCompartilhar] = useState(false);
   const [artigoParaCompartilhar, setArtigoParaCompartilhar] = useState(null);
+
+  useEffect(() => {
+    document.title = 'ReciclaNews';
+  }, []);
 
   const aoClicarCompartilhar = (artigo) => {
     setArtigoParaCompartilhar(artigo);
@@ -45,6 +49,11 @@ export default function News() {
 
       <div className="main-content">
         <div className="articles-and-search">
+          <h1 className="news-title">
+            Recicla <span className="logo-highlight-black">NEWS</span>
+              <i className="bi bi-journal icon-title-icon"></i>
+          </h1>
+
           <div className="search-bar">
             <button className="btn-icon-clean" aria-label="Pesquisar">
               <i className="bi bi-search"></i>
