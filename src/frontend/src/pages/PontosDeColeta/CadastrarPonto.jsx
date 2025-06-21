@@ -3,7 +3,6 @@ import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-au
 import { useLoadScript } from '@react-google-maps/api';
 import './CadastrarPonto.css';
 import Menu from '../../shared/Menu';
-import PontosDeColetaSubMenu from './PontosDeColetaSubMenu';
 
 const CadastrarPonto = () => {
   const [form, setForm] = useState({
@@ -48,18 +47,25 @@ const CadastrarPonto = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const ponto = {
+      id: Date.now().toString(), // id único baseado no timestamp
       nome: form.nome,
       endereco: form.endereco,
-      descricao: form.descricao,
-      materiais: form.materiais,
-      outros: form.outros,
-      imagem: form.imagem?.name || '',
+      descricao: form.descricao || 'Ponto de coleta seletiva com atendimento comunitário.',
+      materiais: form.materiais.filter((m) => m !== 'Outros'),
+      outros: form.materiais.includes('Outros') ? form.outros : '',
+      imagem: form.imagem?.name || 'ecoponto.jpg',
       latitude: form.latitude,
-      longitude: form.longitude
+      longitude: form.longitude,
+      avaliacoes: [
+        {
+
+        }
+      ]
     };
 
+
     try {
-      const res = await fetch('https://quasar-swanky-responsibility.glitch.me/pontos', {
+      const res = await fetch('http://localhost:10000/pontos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(ponto)
@@ -180,16 +186,9 @@ const CadastrarPonto = () => {
               />
             )}
 
-            <input
-              type="file"
-              onChange={(e) => setForm({ ...form, imagem: e.target.files[0] })}
-            />
-
             <button type="submit">Cadastrar</button>
           </form>
         </div>
-
-        <PontosDeColetaSubMenu />
       </div>
     </div>
   );
