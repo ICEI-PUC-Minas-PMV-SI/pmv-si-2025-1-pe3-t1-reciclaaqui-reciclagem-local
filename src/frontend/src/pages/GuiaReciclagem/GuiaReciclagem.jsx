@@ -24,51 +24,49 @@ export default function GuiaReciclagem() {
       <Menu />
 
       <section className="guia-header-box">
-        <div className="guia-header-content">
-          <i className="bi bi-recycle guia-icon"></i>
-          <div>
-            <h1 className="guia-titulo">Guia de Reciclagem</h1>
-            <p className="guia-subtitulo">
-              Aprenda a separar corretamente seus resíduos e contribuir com o meio ambiente.
-            </p>
+          <div className="guia-header-content">
+            <i className="bi bi-recycle guia-icon"></i>
+            <div>
+              <h1 className="guia-titulo">Guia de Reciclagem</h1>
+              <p className="guia-subtitulo">
+                Aprenda a separar corretamente seus resíduos e contribuir com o meio ambiente.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="guia-box">
-        <div className="grid">
+      <section className="guia-grid">
           {guiaData.map((item, idx) => (
             <div className="item" key={idx} onClick={() => abrirModal(item)}>
               <img src={item.imagem} alt={item.nome} />
+              <div className="item-content">
+                <h3 className="item-titulo">{item.nome}</h3>
+              </div>
             </div>
-          ))}
-        </div>
-
-        <p className="nota">
-          Evite misturar resíduos orgânicos com recicláveis. Mantenha limpos os materiais recicláveis.
+          ))}         
+</section>
+ <p className="nota-teste">
+          Saiba mais sobre o histórico de reciclagem e como ele pode ajudar a melhorar a sustentabilidade.
         </p>
-      </section>
-
-      {modalAberto && itemSelecionado && (
-        <>
-        <div className="overlay" onClick={fecharModal}></div>
-        <div className="card-flutuante">
-        <div className="card-header">
-          <i className="bi bi-recycle me-2"></i> Recicla<strong>GUIA</strong>
-        </div>
-        <img src={itemSelecionado.imagem} alt={itemSelecionado.nome} className="card-image" />
-        <p className="card-description">
-          <i className="bi bi-info-circle me-2"></i>
-          {itemSelecionado.descricao}
-        </p>
-        <button className="btn-secondary-wide mt-3" onClick={fecharModal}>
-          <i className="bi bi-x-lg me-1"></i> Fechar
-        </button>
-      </div>
+    {modalAberto && itemSelecionado && (
+  <div className="modal-overlay" onClick={fecharModal}>
+    <div className="modal-card" onClick={(e) => e.stopPropagation()}>
+      <button className="fechar-modal-btn" onClick={fecharModal}>
+        <i className="bi bi-x-lg"></i>
+      </button>
+      <img
+        src={itemSelecionado.imagem}
+        alt={itemSelecionado.nome}
+        className="modal-imagem"
+      />
+      <h2>{itemSelecionado.nome}</h2>
+      <p>{itemSelecionado.descricao}</p>
+    </div>
+  </div>
+)}
 
 
-        </>
-      )}
+      
     </div>
   );
 }

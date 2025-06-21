@@ -337,7 +337,7 @@ useEffect(() => {
                     </h3>
                     <p className="item-descricao">{item.descricao || `Quantidade: ${item.quantidade} kg`}</p>
                     {item.subdescricao && <p className="item-subdescricao">{item.subdescricao}</p>}
-                    {(() => {
+                    {isRegistro && (() => {
                       const pontoCompleto = pontosColeta.find(p => p.nome === item.pontoColeta);
                       return pontoCompleto ? (
                         <p className="item-subdescricao">
@@ -348,6 +348,7 @@ useEffect(() => {
                         <p className="item-subdescricao">Ponto de Coleta: {item.pontoColeta}</p>
                       );
                     })()}
+
                     {item.dataInicial && <p className="item-subdescricao">Data: {new Date(item.dataInicial).toLocaleDateString('pt-BR')}</p>}
                   </div>
                 </div>

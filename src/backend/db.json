@@ -296,6 +296,36 @@
     }
   ],
   "acoes": [
+    {
+      "pontoColeta": "Ecoponto Barreiro",
+      "tipoMaterial": "outros",
+      "quantidade": 12,
+      "dataInicial": "2025-06-18T03:00:00.000Z",
+      "dataFinal": "2025-06-23T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "teste",
+      "idUsuario": 4,
+      "pontos": 24,
+      "status": "pendente",
+      "dataRegistro": "2025-06-21T17:45:52.345Z",
+      "id": 1
+    },
+    {
+      "pontoColeta": "Ecoponto Santa Efigênia",
+      "tipoMaterial": "vidro",
+      "quantidade": 12,
+      "dataInicial": "2025-06-12T03:00:00.000Z",
+      "dataFinal": "2025-06-27T03:00:00.000Z",
+      "foto": null,
+      "fotoPreview": null,
+      "comentario": "Teste Vidro",
+      "idUsuario": 4,
+      "pontos": 84,
+      "status": "pendente",
+      "dataRegistro": "2025-06-21T18:21:02.710Z",
+      "id": 2
+    }
   ],
   "avaliacoes": [
     {

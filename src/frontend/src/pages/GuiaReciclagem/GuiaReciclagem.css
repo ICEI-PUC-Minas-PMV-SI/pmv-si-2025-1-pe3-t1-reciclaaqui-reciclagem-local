@@ -33,7 +33,7 @@
 }
 
 .guia-box {
-  background: white;
+   background: white;
   border-radius: 12px;
   padding: 2rem;
   max-width: 1100px;
@@ -43,110 +43,183 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* fixo: 3 colunas */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 2rem;
   justify-items: center;
   align-items: center;
 }
 
-
-.item {
-  background-color: #f8f8f8;
+.guia-grid {
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;          
+  padding: 0 2px;          
+  box-sizing: border-box; 
+} 
+.guia-grid .item {
+   background-color: #f8f8f8;
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
-  text-align: center;
+  text-align:top;
+  font-size: medium;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+ 
+
 }
 
-.item img {
-  max-width: 100%;
-  height: auto;
+.guia-grid .item img {
+  width: 107px;
+  height: 157px;
+  object-fit: contain;
+  margin: 0 auto 1rem auto; 
+  display: block; 
+  border-radius: 6px;
 }
 
-.nota {
-  text-align: center;
+.nota-teste{
+ text-align: center;
   font-style: italic;
   font-size: 0.95rem;
   margin-top: 2.5rem;
   color: #1e40af;
 }
 
+
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0,0.6);
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   z-index: 1000;
 }
 
-.modal {
+.modal-card {
   background-color: white;
   padding: 2rem;
   border-radius: 12px;
-  max-width: 600px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  z-index: 1001; /* garantir sobreposição */
-  position: relative;
-}
-
-
-.modal-img {
-  max-width: 120px;
-  margin-bottom: 1rem;
-}
-
-
-.card-flutuante {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  padding: 24px;
-  width: 90%;
   max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card-image {
-  width: 140px;
-  max-height: 140px;
-  object-fit: contain;
-  margin-bottom: 1rem;
-}
-
-.card-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.card-description {
-  font-size: 0.95rem;
-  color: #333;
+  width: 90%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  position: relative;
   text-align: center;
-  padding: 0 1rem;
 }
 
-.card-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #5c913b;
+.modal-imagem {
+  max-width: 200px;         /* ou ajuste conforme necessário */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* centraliza horizontalmente e dá espaço abaixo */
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.fechar-modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: transparent;
+  border: none;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
+
+.item-content {
+  text-align: center;
+}
+
+
+.item-titulo {
+  text-align: center;
+  margin: 0.5rem 0 0;
+}
+
+
+.item img {
+  width: auto;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem auto; /* centraliza horizontalmente e dá espaçamento inferior */
+}
+
+@media (max-width: 768px) {
+  .guia-header-box {
+    justify-content: center;
+    padding: 12px 16px;
+  }
+
+  .guia-icon {
+    font-size: 1.5rem;
+  }
+
+  .guia-titulo {
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .guia-subtitulo {
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  .guia-header-content {
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal-card {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .modal-imagem {
+    max-width: 150px;
+  }
+}
+
+.item-titulo {
+  text-align: center;
+  margin: 0.5rem 0 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: #2f4f4f;
+  white-space: normal; /* para quebrar linhas em títulos longos */
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Responsividade para títulos */
+@media (max-width: 768px) {
+  .item-titulo {
+    font-size: 1rem;
+    margin: 0.4rem 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-titulo {
+    font-size: 0.9rem;
+    margin: 0.3rem 0 0;
+    padding: 0 5px;
+  }
+}
