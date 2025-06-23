@@ -1,16 +1,18 @@
 # 5. PLANO DE TESTES DE SOFTWARE
    
-Nesta etapa devem ser realizados dois tipos de avaliação: por observação de sessão de uso (teste com usuários) e por inspeção (avaliação heurística, realizada pelos especialistas em usabilidade). Foram disponibilizados em "Material de Apoio" modelos para o registro dos testes que deverão ser realizados da seguinte maneira:
-•	Na avaliação heurística, cada integrante do grupo deverá preencher a planilha correspondente ao teste (arquivo Avaliação_Heurística.xlsx). Ao final, os resultados deverão ser compilados em arquivo único de mesmo formato.
-•	Na avaliação por observação de sessão de uso, deverão ser definidas tarefas em quantidade igual ao número de integrantes do grupo (ex.: grupo com 5 integrantes, 5 tarefas) e documentadas no relatório de testes com usuário (arquivo Relatório_de_Testes_com_Usuário.docx). Cada integrante do grupo deverá realizar o teste com um usuário distinto (ex.: grupo com 5 integrantes, 5 usuários deverão ser escolhidos, um por cada membro, para a realização dos testes).
+Nesta seção, encontram-se os documentos solicitados relacionados ao Plano de Testes de Software, conforme orientações da disciplina.
 
-Ao final, os relatórios gerados por cada membro deverão ser disponibilizados aqui, juntamente com a planilha consolidada da avaliação heurística.
+Foram realizados dois tipos de avaliação do sistema:
 
-Material de apoio para esta etapa:
+**Avaliação Heurística (Inspeção):** realizada pelos membros do grupo com base nos princípios de usabilidade. Cada integrante preencheu a planilha individualmente e, ao final, os resultados foram compilados em um único arquivo, conforme modelo fornecido em "Material de Apoio".
+
+**Teste com Usuários (Observação de Sessão de Uso):** cada integrante do grupo definiu e aplicou uma tarefa a um usuário representativo do público-alvo. As interações foram registradas e analisadas conforme o modelo do Relatório de Testes com Usuário, totalizando um número de tarefas e usuários correspondente ao número de membros do grupo.
+
+Todos os relatórios e registros foram disponibilizados nesta seção.
 
 
-[Avaliação_Heurística.xlsx](https://github.com/user-attachments/files/16501461/Avaliacao_Heuristica.xlsx) 
 
-[Relatório_de_Testes_com_Usuário.docx](https://github.com/user-attachments/files/16501456/Relatorio_de_Testes_com_Usuario.docx)
+[Relatorio_de_Testes_com_Usuario_Geral.docx](https://github.com/user-attachments/files/20873559/Relatorio_de_Testes_com_Usuario_Geral.docx)
 
-[Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
+[Avaliacao_Heuristica_ReciclaAqui_Geral.xlsx](https://github.com/user-attachments/files/20873564/Avaliacao_Heuristica_ReciclaAqui_Geral.xlsx)
+
