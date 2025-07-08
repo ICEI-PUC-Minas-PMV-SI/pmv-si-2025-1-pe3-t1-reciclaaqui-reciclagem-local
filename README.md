@@ -36,6 +36,8 @@ O ReciclaAqui é um sistema web que conecta os usuários a pontos de reciclagem 
 
 <li><a href="src/codigo.md"> Código Fonte</a></li>
 
+ Instale a dependência `"npm install leaflet"` em seu terminal para rodar o projeto localmente.
+
 # Apresentação
 
 <li><a href="docs/apresentacao.md"> Apresentação da solução</a></li>
